@@ -19,13 +19,13 @@ const folders = [];
 for (const folder of folderNames) {
   const dir = path.join(root, folder);
   const files = readdirSync(dir).filter(isImage);
-  const poster = files.find((f) => /^1_/i.test(f));
+  const poster = files.find((f) => /^\d_/.test(f));
   if (!poster) continue;
   const second = files.find((f) => f !== poster);
   if (!second) continue;
 
   const name = poster
-    .replace(/^1_/i, "")
+    .replace(/^\d_/, "")
     .replace(/\.[^.]+$/, "")
     .replace(/_/g, " ")
     .trim();
