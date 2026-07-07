@@ -1,3 +1,22 @@
+const I18N = {
+  ru: {
+    siteTitle: "Кино от Димы Конрадта",
+    director: "Режиссёр",
+  },
+  en: {
+    siteTitle: "Cinema by Dima Konradt",
+    director: "Director",
+  },
+};
+
+function getLang() {
+  return localStorage.getItem("lang") === "en" ? "en" : "ru";
+}
+
+function t(key) {
+  return I18N[getLang()][key];
+}
+
 function escapeHtml(s) {
   return s.replace(/[&<>"']/g, (c) => ({
     "&": "&amp;",
@@ -14,6 +33,31 @@ function findByFolder(folder) {
     if (idx !== -1) return { group, idx };
   }
   return null;
+}
+
+function filmTitle(group) {
+  const lang = getLang();
+  return lang === "en" && group.titleEn ? group.titleEn : group.name;
+}
+
+function directorName(group) {
+  if (!group.director) return null;
+  return getLang() === "en" ? group.director.en : group.director.ru;
+}
+
+function imdbBadge(imdbId) {
+  if (!imdbId) return "";
+  return `<a class="imdb-badge imdb-popup" href="https://www.imdb.com/title/${imdbId}/">IMDb</a>`;
+}
+
+function directorLink(group) {
+  if (!group.director) return "";
+  const name = escapeHtml(directorName(group));
+  return `<a class="director-link imdb-popup" href="https://www.imdb.com/name/${group.director.imdbId}/">${name}</a>`;
+}
+
+function openImdbPopup(url) {
+  window.open(url, "imdb_popup", "width=1000,height=800,noopener,noreferrer");
 }
 
 function preloadFolder(folder) {
@@ -36,21 +80,54 @@ function attachPreloadHandlers() {
   });
 }
 
+function attachImdbPopupHandlers() {
+  document.querySelectorAll("#app .imdb-popup").forEach((el) => {
+    el.addEventListener("click", (e) => {
+      e.preventDefault();
+      openImdbPopup(el.href);
+    });
+  });
+}
+
+function renderFilmListItem(group) {
+  const first = group.folders[0].folder;
+  const title = escapeHtml(filmTitle(group));
+  return `<li><a href="#/${first}" class="film-link" data-preload-folder="${first}"><span>${title}</span></a>${imdbBadge(group.imdbId)}</li>`;
+}
+
 function renderList() {
-  const items = window.FILMS.groups
-    .map((g) => {
-      const first = g.folders[0].folder;
-      return `<li><a href="#/${first}" data-preload-folder="${first}"><span>${escapeHtml(g.name)}</span></a></li>`;
+  const lang = getLang();
+  const byDirector = new Map();
+  for (const group of window.FILMS.groups) {
+    if (!group.director) continue;
+    const key = group.director.imdbId;
+    if (!byDirector.has(key)) byDirector.set(key, { director: group.director, films: [] });
+    byDirector.get(key).films.push(group);
+  }
+
+  return [...byDirector.values()]
+    .sort((a, b) => {
+      const an = lang === "en" ? a.director.en : a.director.ru;
+      const bn = lang === "en" ? b.director.en : b.director.ru;
+      return an.localeCompare(bn, lang === "en" ? "en" : "ru");
+    })
+    .map(({ director, films }) => {
+      const name = escapeHtml(lang === "en" ? director.en : director.ru);
+      const items = films.map(renderFilmListItem).join("\n");
+      return `
+<section class="director-section">
+<h2 class="director-heading"><a class="imdb-popup" href="https://www.imdb.com/name/${director.imdbId}/">${name}</a></h2>
+<ul class="index-list">${items}</ul>
+</section>`;
     })
     .join("\n");
-  return `<ul class="index-list">${items}</ul>`;
 }
 
 function renderFilm(folder, found) {
   const { group, idx } = found;
   const gn = group.folders.length;
   const current = group.folders[idx];
-  const nameHtml = escapeHtml(group.name);
+  const nameHtml = escapeHtml(filmTitle(group));
 
   const prevFolder = idx > 0 ? group.folders[idx - 1].folder : null;
   const nextFolder = idx < gn - 1 ? group.folders[idx + 1].folder : null;
@@ -65,8 +142,13 @@ function renderFilm(folder, found) {
   const posterSrc = `${current.folder}/${encodeURI(current.poster)}`;
   const secondSrc = `${current.folder}/${encodeURI(current.second)}`;
 
+  const directorHtml = group.director
+    ? `<p class="director-line">${t("director")}: ${directorLink(group)}</p>`
+    : "";
+
   return `
-<h1 class="film-title">${nameHtml}</h1>
+<h1 class="film-title">${nameHtml} ${imdbBadge(group.imdbId)}</h1>
+${directorHtml}
 <div class="content-wrap">
 <div class="gallery">
 <img src="${posterSrc}" alt="${nameHtml}">
@@ -83,27 +165,52 @@ ${nextLink}
 </div>`;
 }
 
+function updateStaticText() {
+  const lang = getLang();
+  const siteTitleLink = document.querySelector(".site-title a");
+  if (siteTitleLink) siteTitleLink.textContent = I18N[lang].siteTitle;
+  document.querySelectorAll(".lang-switch button").forEach((btn) => {
+    btn.classList.toggle("active", btn.dataset.lang === lang);
+  });
+}
+
 function render() {
   const app = document.getElementById("app");
-  const folder = location.hash.replace(/^#\/?/, "");
+  const route = location.hash.replace(/^#\/?/, "");
 
-  if (!folder) {
-    document.title = "Кино от Димы Конрадта";
+  updateStaticText();
+
+  if (!route) {
+    document.title = I18N[getLang()].siteTitle;
     app.innerHTML = renderList();
     attachPreloadHandlers();
+    attachImdbPopupHandlers();
     return;
   }
 
-  const found = findByFolder(folder);
+  const found = findByFolder(route);
   if (!found) {
     location.hash = "#/";
     return;
   }
 
-  document.title = `${found.group.name} — Кино от Димы Конрадта`;
-  app.innerHTML = renderFilm(folder, found);
+  document.title = `${filmTitle(found.group)} — ${I18N[getLang()].siteTitle}`;
+  app.innerHTML = renderFilm(route, found);
   attachPreloadHandlers();
+  attachImdbPopupHandlers();
+}
+
+function initLangSwitch() {
+  document.querySelectorAll(".lang-switch button").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      localStorage.setItem("lang", btn.dataset.lang);
+      render();
+    });
+  });
 }
 
 window.addEventListener("hashchange", render);
-window.addEventListener("DOMContentLoaded", render);
+window.addEventListener("DOMContentLoaded", () => {
+  initLangSwitch();
+  render();
+});

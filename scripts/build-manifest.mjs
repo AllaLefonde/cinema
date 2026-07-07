@@ -1,5 +1,6 @@
 import { readdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
+import { FILM_META } from "./film-meta.mjs";
 
 const root = process.cwd();
 const IGNORE = new Set([".git", ".github", ".idea", "node_modules", "scripts"]);
@@ -42,6 +43,7 @@ for (const f of folders) {
 const groups = [...byName.entries()]
   .map(([name, items]) => ({
     name,
+    ...(FILM_META[name] ?? {}),
     folders: items
       .sort((a, b) => Number(a.folder) - Number(b.folder))
       .map(({ folder, poster, second }) => ({ folder, poster, second })),
