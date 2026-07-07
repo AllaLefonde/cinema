@@ -27,6 +27,11 @@ export const FILM_META = {
     imdbId: "tt0118621",
     director: { ru: "Майкл Ди Джакомо", en: "Michael Di Jiacomo", imdbId: "nm0223939" },
   },
+  "Конформист": {
+    titleEn: "The Conformist",
+    imdbId: "tt0065571",
+    director: { ru: "Бернардо Бертолуччи", en: "Bernardo Bertolucci", imdbId: "nm0000934" },
+  },
   "Имя Кармен": {
     titleEn: "First Name: Carmen",
     imdbId: "tt0086153",

@@ -162,6 +162,11 @@ window.FILMS = {
           "second": "118827099_10158847120359656_5278127705072728643_n.jpg"
         },
         {
+          "folder": "53",
+          "poster": "1_Дни жатвы.jpg",
+          "second": "DSC06745.jpg"
+        },
+        {
           "folder": "54",
           "poster": "1_Дни жатвы.jpg",
           "second": "515509972_10163103290669656_1430020867910934703_n.jpg"
@@ -241,6 +246,33 @@ window.FILMS = {
           "folder": "48",
           "poster": "1_Институт Бенжамента.jpg",
           "second": "558298298_10163534766129656_6930580549209604149_n.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Конформист",
+      "titleEn": "The Conformist",
+      "imdbId": "tt0065571",
+      "director": {
+        "ru": "Бернардо Бертолуччи",
+        "en": "Bernardo Bertolucci",
+        "imdbId": "nm0000934"
+      },
+      "folders": [
+        {
+          "folder": "64",
+          "poster": "1_Конформист.jpg",
+          "second": "DSC01762.jpg"
+        },
+        {
+          "folder": "65",
+          "poster": "1_Конформист.jpg",
+          "second": "515010196_10163098250329656_3951645410182998241_n.jpg"
+        },
+        {
+          "folder": "66",
+          "poster": "1_Конформист.jpg",
+          "second": "11_DSC00216.jpg"
         }
       ]
     },
@@ -411,6 +443,16 @@ window.FILMS = {
           "folder": "43",
           "poster": "1_Туринская лошадь.jpg",
           "second": "546188625_10163434507799656_5539471187220573098_n.jpg"
+        },
+        {
+          "folder": "67",
+          "poster": "1_Туринская лошадь.jpg",
+          "second": "img.jpg"
+        },
+        {
+          "folder": "68",
+          "poster": "1_Туринская лошадь.jpg",
+          "second": "img.jpg"
         }
       ]
     },
