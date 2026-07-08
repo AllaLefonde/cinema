@@ -140,6 +140,11 @@ window.FILMS = {
           "second": "img.jpg"
         },
         {
+          "folder": "75",
+          "poster": "1_Бойцовая рыбка.jpg",
+          "second": "img.jpg"
+        },
+        {
           "folder": "7",
           "poster": "1_Бойцовая рыбка.jpg",
           "second": "DSC09007.jpg"
