@@ -110,14 +110,14 @@ window.FILMS = {
       },
       "folders": [
         {
-          "folder": "7",
+          "folder": "71",
           "poster": "1_Бойцовая рыбка.jpg",
-          "second": "DSC09007.jpg"
+          "second": "img.jpg"
         },
         {
-          "folder": "20",
+          "folder": "73",
           "poster": "1_Бойцовая рыбка.jpg",
-          "second": "127649398_10159069044969656_2621517702889482965_n.jpg"
+          "second": "img.jpg"
         },
         {
           "folder": "24",
@@ -140,14 +140,14 @@ window.FILMS = {
           "second": "img.jpg"
         },
         {
-          "folder": "71",
+          "folder": "7",
           "poster": "1_Бойцовая рыбка.jpg",
-          "second": "img.jpg"
+          "second": "DSC09007.jpg"
         },
         {
-          "folder": "73",
+          "folder": "20",
           "poster": "1_Бойцовая рыбка.jpg",
-          "second": "img.jpg"
+          "second": "127649398_10159069044969656_2621517702889482965_n.jpg"
         }
       ]
     },
