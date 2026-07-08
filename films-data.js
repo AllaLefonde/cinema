@@ -414,6 +414,11 @@ window.FILMS = {
           "folder": "58",
           "poster": "1_Презрение.jpg",
           "second": "509609089_10163021810394656_2689630090682949122_n.jpg"
+        },
+        {
+          "folder": "74",
+          "poster": "1_Презрение.jpg",
+          "second": "img.jpg"
         }
       ]
     },
