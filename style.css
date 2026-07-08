@@ -1,20 +1,11 @@
 :root {
-  color-scheme: light dark;
-  --bg: #ffffff;
-  --fg: #1a1a1a;
-  --muted: #6b6b6b;
-  --accent: #b3141c;
-  --border: #e2e2e2;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #14141a;
-    --fg: #f0f0f0;
-    --muted: #a0a0a8;
-    --accent: #e0525a;
-    --border: #2c2c34;
-  }
+  color-scheme: dark;
+  --bg: #000000;
+  --fg: #ffffff;
+  --muted: #b3b3b3;
+  --accent: #f5c518;
+  --border: #2a2a2a;
+  --panel: #121212;
 }
 
 * {
@@ -26,7 +17,8 @@ body {
   padding: 1rem;
   background: var(--bg);
   color: var(--fg);
-  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
 }
 
 .page {
@@ -55,7 +47,7 @@ body {
   font-size: 1.9rem;
   font-weight: 800;
   letter-spacing: -0.01em;
-  color: var(--fg);
+  color: var(--accent);
   margin: 0;
   line-height: 1.2;
 }
@@ -66,7 +58,7 @@ body {
 }
 
 .site-title a:hover {
-  color: var(--accent);
+  color: #ffd93d;
 }
 
 .lang-switch {
@@ -80,28 +72,29 @@ body {
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.03em;
-  padding: 0.3rem 0.55rem;
-  border-radius: 4px;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
   border: 1px solid var(--border);
-  background: transparent;
+  background: var(--panel);
   color: var(--muted);
   cursor: pointer;
 }
 
 .lang-switch button:hover {
   color: var(--fg);
+  border-color: var(--muted);
 }
 
 .lang-switch button.active {
-  color: var(--bg);
-  background: var(--fg);
-  border-color: var(--fg);
+  color: #000;
+  background: var(--accent);
+  border-color: var(--accent);
 }
 
 .film-title {
-  font-size: 1.3rem;
-  font-weight: 500;
-  color: var(--muted);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--fg);
   margin: 0 0 0.4rem;
   line-height: 1.3;
 }
