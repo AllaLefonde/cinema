@@ -48,7 +48,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .site-title {
@@ -125,43 +125,22 @@ body {
 
 .imdb-badge {
   display: inline-block;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   font-weight: 700;
-  letter-spacing: 0.02em;
-  color: var(--muted);
-  border: 1px solid var(--border);
+  letter-spacing: 0.05em;
+  color: #000;
+  background: #f5c518;
+  border: 1px solid #d9ac10;
   border-radius: 4px;
-  padding: 0.15rem 0.4rem;
+  padding: 0.05rem 0.25rem;
   text-decoration: none;
   vertical-align: middle;
 }
 
 .imdb-badge:hover {
-  color: var(--accent);
-  border-color: var(--accent);
-}
-
-.director-section:first-of-type .director-heading {
-  margin-top: 0;
-}
-
-.director-section {
-  margin-bottom: 1.2rem;
-}
-
-.director-heading {
-  font-size: 1.05rem;
-  font-weight: 700;
-  margin: 1.2rem 0 0.2rem;
-}
-
-.director-heading a {
-  color: var(--fg);
-  text-decoration: none;
-}
-
-.director-heading a:hover {
-  color: var(--accent);
+  color: #000;
+  background: #ffd93d;
+  border-color: #b8900d;
 }
 
 .nav-row {
@@ -240,28 +219,53 @@ body {
   }
 }
 
-.index-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.films-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 0.4rem;
+  align-items: center;
 }
 
-.index-list li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 0.85rem 0.2rem;
+.films-grid > .director-cell {
+  padding: 0.35rem 0;
+}
+
+.films-grid > .film-cell {
+  padding: 0.35rem 0;
   border-bottom: 1px solid var(--border);
 }
 
-.index-list a.film-link {
-  flex: 1;
+.films-grid > .badge-cell.imdb-badge {
+  padding: 0.05rem 0.25rem;
+}
+
+.films-grid .director-cell {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--fg);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.films-grid a.director-cell:hover {
+  color: var(--accent);
+}
+
+.films-grid .film-cell {
   color: var(--fg);
   text-decoration: none;
   font-size: 0.9rem;
 }
 
-.index-list a.film-link:hover {
+.films-grid .film-cell:hover {
   color: var(--accent);
+}
+
+.films-grid .badge-cell {
+  justify-self: start;
+  margin-left: 0.6rem;
+}
+
+.films-grid .director-start {
+  padding-top: 0.9rem;
 }

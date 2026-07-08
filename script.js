@@ -89,12 +89,6 @@ function attachImdbPopupHandlers() {
   });
 }
 
-function renderFilmListItem(group) {
-  const first = group.folders[0].folder;
-  const title = escapeHtml(filmTitle(group));
-  return `<li><a href="#/${first}" class="film-link" data-preload-folder="${first}"><span>${title}</span></a>${imdbBadge(group.imdbId)}</li>`;
-}
-
 function renderList() {
   const lang = getLang();
   const byDirector = new Map();
@@ -105,22 +99,33 @@ function renderList() {
     byDirector.get(key).films.push(group);
   }
 
-  return [...byDirector.values()]
-    .sort((a, b) => {
-      const an = lang === "en" ? a.director.en : a.director.ru;
-      const bn = lang === "en" ? b.director.en : b.director.ru;
-      return an.localeCompare(bn, lang === "en" ? "en" : "ru");
-    })
-    .map(({ director, films }) => {
-      const name = escapeHtml(lang === "en" ? director.en : director.ru);
-      const items = films.map(renderFilmListItem).join("\n");
-      return `
-<section class="director-section">
-<h2 class="director-heading"><a class="imdb-popup" href="https://www.imdb.com/name/${director.imdbId}/">${name}</a></h2>
-<ul class="index-list">${items}</ul>
-</section>`;
-    })
-    .join("\n");
+  const directors = [...byDirector.values()].sort((a, b) => {
+    const an = lang === "en" ? a.director.en : a.director.ru;
+    const bn = lang === "en" ? b.director.en : b.director.ru;
+    return an.localeCompare(bn, lang === "en" ? "en" : "ru");
+  });
+
+  const cells = [];
+  directors.forEach(({ director, films }, di) => {
+    const dirName = escapeHtml(lang === "en" ? director.en : director.ru);
+    films.forEach((group, fi) => {
+      const first = group.folders[0].folder;
+      const title = escapeHtml(filmTitle(group));
+      const startClass = fi === 0 && di > 0 ? " director-start" : "";
+
+      const dirCell = fi === 0
+        ? `<a class="director-cell imdb-popup${startClass}" href="https://www.imdb.com/name/${director.imdbId}/">${dirName}</a>`
+        : `<span class="director-cell${startClass}"></span>`;
+      const filmCell = `<a href="#/${first}" class="film-cell${startClass}" data-preload-folder="${first}">${title}</a>`;
+      const badgeCell = group.imdbId
+        ? `<a class="badge-cell imdb-badge imdb-popup${startClass}" href="https://www.imdb.com/title/${group.imdbId}/">IMDb</a>`
+        : `<span class="badge-cell${startClass}"></span>`;
+
+      cells.push(dirCell, filmCell, badgeCell);
+    });
+  });
+
+  return `<div class="films-grid">${cells.join("")}</div>`;
 }
 
 function renderFilm(folder, found) {
