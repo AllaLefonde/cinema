@@ -110,14 +110,14 @@ window.FILMS = {
       },
       "folders": [
         {
-          "folder": "7",
+          "folder": "71",
           "poster": "1_Бойцовая рыбка.jpg",
-          "second": "DSC09007.jpg"
+          "second": "img.jpg"
         },
         {
-          "folder": "20",
+          "folder": "73",
           "poster": "1_Бойцовая рыбка.jpg",
-          "second": "127649398_10159069044969656_2621517702889482965_n.jpg"
+          "second": "img.jpg"
         },
         {
           "folder": "24",
@@ -133,11 +133,21 @@ window.FILMS = {
           "folder": "60",
           "poster": "1_Бойцовая рыбка.jpg",
           "second": "516556933_10163102906834656_8135554841669828580_n.jpg"
-        }
+        },
         {
           "folder": "70",
           "poster": "1_Бойцовая рыбка.jpg",
           "second": "img.jpg"
+        },
+        {
+          "folder": "7",
+          "poster": "1_Бойцовая рыбка.jpg",
+          "second": "DSC09007.jpg"
+        },
+        {
+          "folder": "20",
+          "poster": "1_Бойцовая рыбка.jpg",
+          "second": "127649398_10159069044969656_2621517702889482965_n.jpg"
         }
       ]
     },
@@ -465,7 +475,7 @@ window.FILMS = {
           "second": "546188625_10163434507799656_5539471187220573098_n.jpg"
         },
         {
-          "folder": "67",
+          "folder": "72",
           "poster": "1_Туринская лошадь.jpg",
           "second": "img.jpg"
         },
