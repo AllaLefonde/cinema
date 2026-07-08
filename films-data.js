@@ -421,6 +421,11 @@ window.FILMS = {
           "folder": "26",
           "poster": "1_Съемки в Палермо.jpg",
           "second": "2.jpg"
+        },
+        {
+          "folder": "69",
+          "poster": "1_Съемки в Палермо.jpg",
+          "second": "img.jpg"
         }
       ]
     },
