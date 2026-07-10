@@ -13,6 +13,17 @@ function getLang() {
   return localStorage.getItem("lang") === "en" ? "en" : "ru";
 }
 
+const WORDS_AUTHORS = [
+  { value: "", label: "—" },
+  { value: "Иосиф Бродский", label: "Бродский" },
+  { value: "Агния Барто", label: "Барто" },
+];
+
+function getWordsAuthor() {
+  const saved = localStorage.getItem("wordsAuthor");
+  return WORDS_AUTHORS.some((a) => a.value === saved) ? saved : "";
+}
+
 function t(key) {
   return I18N[getLang()][key];
 }
@@ -89,6 +100,15 @@ function attachImdbPopupHandlers() {
   });
 }
 
+function initWordsSelect() {
+  const select = document.getElementById("words-select");
+  if (!select) return;
+  select.addEventListener("change", () => {
+    localStorage.setItem("wordsAuthor", select.value);
+    render();
+  });
+}
+
 function renderList() {
   const lang = getLang();
   const byDirector = new Map();
@@ -151,8 +171,23 @@ function renderFilm(folder, found) {
     ? `<p class="director-line">${t("director")}: ${directorLink(group)}</p>`
     : "";
 
+  const wordsAuthor = getWordsAuthor();
+  const entry = wordsAuthor && current.words ? current.words[wordsAuthor] : null;
+  const showingEn = getLang() === "en" && !!entry?.en;
+  const quote = entry ? (showingEn ? entry.en : entry.ru) : null;
+  const claudeMark =
+    showingEn && entry.enBy === "claude"
+      ? `<sup class="claude-mark" title="Перевод: Claude (не официальный)">✳</sup>`
+      : "";
+  const quoteHtml = quote
+    ? `<p class="words-quote">${escapeHtml(quote)}${claudeMark}</p>`
+    : "";
+
   return `
+<div class="title-row">
 <h1 class="film-title">${nameHtml} ${imdbBadge(group.imdbId)}</h1>
+${quoteHtml}
+</div>
 ${directorHtml}
 <div class="content-wrap">
 <div class="gallery">
@@ -170,22 +205,26 @@ ${nextLink}
 </div>`;
 }
 
-function updateStaticText() {
+function updateStaticText(showWordsSelect) {
   const lang = getLang();
   const siteTitleLink = document.querySelector(".site-title a");
   if (siteTitleLink) siteTitleLink.textContent = I18N[lang].siteTitle;
   document.querySelectorAll(".lang-switch button").forEach((btn) => {
     btn.classList.toggle("active", btn.dataset.lang === lang);
   });
+
+  const wordsSwitch = document.getElementById("words-switch");
+  if (wordsSwitch) wordsSwitch.style.display = showWordsSelect ? "flex" : "none";
+  const wordsSelect = document.getElementById("words-select");
+  if (wordsSelect) wordsSelect.value = getWordsAuthor();
 }
 
 function render() {
   const app = document.getElementById("app");
   const route = location.hash.replace(/^#\/?/, "");
 
-  updateStaticText();
-
   if (!route) {
+    updateStaticText(false);
     document.title = I18N[getLang()].siteTitle;
     app.innerHTML = renderList();
     attachPreloadHandlers();
@@ -199,6 +238,9 @@ function render() {
     return;
   }
 
+  const currentFolder = found.group.folders[found.idx];
+  const hasWords = !!(currentFolder.words && Object.keys(currentFolder.words).length);
+  updateStaticText(hasWords);
   document.title = `${filmTitle(found.group)} — ${I18N[getLang()].siteTitle}`;
   app.innerHTML = renderFilm(route, found);
   attachPreloadHandlers();
@@ -217,5 +259,6 @@ function initLangSwitch() {
 window.addEventListener("hashchange", render);
 window.addEventListener("DOMContentLoaded", () => {
   initLangSwitch();
+  initWordsSelect();
   render();
 });

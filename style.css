@@ -61,6 +61,43 @@ body {
   color: #ffd93d;
 }
 
+.top-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.words-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.words-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
+  color: var(--muted);
+}
+
+.words-switch select {
+  font: inherit;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.words-switch select:hover {
+  color: var(--fg);
+  border-color: var(--muted);
+}
+
 .lang-switch {
   display: flex;
   gap: 0.3rem;
@@ -91,11 +128,20 @@ body {
   border-color: var(--accent);
 }
 
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.4rem;
+}
+
 .film-title {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--fg);
-  margin: 0 0 0.4rem;
+  margin: 0;
   line-height: 1.3;
 }
 
@@ -142,8 +188,6 @@ body {
   align-items: center;
   padding: 0.7rem 0;
   margin-top: 1rem;
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
 }
 
 .nav-arrows {
@@ -178,6 +222,27 @@ body {
   font-size: 0.8rem;
 }
 
+.words-quote {
+  margin: 0;
+  text-align: right;
+  max-width: 60%;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: var(--fg);
+}
+
+.claude-mark {
+  margin-left: 0.3em;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-style: normal;
+  font-size: 0.7em;
+  font-weight: 700;
+  color: #d97757;
+  cursor: default;
+}
+
 .gallery {
   display: flex;
   flex-wrap: nowrap;
@@ -209,6 +274,10 @@ body {
   }
   .film-title {
     font-size: 1.6rem;
+  }
+  .words-quote {
+    text-align: left;
+    max-width: 100%;
   }
 }
 
