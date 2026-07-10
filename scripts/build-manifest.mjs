@@ -12,12 +12,13 @@ function isImage(name) {
 }
 
 // Parses "Author: quote" lines from a folder's text.txt into
-// { "Author": { ru: "quote", en: "translation", enBy: "claude" } }, skipping
-// authors left blank (no quote chosen yet for that photo). "en" preferentially
-// comes from a verified published translation in quote-translations.mjs; if
-// none exists, falls back to Claude's own translation in
-// claude-translations.mjs (marked with enBy: "claude" so the UI can attribute
-// it). If neither exists, "en" is omitted and the UI shows the Russian text.
+// { "Author": { ru, en, translator } | { ru, en, enBy: "claude" } | { ru } },
+// skipping authors left blank (no quote chosen yet for that photo). "en"
+// preferentially comes from a verified published translation in
+// quote-translations.mjs (credited via "translator", shown as a small person
+// icon in the UI); if none exists, falls back to Claude's own translation in
+// claude-translations.mjs (marked with enBy: "claude", shown as a small
+// Claude icon). If neither exists, "en" is omitted and the UI shows Russian.
 function readWords(dir) {
   const file = path.join(dir, "text.txt");
   if (!existsSync(file)) return undefined;
@@ -27,15 +28,34 @@ function readWords(dir) {
     const match = line.match(/^([^:]+):\s*(.*)$/);
     if (!match) continue;
     const [, author, quote] = match;
+    if (author.trim().toLowerCase() === "order") continue;
     const ru = quote.trim();
     if (!ru) continue;
     const verified = QUOTE_TRANSLATIONS[ru];
     const claude = CLAUDE_TRANSLATIONS[ru];
-    if (verified) words[author.trim()] = { ru, en: verified };
+    if (verified) words[author.trim()] = { ru, en: verified.en, translator: verified.translator };
     else if (claude) words[author.trim()] = { ru, en: claude, enBy: "claude" };
     else words[author.trim()] = { ru };
   }
   return Object.keys(words).length ? words : undefined;
+}
+
+// Reads the "order: N" line from a folder's text.txt, if any. N is the
+// photo's position within the user's full (larger) set of photos for that
+// film, so folders sharing a film sort by it instead of by folder number.
+// Folders with no order yet fall back to sorting by folder number, after any
+// folders that do have an explicit order.
+function readOrder(dir) {
+  const file = path.join(dir, "text.txt");
+  if (!existsSync(file)) return undefined;
+  const match = readFileSync(file, "utf8").match(/^order:\s*(.*)$/im);
+  if (!match) return undefined;
+  const n = Number(match[1].trim());
+  return match[1].trim() && Number.isFinite(n) ? n : undefined;
+}
+
+function sortKey(f) {
+  return f.order ?? Number(f.folder) + 100000;
 }
 
 const folderNames = readdirSync(root, { withFileTypes: true })
@@ -61,8 +81,9 @@ for (const folder of folderNames) {
     .trim();
 
   const words = readWords(dir);
+  const order = readOrder(dir);
 
-  folders.push({ folder, name, poster, second, words });
+  folders.push({ folder, name, poster, second, words, order });
 }
 
 const byName = new Map();
@@ -76,7 +97,7 @@ const groups = [...byName.entries()]
     name,
     ...(FILM_META[name] ?? {}),
     folders: items
-      .sort((a, b) => Number(a.folder) - Number(b.folder))
+      .sort((a, b) => sortKey(a) - sortKey(b))
       .map(({ folder, poster, second, words }) => ({
         folder,
         poster,

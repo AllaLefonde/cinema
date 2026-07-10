@@ -243,6 +243,14 @@ body {
   cursor: default;
 }
 
+.translator-mark {
+  margin-left: 0.3em;
+  font-style: normal;
+  font-size: 0.7em;
+  color: var(--muted);
+  cursor: default;
+}
+
 .gallery {
   display: flex;
   flex-wrap: nowrap;

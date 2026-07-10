@@ -177,10 +177,14 @@ function renderFilm(folder, found) {
   const quote = entry ? (showingEn ? entry.en : entry.ru) : null;
   const claudeMark =
     showingEn && entry.enBy === "claude"
-      ? `<sup class="claude-mark" title="Перевод: Claude (не официальный)">✳</sup>`
+      ? `<sup class="claude-mark" title="Translation: Claude (unofficial)">✳</sup>`
+      : "";
+  const translatorMark =
+    showingEn && entry.translator
+      ? `<sup class="translator-mark" title="Translation: ${escapeHtml(entry.translator)}">&#128100;</sup>`
       : "";
   const quoteHtml = quote
-    ? `<p class="words-quote">${escapeHtml(quote)}${claudeMark}</p>`
+    ? `<p class="words-quote">${escapeHtml(quote)}${claudeMark}${translatorMark}</p>`
     : "";
 
   return `

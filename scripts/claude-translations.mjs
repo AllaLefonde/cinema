@@ -155,4 +155,151 @@ export const CLAUDE_TRANSLATIONS = {
 
   "Ух, сильное кино!":
     "Wow, what a powerful movie!",
+
+  "Я лежу, болею..":
+    "I lie here, I'm sick..",
+
+  "Не выключила даже телевизор, и там мелькали полосы...":
+    "She didn't even turn off the television, and stripes flickered there...",
+  "И сегодня целый вечер. Что-то мне заняться нечем!":
+    "And tonight, the whole evening. Somehow I've got nothing to do!",
+
+  ".. купи себе на ужин какого-нибудь сладкого вина..":
+    "..buy yourself something sweet, some wine, for supper..",
+  "- А это сок для тебя в бутылке.":
+    "— And this is juice for you, in a bottle.",
+
+  "..я отправлю вам груз: лимонада бутылку, колбасы и арбуз..":
+    "..I'll send you a parcel: a bottle of lemonade, some sausage and a watermelon..",
+  ".. И спелый арбуз - Пусть мальчик любуется ..":
+    "..and a ripe watermelon — let the boy admire it..",
+
+  "Приезжай, попьем вина..":
+    "Come visit, we'll drink some wine..",
+  "Мы друзья - два Якова, зовут нас одинаково.":
+    "We're friends, two Yakovs, we're both called the same.",
+
+  "Плюс эта шляпа типа лопуха..":
+    "Plus that hat like a giant burdock leaf..",
+  "Вышла Леночка на сцену, шум пронесся по рядам.":
+    "Lenochka came out on stage, a murmur ran through the rows.",
+
+  "И ветер шелестит в попытке жасминовую снять вуаль..":
+    "And the wind rustles, trying to lift the jasmine's veil..",
+  "Я теперь до старости в нашем классе староста.":
+    "Now I'll be class monitor till old age.",
+
+  "Вспоминаю выпитые бутылки..":
+    "I remember the bottles we've drunk..",
+  "- Вздыхаешь из-за стекол? Опять стекло раскокал?":
+    "— Sighing over some glass? Broke another pane again?",
+
+  ".. и грусть затая, обозревал я морской пейзаж...":
+    "..and hiding my sadness, I surveyed the seascape...",
+  ".. картина неясна, Наступила ли весна.":
+    "..the picture's unclear, whether spring has come.",
+
+  "- Вздыхаешь из-за стекол? 1Опять стекло раскокал?":
+    "— Sighing over some glass? Broke another pane again?",
+
+  "Он чёрен был, как ночь, как пустота.":
+    "He was black as night, as emptiness itself.",
+  "Я люблю свою лошадку..":
+    "I love my little horse..",
+
+  "Не раздумал пока, запрягай гнедка.":
+    "Haven't changed your mind yet? Then harness the bay horse.",
+  ".. и верхом поеду в гости.":
+    "..and I'll ride off to visit.",
+
+  "..но будешь ты всегда озарена пусть слабым, но неповторимым светом.":
+    "..but you will always be lit by a faint yet unrepeatable light.",
+  "Мне не скучно без огня — Есть фонарик у меня.":
+    "I'm not bored without a fire — I've got a little flashlight.",
+
+  "К какой зиме торопятся слова.":
+    "Towards which winter are these words hurrying.",
+  "Сбегаю к Шурке, секрет ей скажу.":
+    "I'll run over to Shurka, I'll tell her a secret.",
+
+  "..зачем вся дева, раз есть колено.":
+    "..why the whole maiden, when there's a knee.",
+  "Оленька играет в прятки. Где искать ее, ребятки?":
+    "Olenka is playing hide-and-seek. Where should we look for her, kids?",
+
+  "Мы видим силы зла в коричневом трико,и ангела добра в невыразимой пачке.":
+    "We see the forces of evil in brown tights, and the angel of good in an inexpressible tutu.",
+  "..что во сне, что наяву.":
+    "..whether in a dream or awake.",
+
+  "Темно и тихо за окном, и люди спать должны...":
+    "It's dark and quiet outside the window, and people should be asleep...",
+
+  ".. если уж смерть — то к звёздам глазами.":
+    "..if it must be death — then with eyes toward the stars.",
+  "Очень трудно оставаться детям в тёмной комнате.":
+    "It's very hard for children to stay in a dark room.",
+
+  "..так возникают буквы, либо — мотив «Кармен»..":
+    "..that's how letters arise, or else — the tune of 'Carmen'..",
+  "Я свою сестренку Лиду никому не дам в обиду!":
+    "I won't let anyone hurt my little sister Lida!",
+
+  "В каждой музыке Бах..":
+    "In every music there's Bach..",
+  "Приходите ровно в пять, мама будет выступать.":
+    "Come at exactly five, mom will be performing.",
+
+  "Разыщу больщой кувшин, воды налью им..":
+    "I'll find a big jug, I'll pour water into it..",
+  "Лейку он в сарай отнес — устарела лейка.":
+    "He carried the watering can to the shed — the watering can had gotten old.",
+
+  "И бессмысленный грохот рояля поплывет над твоей головой..":
+    "And the meaningless clatter of the piano will float above your head..",
+  "Мы много мелодий запомнить должны":
+    "We must remember many melodies",
+
+  "Ну, вот и долгожданный переезд.":
+    "Well, here's the long-awaited move at last.",
+
+  ".. повар ваш не разбирает, где соль, где сахар.":
+    "..your cook can't tell salt from sugar.",
+  "В кухне кровля не покрыта, В потолке у нас дыра.":
+    "The kitchen roof's not covered, there's a hole in our ceiling.",
+
+  "И запер за три решетки, и ключ в карман положил.":
+    "And locked it behind three sets of bars, and put the key in his pocket.",
+  "Он спрятался ловко, он спрятался смело.":
+    "He hid cleverly, he hid bravely.",
+
+  "Мы хотим играть на лугу в пятнашки..":
+    "We want to play tag out in the meadow..",
+  "..нельзя клевать овёс и портить кукурузу":
+    "..you mustn't peck at the oats or spoil the corn",
+
+  "Малыш, рассвирепевший, словно лев, ей ножки повыдергивал из чресел.":
+    "The infant, enraged like a lion, tore her little legs right out of her loins.",
+  "У нас Наташа модница, ей нелегко приходится!":
+    "Our Natasha is a fashionista, it's not easy for her!",
+
+  ".. всю жизнь мы ждем убийства":
+    "..our whole life we wait for a murder",
+  "Давно ли Вы стали жонглёром?":
+    "How long have you been a juggler?",
+
+  "..зараженный классицизмом трезвым, я сам гулял по острию ножа.":
+    "..infected with a sober classicism, I myself walked along the blade of a knife.",
+  "Соседка спросила: - Где нож перочинный? -":
+    "The neighbor asked: — Where's the penknife? —",
+
+  "И поднимет барбос лай на весь причал..":
+    "And the mutt will raise a bark across the whole pier..",
+  "Жили на свете два верных дружка..":
+    "Once upon a time there lived two loyal friends..",
+
+  "..в сырых подвалах, в наших чувствах, в кладовках тех, где свален хлам...":
+    "..in damp cellars, in our feelings, in those storerooms where junk lies piled...",
+  "Мы в подвале побывали. Там котельная в подвале.":
+    "We went down to the cellar. There's a boiler room in the cellar.",
 };
