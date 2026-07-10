@@ -1,10 +1,13 @@
 window.FILMS = {
   "groups": [
     {
+      "name": "37.2 градуса по утрам",
+      "titleEn": "Betty Blue",
+      "imdbId": "tt0090563",
       "director": {
+        "ru": "Жан-Жак Бенекс",
         "en": "Jean-Jacques Beineix",
-        "imdbId": "nm0000894",
-        "ru": "Жан-Жак Бенекс"
+        "imdbId": "nm0000894"
       },
       "folders": [
         {
@@ -12,15 +15,15 @@ window.FILMS = {
           "poster": "1_37.2 градуса по утрам.jpg",
           "second": "2.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "Give me a spoonful of ice cream, just one spoonful for the road..",
-              "enBy": "claude",
-              "ru": "Дай мороженого ложку, только ложку на дорожку.."
-            },
             "Иосиф Бродский": {
+              "ru": "Хочу быть с тобой, моя радость, хочу быть рядом.",
               "en": "I want to be with you, my joy, I want to be near.",
-              "enBy": "claude",
-              "ru": "Хочу быть с тобой, моя радость, хочу быть рядом."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Дай мороженого ложку, только ложку на дорожку..",
+              "en": "Give me a spoonful of ice cream, just one spoonful for the road..",
+              "enBy": "claude"
             }
           }
         },
@@ -29,15 +32,15 @@ window.FILMS = {
           "poster": "1_37.2 градуса по утрам.jpg",
           "second": "2.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "The house went off to Leningrad for the October parade..",
-              "enBy": "claude",
-              "ru": "Дом уехал в Ленинград на Октябрьский парад.."
-            },
             "Иосиф Бродский": {
+              "ru": "Взгляни на деревянный дом. Помножь его на жизнь.",
               "en": "Look at the wooden house. Multiply it by life.",
-              "enBy": "claude",
-              "ru": "Взгляни на деревянный дом. Помножь его на жизнь."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Дом уехал в Ленинград на Октябрьский парад..",
+              "en": "The house went off to Leningrad for the October parade..",
+              "enBy": "claude"
             }
           }
         },
@@ -46,15 +49,15 @@ window.FILMS = {
           "poster": "1_37.2 градуса по утрам.jpg",
           "second": "2.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "It happened one evening, there was nothing to do..",
-              "enBy": "claude",
-              "ru": "Дело было вечером.."
-            },
             "Иосиф Бродский": {
+              "ru": "И вечер делит сутки пополам, как ножницы восьмерку на нули..",
               "en": "And evening splits the day in two, like scissors cutting a figure eight into zeros..",
-              "enBy": "claude",
-              "ru": "И вечер делит сутки пополам, как ножницы восьмерку на нули.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Дело было вечером..",
+              "en": "It happened one evening, there was nothing to do..",
+              "enBy": "claude"
             }
           }
         },
@@ -64,8 +67,8 @@ window.FILMS = {
           "second": "516357161_10163109952589656_47694558963223302_n.jpg",
           "words": {
             "Иосиф Бродский": {
-              "en": "I send you, Postumus, these books..",
               "ru": "Посылаю тебе, Постум, эти книги..",
+              "en": "I send you, Postumus, these books..",
               "translator": "George L. Kline"
             }
           }
@@ -75,15 +78,15 @@ window.FILMS = {
           "poster": "1_37.2 градуса по утрам.jpg",
           "second": "515444186_10163085671489656_4698100405442912837_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "Dinner! Dinner! They're bringing dinner!",
-              "enBy": "claude",
-              "ru": "Обед! Обед! Несут обед!"
-            },
             "Иосиф Бродский": {
+              "ru": "Мы в супруги возьмём себе дев с глазами дикой лани..",
               "en": "We shall take as wives maidens with the eyes of a wild doe..",
-              "enBy": "claude",
-              "ru": "Мы в супруги возьмём себе дев с глазами дикой лани.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Обед! Обед! Несут обед!",
+              "en": "Dinner! Dinner! They're bringing dinner!",
+              "enBy": "claude"
             }
           }
         },
@@ -92,15 +95,15 @@ window.FILMS = {
           "poster": "1_37.2 градуса по утрам.jpg",
           "second": "Copy of DSC08429.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "Before school, early in the morning, I stop by the building site. Every morning now I watch the big crane.",
-              "enBy": "claude",
-              "ru": "Перед школой, утром рано, я на стройку захожу. За большим подъемным краном по утрам теперь слежу."
-            },
             "Иосиф Бродский": {
+              "ru": "..и сиянье небес у подъемного крана клубилось?",
               "en": "..and did the radiance of the sky billow at the crane's tip?",
-              "enBy": "claude",
-              "ru": "..и сиянье небес у подъемного крана клубилось?"
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Перед школой, утром рано, я на стройку захожу. За большим подъемным краном по утрам теперь слежу.",
+              "en": "Before school, early in the morning, I stop by the building site. Every morning now I watch the big crane.",
+              "enBy": "claude"
             }
           }
         },
@@ -109,28 +112,28 @@ window.FILMS = {
           "poster": "1_37.2 градуса по утрам.jpg",
           "second": "DSC06223.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "He'll grow up — he'll be a Hero of Labor!",
-              "enBy": "claude",
-              "ru": "Он вырастет — Будет Героем Труда!"
-            },
             "Иосиф Бродский": {
+              "ru": "Ничего нет страшней, чем развалины в сердце",
               "en": "Nothing is more terrible than ruins in the heart",
-              "enBy": "claude",
-              "ru": "Ничего нет страшней, чем развалины в сердце"
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Он вырастет — Будет Героем Труда!",
+              "en": "He'll grow up — he'll be a Hero of Labor!",
+              "enBy": "claude"
             }
           }
         }
-      ],
-      "imdbId": "tt0090563",
-      "name": "37.2 градуса по утрам",
-      "titleEn": "Betty Blue"
+      ]
     },
     {
+      "name": "Австрийское поле",
+      "titleEn": "Avstriyskoe Pole (Austrian Field)",
+      "imdbId": "tt0147864",
       "director": {
+        "ru": "Андрей Черных",
         "en": "Andrey Chernykh",
-        "imdbId": "nm0155988",
-        "ru": "Андрей Черных"
+        "imdbId": "nm0155988"
       },
       "folders": [
         {
@@ -138,15 +141,15 @@ window.FILMS = {
           "poster": "1_Австрийское поле.jpg",
           "second": "87076576_10158178385489656_2537491344473980928_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "How Lyubochka dances! Better than all her friends.",
-              "enBy": "claude",
-              "ru": "Как танцует Любочка! Лучше всех подруг."
-            },
             "Иосиф Бродский": {
+              "ru": "В нем чувство брезжит, что мирозданье ткань не удержит от разрастанья.",
               "en": "In it glimmers the sense that the universe's fabric cannot hold back its own expansion.",
-              "enBy": "claude",
-              "ru": "В нем чувство брезжит, что мирозданье ткань не удержит от разрастанья."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Как танцует Любочка! Лучше всех подруг.",
+              "en": "How Lyubochka dances! Better than all her friends.",
+              "enBy": "claude"
             }
           }
         },
@@ -155,15 +158,15 @@ window.FILMS = {
           "poster": "1_Австрийское поле.jpg",
           "second": "516922933_10163124207164656_5191836993873726826_n (1).jpg",
           "words": {
-            "Агния Барто": {
-              "en": "It's dark and quiet outside the window, and people should be asleep...",
-              "enBy": "claude",
-              "ru": "Темно и тихо за окном, и люди спать должны..."
-            },
             "Иосиф Бродский": {
-              "en": "John Donne has sunk in sleep. All things beside are sleeping too.",
               "ru": "Джон Донн уснул, уснуло все вокруг.",
+              "en": "John Donne has sunk in sleep. All things beside are sleeping too.",
               "translator": "George L. Kline"
+            },
+            "Агния Барто": {
+              "ru": "Темно и тихо за окном, и люди спать должны...",
+              "en": "It's dark and quiet outside the window, and people should be asleep...",
+              "enBy": "claude"
             }
           }
         },
@@ -177,15 +180,15 @@ window.FILMS = {
           "poster": "1_Австрийское поле.jpg",
           "second": "515441786_10163095650239656_1097482276959097294_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "..whether in a dream or awake.",
-              "enBy": "claude",
-              "ru": "..что во сне, что наяву."
-            },
             "Иосиф Бродский": {
+              "ru": "Мы видим силы зла в коричневом трико,и ангела добра в невыразимой пачке.",
               "en": "We see the forces of evil in brown tights, and the angel of good in an inexpressible tutu.",
-              "enBy": "claude",
-              "ru": "Мы видим силы зла в коричневом трико,и ангела добра в невыразимой пачке."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "..что во сне, что наяву.",
+              "en": "..whether in a dream or awake.",
+              "enBy": "claude"
             }
           }
         },
@@ -194,15 +197,15 @@ window.FILMS = {
           "poster": "1_Австрийское поле.jpg",
           "second": "518360562_10163167367449656_1964211622721720170_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "— Sighing over some glass? Broke another pane again?",
-              "enBy": "claude",
-              "ru": "- Вздыхаешь из-за стекол? 1Опять стекло раскокал?"
-            },
             "Иосиф Бродский": {
+              "ru": "Вспоминаю выпитые бутылки..",
               "en": "I remember the bottles we've drunk..",
-              "enBy": "claude",
-              "ru": "Вспоминаю выпитые бутылки.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "- Вздыхаешь из-за стекол? 1Опять стекло раскокал?",
+              "en": "— Sighing over some glass? Broke another pane again?",
+              "enBy": "claude"
             }
           }
         },
@@ -211,15 +214,15 @@ window.FILMS = {
           "poster": "1_Австрийское поле.jpg",
           "second": "507635623_10163011319484656_5906963080097523489_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "He carried the watering can to the shed — the watering can had gotten old.",
-              "enBy": "claude",
-              "ru": "Лейку он в сарай отнес — устарела лейка."
-            },
             "Иосиф Бродский": {
+              "ru": "Разыщу больщой кувшин, воды налью им..",
               "en": "I'll find a big jug, I'll pour water into it..",
-              "enBy": "claude",
-              "ru": "Разыщу больщой кувшин, воды налью им.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Лейку он в сарай отнес — устарела лейка.",
+              "en": "He carried the watering can to the shed — the watering can had gotten old.",
+              "enBy": "claude"
             }
           }
         },
@@ -228,15 +231,15 @@ window.FILMS = {
           "poster": "1_Австрийское поле.jpg",
           "second": "561239378_10163517416334656_6312487463303258824_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "We went down to the cellar. There's a boiler room in the cellar.",
-              "enBy": "claude",
-              "ru": "Мы в подвале побывали. Там котельная в подвале."
-            },
             "Иосиф Бродский": {
+              "ru": "..в сырых подвалах, в наших чувствах, в кладовках тех, где свален хлам...",
               "en": "..in damp cellars, in our feelings, in those storerooms where junk lies piled...",
-              "enBy": "claude",
-              "ru": "..в сырых подвалах, в наших чувствах, в кладовках тех, где свален хлам..."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Мы в подвале побывали. Там котельная в подвале.",
+              "en": "We went down to the cellar. There's a boiler room in the cellar.",
+              "enBy": "claude"
             }
           }
         },
@@ -245,28 +248,28 @@ window.FILMS = {
           "poster": "1_Австрийское поле.jpg",
           "second": "2.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "Where do my friends live? On a high hill.",
-              "enBy": "claude",
-              "ru": "Где живут мои друзья? На холме высоком."
-            },
             "Иосиф Бродский": {
+              "ru": "..навеки уходя из этих мест, чтоб больше никогда не возвращаться.",
               "en": "..leaving these places forever, never to return again.",
-              "enBy": "claude",
-              "ru": "..навеки уходя из этих мест, чтоб больше никогда не возвращаться."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Где живут мои друзья? На холме высоком.",
+              "en": "Where do my friends live? On a high hill.",
+              "enBy": "claude"
             }
           }
         }
-      ],
-      "imdbId": "tt0147864",
-      "name": "Австрийское поле",
-      "titleEn": "Avstriyskoe Pole (Austrian Field)"
+      ]
     },
     {
+      "name": "Бойцовая рыбка",
+      "titleEn": "Rumble Fish",
+      "imdbId": "tt0086216",
       "director": {
+        "ru": "Фрэнсис Форд Коппола",
         "en": "Francis Ford Coppola",
-        "imdbId": "nm0000338",
-        "ru": "Фрэнсис Форд Коппола"
+        "imdbId": "nm0000338"
       },
       "folders": [
         {
@@ -279,15 +282,15 @@ window.FILMS = {
           "poster": "1_Бойцовая рыбка.jpg",
           "second": "143748773_10159231409764656_8705110556920882147_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "A bird has flown to us to say goodbye.",
-              "enBy": "claude",
-              "ru": "К нам прилетела птица проститься."
-            },
             "Иосиф Бродский": {
+              "ru": "Хочешь сказать, что рогатки метки, но жизнь возможна?",
               "en": "Do you mean to say the slingshots are accurate, yet life is still possible?",
-              "enBy": "claude",
-              "ru": "Хочешь сказать, что рогатки метки, но жизнь возможна?"
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "К нам прилетела птица проститься.",
+              "en": "A bird has flown to us to say goodbye.",
+              "enBy": "claude"
             }
           }
         },
@@ -296,15 +299,15 @@ window.FILMS = {
           "poster": "1_Бойцовая рыбка.jpg",
           "second": "516556933_10163102906834656_8135554841669828580_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "Once upon a time there lived two loyal friends..",
-              "enBy": "claude",
-              "ru": "Жили на свете два верных дружка.."
-            },
             "Иосиф Бродский": {
+              "ru": "И поднимет барбос лай на весь причал..",
               "en": "And the mutt will raise a bark across the whole pier..",
-              "enBy": "claude",
-              "ru": "И поднимет барбос лай на весь причал.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Жили на свете два верных дружка..",
+              "en": "Once upon a time there lived two loyal friends..",
+              "enBy": "claude"
             }
           }
         },
@@ -313,13 +316,13 @@ window.FILMS = {
           "poster": "1_Бойцовая рыбка.jpg",
           "second": "513563377_10163065214874656_8590890745851229443_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "The neighbor asked: — Where's the penknife? —",
-              "enBy": "claude",
-              "ru": "Соседка спросила: - Где нож перочинный? -"
-            },
             "Иосиф Бродский": {
               "ru": ".. зараженный классицизмом трезвым, я сам гулял по острию ножа."
+            },
+            "Агния Барто": {
+              "ru": "Соседка спросила: - Где нож перочинный? -",
+              "en": "The neighbor asked: — Where's the penknife? —",
+              "enBy": "claude"
             }
           }
         },
@@ -343,15 +346,15 @@ window.FILMS = {
           "poster": "1_Бойцовая рыбка.jpg",
           "second": "DSC09007.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "He woke in the dark of night, it was only three o'clock.",
-              "enBy": "claude",
-              "ru": "Он проснулся ночью темной, было только три часа."
-            },
             "Иосиф Бродский": {
+              "ru": "Если кто-то прижмется к тебе, дорогая стена, улыбнись.",
               "en": "If someone presses against you, dear wall, smile.",
-              "enBy": "claude",
-              "ru": "Если кто-то прижмется к тебе, дорогая стена, улыбнись."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Он проснулся ночью темной, было только три часа.",
+              "en": "He woke in the dark of night, it was only three o'clock.",
+              "enBy": "claude"
             }
           }
         },
@@ -360,28 +363,28 @@ window.FILMS = {
           "poster": "1_Бойцовая рыбка.jpg",
           "second": "127649398_10159069044969656_2621517702889482965_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "People in the street raised their heads: pigeons, pigeons..",
-              "enBy": "claude",
-              "ru": "Люди на улице подняли головы: голуби, голуби.."
-            },
             "Иосиф Бродский": {
+              "ru": "Пустые пляжи чайками живут...",
               "en": "Empty beaches live by their gulls...",
-              "enBy": "claude",
-              "ru": "Пустые пляжи чайками живут..."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Люди на улице подняли головы: голуби, голуби..",
+              "en": "People in the street raised their heads: pigeons, pigeons..",
+              "enBy": "claude"
             }
           }
         }
-      ],
-      "imdbId": "tt0086216",
-      "name": "Бойцовая рыбка",
-      "titleEn": "Rumble Fish"
+      ]
     },
     {
+      "name": "Дни жатвы",
+      "titleEn": "Days of Heaven",
+      "imdbId": "tt0077405",
       "director": {
+        "ru": "Терренс Малик",
         "en": "Terrence Malick",
-        "imdbId": "nm0000517",
-        "ru": "Терренс Малик"
+        "imdbId": "nm0000517"
       },
       "folders": [
         {
@@ -389,15 +392,15 @@ window.FILMS = {
           "poster": "1_Дни жатвы.jpg",
           "second": "DSC06745.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "The distant one honks and rushes past, speeding along wrapped in clouds of smoke.",
-              "enBy": "claude",
-              "ru": "Дальний гудит и проносится мимо, мчится окутанный клубами дыма."
-            },
             "Иосиф Бродский": {
+              "ru": "Ну, вот и долгожданный переезд.",
               "en": "Well, here's the long-awaited move at last.",
-              "enBy": "claude",
-              "ru": "Ну, вот и долгожданный переезд."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Дальний гудит и проносится мимо, мчится окутанный клубами дыма.",
+              "en": "The distant one honks and rushes past, speeding along wrapped in clouds of smoke.",
+              "enBy": "claude"
             }
           }
         },
@@ -406,15 +409,15 @@ window.FILMS = {
           "poster": "1_Дни жатвы.jpg",
           "second": "DSC00754.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "Horses will run by, hooves clattering, pulling a cart.",
-              "enBy": "claude",
-              "ru": "Пробегут, зацокают лошади с повозкой."
-            },
             "Иосиф Бродский": {
+              "ru": "Мне говорят, что нужно уезжать. Да-да. Благодарю.",
               "en": "They tell me it's time to leave. Yes, yes. Thank you.",
-              "enBy": "claude",
-              "ru": "Мне говорят, что нужно уезжать. Да-да. Благодарю."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Пробегут, зацокают лошади с повозкой.",
+              "en": "Horses will run by, hooves clattering, pulling a cart.",
+              "enBy": "claude"
             }
           }
         },
@@ -423,15 +426,15 @@ window.FILMS = {
           "poster": "1_Дни жатвы.jpg",
           "second": "DSC06997.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "The flock of birds has flown away..",
-              "enBy": "claude",
-              "ru": "Улетела птичья стая.."
-            },
             "Иосиф Бродский": {
-              "en": "But tell me, soul, what was the look of life, how did it stand up to your soaring glance?",
               "ru": "Скажи, душа, как выглядела жизнь, как выглядела с птичьего полета?",
+              "en": "But tell me, soul, what was the look of life, how did it stand up to your soaring glance?",
               "translator": "George L. Kline"
+            },
+            "Агния Барто": {
+              "ru": "Улетела птичья стая..",
+              "en": "The flock of birds has flown away..",
+              "enBy": "claude"
             }
           }
         },
@@ -440,15 +443,15 @@ window.FILMS = {
           "poster": "1_Дни жатвы.jpg",
           "second": "118827099_10158847120359656_5278127705072728643_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "I decided to part with the cursed umbrella. I left it behind in an empty stairwell.",
-              "enBy": "claude",
-              "ru": "Решил я расстаться с проклятым зонтом. Его я оставил в подъезде пустом."
-            },
             "Иосиф Бродский": {
+              "ru": "Лишь у тех, кто зонты производят, есть в этом климате шансы захвата трона.",
               "en": "Only those who manufacture umbrellas stand a chance of seizing the throne in this climate.",
-              "enBy": "claude",
-              "ru": "Лишь у тех, кто зонты производят, есть в этом климате шансы захвата трона."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Решил я расстаться с проклятым зонтом. Его я оставил в подъезде пустом.",
+              "en": "I decided to part with the cursed umbrella. I left it behind in an empty stairwell.",
+              "enBy": "claude"
             }
           }
         },
@@ -457,28 +460,28 @@ window.FILMS = {
           "poster": "1_Дни жатвы.jpg",
           "second": "515509972_10163103290669656_1430020867910934703_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "The kitchen roof's not covered, there's a hole in our ceiling.",
-              "enBy": "claude",
-              "ru": "В кухне кровля не покрыта, В потолке у нас дыра."
-            },
             "Иосиф Бродский": {
+              "ru": ".. повар ваш не разбирает, где соль, где сахар.",
               "en": "..your cook can't tell salt from sugar.",
-              "enBy": "claude",
-              "ru": ".. повар ваш не разбирает, где соль, где сахар."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "В кухне кровля не покрыта, В потолке у нас дыра.",
+              "en": "The kitchen roof's not covered, there's a hole in our ceiling.",
+              "enBy": "claude"
             }
           }
         }
-      ],
-      "imdbId": "tt0077405",
-      "name": "Дни жатвы",
-      "titleEn": "Days of Heaven"
+      ]
     },
     {
+      "name": "Звери и хозяин заставы",
+      "titleEn": "Animals with the Tollkeeper",
+      "imdbId": "tt0118621",
       "director": {
+        "ru": "Майкл Ди Джакомо",
         "en": "Michael Di Jiacomo",
-        "imdbId": "nm0223939",
-        "ru": "Майкл Ди Джакомо"
+        "imdbId": "nm0223939"
       },
       "folders": [
         {
@@ -486,15 +489,15 @@ window.FILMS = {
           "poster": "1_Звери и хозяин заставы.jpg",
           "second": "512733002_10163046832059656_8905155531304154183_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "Wow, what a powerful movie!",
-              "enBy": "claude",
-              "ru": "Ух, сильное кино!"
-            },
             "Иосиф Бродский": {
-              "en": "Some future night you will appear again..",
               "ru": "В какую-нибудь будущую ночь ты вновь придёшь..",
+              "en": "Some future night you will appear again..",
               "translator": "Daniel Weissbort & Joseph Brodsky"
+            },
+            "Агния Барто": {
+              "ru": "Ух, сильное кино!",
+              "en": "Wow, what a powerful movie!",
+              "enBy": "claude"
             }
           }
         },
@@ -503,15 +506,15 @@ window.FILMS = {
           "poster": "1_Звери и хозяин заставы.jpg",
           "second": "DSC03711.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "..before sleep let's talk about the streetlights outside the window.",
-              "enBy": "claude",
-              "ru": "..перед сном поговорим про фонари за окном."
-            },
             "Иосиф Бродский": {
+              "ru": "Зажёгся свет. Мелькнула тень в окне.",
               "en": "The light came on. A shadow flickered in the window.",
-              "enBy": "claude",
-              "ru": "Зажёгся свет. Мелькнула тень в окне."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "..перед сном поговорим про фонари за окном.",
+              "en": "..before sleep let's talk about the streetlights outside the window.",
+              "enBy": "claude"
             }
           }
         },
@@ -520,28 +523,28 @@ window.FILMS = {
           "poster": "1_Звери и хозяин заставы.jpg",
           "second": "540481731_10163374603399656_2589529190581831669_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "I lie here, I'm sick..",
-              "enBy": "claude",
-              "ru": "Я лежу, болею.."
-            },
             "Иосиф Бродский": {
-              "en": "Son or God, I am thine.",
               "ru": "Сын или Бог, я твой.",
+              "en": "Son or God, I am thine.",
               "translator": "George L. Kline"
+            },
+            "Агния Барто": {
+              "ru": "Я лежу, болею..",
+              "en": "I lie here, I'm sick..",
+              "enBy": "claude"
             }
           }
         }
-      ],
-      "imdbId": "tt0118621",
-      "name": "Звери и хозяин заставы",
-      "titleEn": "Animals with the Tollkeeper"
+      ]
     },
     {
+      "name": "Имя Кармен",
+      "titleEn": "First Name: Carmen",
+      "imdbId": "tt0086153",
       "director": {
+        "ru": "Жан-Люк Годар",
         "en": "Jean-Luc Godard",
-        "imdbId": "nm0000419",
-        "ru": "Жан-Люк Годар"
+        "imdbId": "nm0000419"
       },
       "folders": [
         {
@@ -549,15 +552,15 @@ window.FILMS = {
           "poster": "1_Имя Кармен.jpg",
           "second": "513832784_10163070858524656_5890430996325120301_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "Come at exactly five, mom will be performing.",
-              "enBy": "claude",
-              "ru": "Приходите ровно в пять, мама будет выступать."
-            },
             "Иосиф Бродский": {
+              "ru": "В каждой музыке Бах..",
               "en": "In every music there's Bach..",
-              "enBy": "claude",
-              "ru": "В каждой музыке Бах.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Приходите ровно в пять, мама будет выступать.",
+              "en": "Come at exactly five, mom will be performing.",
+              "enBy": "claude"
             }
           }
         },
@@ -566,15 +569,15 @@ window.FILMS = {
           "poster": "1_Имя Кармен.jpg",
           "second": "486681606_10162678180179656_8334813600274068291_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "I won't let anyone hurt my little sister Lida!",
-              "enBy": "claude",
-              "ru": "Я свою сестренку Лиду никому не дам в обиду!"
-            },
             "Иосиф Бродский": {
+              "ru": "..так возникают буквы, либо — мотив «Кармен»..",
               "en": "..that's how letters arise, or else — the tune of 'Carmen'..",
-              "enBy": "claude",
-              "ru": "..так возникают буквы, либо — мотив «Кармен».."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Я свою сестренку Лиду никому не дам в обиду!",
+              "en": "I won't let anyone hurt my little sister Lida!",
+              "enBy": "claude"
             }
           }
         },
@@ -583,28 +586,28 @@ window.FILMS = {
           "poster": "1_Имя Кармен.jpg",
           "second": "Имя Кармен.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "And tonight, the whole evening. Somehow I've got nothing to do!",
-              "enBy": "claude",
-              "ru": "И сегодня целый вечер. Что-то мне заняться нечем!"
-            },
             "Иосиф Бродский": {
+              "ru": "Не выключила даже телевизор, и там мелькали полосы...",
               "en": "She didn't even turn off the television, and stripes flickered there...",
-              "enBy": "claude",
-              "ru": "Не выключила даже телевизор, и там мелькали полосы..."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "И сегодня целый вечер. Что-то мне заняться нечем!",
+              "en": "And tonight, the whole evening. Somehow I've got nothing to do!",
+              "enBy": "claude"
             }
           }
         }
-      ],
-      "imdbId": "tt0086153",
-      "name": "Имя Кармен",
-      "titleEn": "First Name: Carmen"
+      ]
     },
     {
+      "name": "Институт Бенжамента",
+      "titleEn": "Institute Benjamenta",
+      "imdbId": "tt0113429",
       "director": {
+        "ru": "Братья Куэй",
         "en": "Quay Brothers",
-        "imdbId": "nm0703028",
-        "ru": "Братья Куэй"
+        "imdbId": "nm0703028"
       },
       "folders": [
         {
@@ -612,15 +615,15 @@ window.FILMS = {
           "poster": "1_Институт_Бенжамента.jpg",
           "second": "515678055_10163101214154656_3023369308894970829_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "At the dacha the lights went out, and, as if on purpose, there isn't a candle in sight!",
-              "enBy": "claude",
-              "ru": "На даче выключили свет, и, как нарочно, свечек нет!"
-            },
             "Иосиф Бродский": {
+              "ru": ".. если ты дом покидаешь — включи звезду на прощанье в четыре свечи..",
               "en": "..if you're leaving home — switch on a farewell star of four candles..",
-              "enBy": "claude",
-              "ru": ".. если ты дом покидаешь — включи звезду на прощанье в четыре свечи.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "На даче выключили свет, и, как нарочно, свечек нет!",
+              "en": "At the dacha the lights went out, and, as if on purpose, there isn't a candle in sight!",
+              "enBy": "claude"
             }
           }
         },
@@ -629,28 +632,28 @@ window.FILMS = {
           "poster": "1_Институт Бенжамента.jpg",
           "second": "558298298_10163534766129656_6930580549209604149_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "It's very hard for children to stay in a dark room.",
-              "enBy": "claude",
-              "ru": "Очень трудно оставаться детям в тёмной комнате."
-            },
             "Иосиф Бродский": {
+              "ru": ".. если уж смерть — то к звёздам глазами.",
               "en": "..if it must be death — then with eyes toward the stars.",
-              "enBy": "claude",
-              "ru": ".. если уж смерть — то к звёздам глазами."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Очень трудно оставаться детям в тёмной комнате.",
+              "en": "It's very hard for children to stay in a dark room.",
+              "enBy": "claude"
             }
           }
         }
-      ],
-      "imdbId": "tt0113429",
-      "name": "Институт Бенжамента",
-      "titleEn": "Institute Benjamenta"
+      ]
     },
     {
+      "name": "Конформист",
+      "titleEn": "The Conformist",
+      "imdbId": "tt0065571",
       "director": {
+        "ru": "Бернардо Бертолуччи",
         "en": "Bernardo Bertolucci",
-        "imdbId": "nm0000934",
-        "ru": "Бернардо Бертолуччи"
+        "imdbId": "nm0000934"
       },
       "folders": [
         {
@@ -668,16 +671,16 @@ window.FILMS = {
           "poster": "1_Конформист.jpg",
           "second": "DSC01762.jpg"
         }
-      ],
-      "imdbId": "tt0065571",
-      "name": "Конформист",
-      "titleEn": "The Conformist"
+      ]
     },
     {
+      "name": "Маргаритки",
+      "titleEn": "Daisies",
+      "imdbId": "tt0060959",
       "director": {
+        "ru": "Вера Хитилова",
         "en": "Věra Chytilová",
-        "imdbId": "nm0161615",
-        "ru": "Вера Хитилова"
+        "imdbId": "nm0161615"
       },
       "folders": [
         {
@@ -685,15 +688,15 @@ window.FILMS = {
           "poster": "1_Маргаритки.jpg",
           "second": "515499435_10163098547679656_6308067432618464902_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "They once asked autumn to paint the garden a single even color.",
-              "enBy": "claude",
-              "ru": "Попросили как-то осень сад покрасить в ровный цвет."
-            },
             "Иосиф Бродский": {
+              "ru": ".. и я предпочитаю воду, хотя бы — пресную.",
               "en": "..and I prefer water, even if only fresh water.",
-              "enBy": "claude",
-              "ru": ".. и я предпочитаю воду, хотя бы — пресную."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Попросили как-то осень сад покрасить в ровный цвет.",
+              "en": "They once asked autumn to paint the garden a single even color.",
+              "enBy": "claude"
             }
           }
         },
@@ -702,15 +705,15 @@ window.FILMS = {
           "poster": "1_Маргаритки.jpg",
           "second": "119513228_10158882621519656_4148442702612935555_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "— And this is juice for you, in a bottle.",
-              "enBy": "claude",
-              "ru": "- А это сок для тебя в бутылке."
-            },
             "Иосиф Бродский": {
+              "ru": ".. купи себе на ужин какого-нибудь сладкого вина..",
               "en": "..buy yourself something sweet, some wine, for supper..",
-              "enBy": "claude",
-              "ru": ".. купи себе на ужин какого-нибудь сладкого вина.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "- А это сок для тебя в бутылке.",
+              "en": "— And this is juice for you, in a bottle.",
+              "enBy": "claude"
             }
           }
         },
@@ -719,15 +722,15 @@ window.FILMS = {
           "poster": "1_Маргаритки.jpg",
           "second": "490962831_10162747654409656_3474822851751785998_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "Our Natasha is a fashionista, it's not easy for her!",
-              "enBy": "claude",
-              "ru": "У нас Наташа модница, ей нелегко приходится!"
-            },
             "Иосиф Бродский": {
+              "ru": "Малыш, рассвирепевший, словно лев, ей ножки повыдергивал из чресел.",
               "en": "The infant, enraged like a lion, tore her little legs right out of her loins.",
-              "enBy": "claude",
-              "ru": "Малыш, рассвирепевший, словно лев, ей ножки повыдергивал из чресел."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "У нас Наташа модница, ей нелегко приходится!",
+              "en": "Our Natasha is a fashionista, it's not easy for her!",
+              "enBy": "claude"
             }
           }
         },
@@ -736,15 +739,15 @@ window.FILMS = {
           "poster": "1_Маргаритки.jpg",
           "second": "516594650_10163122435504656_3928847682886319362_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "..and a ripe watermelon — let the boy admire it..",
-              "enBy": "claude",
-              "ru": ".. И спелый арбуз - Пусть мальчик любуется .."
-            },
             "Иосиф Бродский": {
+              "ru": "..я отправлю вам груз: лимонада бутылку, колбасы и арбуз..",
               "en": "..I'll send you a parcel: a bottle of lemonade, some sausage and a watermelon..",
-              "enBy": "claude",
-              "ru": "..я отправлю вам груз: лимонада бутылку, колбасы и арбуз.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": ".. И спелый арбуз - Пусть мальчик любуется ..",
+              "en": "..and a ripe watermelon — let the boy admire it..",
+              "enBy": "claude"
             }
           }
         },
@@ -753,15 +756,15 @@ window.FILMS = {
           "poster": "1_Маргаритки.jpg",
           "second": "511053786_10163035016774656_3556632772347867481_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "..you mustn't peck at the oats or spoil the corn",
-              "enBy": "claude",
-              "ru": "..нельзя клевать овёс и портить кукурузу"
-            },
             "Иосиф Бродский": {
+              "ru": "Мы хотим играть на лугу в пятнашки..",
               "en": "We want to play tag out in the meadow..",
-              "enBy": "claude",
-              "ru": "Мы хотим играть на лугу в пятнашки.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "..нельзя клевать овёс и портить кукурузу",
+              "en": "..you mustn't peck at the oats or spoil the corn",
+              "enBy": "claude"
             }
           }
         },
@@ -770,15 +773,15 @@ window.FILMS = {
           "poster": "1_Маргаритки.jpg",
           "second": "514534453_10163066641139656_3304819873264951742_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "Now I'll be class monitor till old age.",
-              "enBy": "claude",
-              "ru": "Я теперь до старости в нашем классе староста."
-            },
             "Иосиф Бродский": {
+              "ru": "И ветер шелестит в попытке жасминовую снять вуаль..",
               "en": "And the wind rustles, trying to lift the jasmine's veil..",
-              "enBy": "claude",
-              "ru": "И ветер шелестит в попытке жасминовую снять вуаль.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Я теперь до старости в нашем классе староста.",
+              "en": "Now I'll be class monitor till old age.",
+              "enBy": "claude"
             }
           }
         },
@@ -787,15 +790,15 @@ window.FILMS = {
           "poster": "1_Маргаритки.jpg",
           "second": "517315574_10163129426089656_5624603980582356602_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "He hid cleverly, he hid bravely.",
-              "enBy": "claude",
-              "ru": "Он спрятался ловко, он спрятался смело."
-            },
             "Иосиф Бродский": {
+              "ru": "И запер за три решетки, и ключ в карман положил.",
               "en": "And locked it behind three sets of bars, and put the key in his pocket.",
-              "enBy": "claude",
-              "ru": "И запер за три решетки, и ключ в карман положил."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Он спрятался ловко, он спрятался смело.",
+              "en": "He hid cleverly, he hid bravely.",
+              "enBy": "claude"
             }
           }
         },
@@ -804,16 +807,16 @@ window.FILMS = {
           "poster": "1_Маргаритки.jpg",
           "second": "DSC06426.jpg"
         }
-      ],
-      "imdbId": "tt0060959",
-      "name": "Маргаритки",
-      "titleEn": "Daisies"
+      ]
     },
     {
+      "name": "Осажденные",
+      "titleEn": "Besieged",
+      "imdbId": "tt0149723",
       "director": {
+        "ru": "Бернардо Бертолуччи",
         "en": "Bernardo Bertolucci",
-        "imdbId": "nm0000934",
-        "ru": "Бернардо Бертолуччи"
+        "imdbId": "nm0000934"
       },
       "folders": [
         {
@@ -821,15 +824,15 @@ window.FILMS = {
           "poster": "1_Осажденные.jpg",
           "second": "DSC01060.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "We must remember many melodies..",
-              "enBy": "claude",
-              "ru": "Мы много мелодий запомнить должны.."
-            },
             "Иосиф Бродский": {
+              "ru": "..постепенно научишься многим вещам, очень многим..",
               "en": "..gradually you'll learn many things, very many..",
-              "enBy": "claude",
-              "ru": "..постепенно научишься многим вещам, очень многим.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Мы много мелодий запомнить должны..",
+              "en": "We must remember many melodies..",
+              "enBy": "claude"
             }
           }
         },
@@ -838,15 +841,15 @@ window.FILMS = {
           "poster": "1_Осажденные.jpg",
           "second": "DSC01850.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "Shadows walk along the wall..",
-              "enBy": "claude",
-              "ru": "Ходят тени по стене.."
-            },
             "Иосиф Бродский": {
-              "en": "..vanish, merge with the wall.",
               "ru": "..  слейся лицом с обоями.",
+              "en": "..vanish, merge with the wall.",
               "translator": "Alexandra Berlina"
+            },
+            "Агния Барто": {
+              "ru": "Ходят тени по стене..",
+              "en": "Shadows walk along the wall..",
+              "enBy": "claude"
             }
           }
         },
@@ -855,15 +858,15 @@ window.FILMS = {
           "poster": "1_Осажденные.jpg",
           "second": "DSC06892.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "He climbs without an elevator to the twelfth floor.",
-              "enBy": "claude",
-              "ru": "Он взбирается без лифта на двенадцатый этаж."
-            },
             "Иосиф Бродский": {
+              "ru": ".. когда ступеньки этой лестницы уходят из под ног..",
               "en": "..when the steps of this staircase slip out from under your feet..",
-              "enBy": "claude",
-              "ru": ".. когда ступеньки этой лестницы уходят из под ног.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Он взбирается без лифта на двенадцатый этаж.",
+              "en": "He climbs without an elevator to the twelfth floor.",
+              "enBy": "claude"
             }
           }
         },
@@ -872,15 +875,15 @@ window.FILMS = {
           "poster": "1_Осажденные.jpg",
           "second": "DSC04716.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "— That's what the cleaning lady is for!",
-              "enBy": "claude",
-              "ru": "— На это есть уборщица!"
-            },
             "Иосиф Бродский": {
+              "ru": "Опять какая-то зараза. Сходила мимо унитаза!",
               "en": "Some nuisance again — missed the toilet bowl and went right past it!",
-              "enBy": "claude",
-              "ru": "Опять какая-то зараза. Сходила мимо унитаза!"
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "— На это есть уборщица!",
+              "en": "— That's what the cleaning lady is for!",
+              "enBy": "claude"
             }
           }
         },
@@ -889,28 +892,28 @@ window.FILMS = {
           "poster": "1_Осажденные.jpg",
           "second": "514347463_10163071532209656_8848882705990371510_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "We must remember many melodies",
-              "enBy": "claude",
-              "ru": "Мы много мелодий запомнить должны"
-            },
             "Иосиф Бродский": {
+              "ru": "И бессмысленный грохот рояля поплывет над твоей головой..",
               "en": "And the meaningless clatter of the piano will float above your head..",
-              "enBy": "claude",
-              "ru": "И бессмысленный грохот рояля поплывет над твоей головой.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Мы много мелодий запомнить должны",
+              "en": "We must remember many melodies",
+              "enBy": "claude"
             }
           }
         }
-      ],
-      "imdbId": "tt0149723",
-      "name": "Осажденные",
-      "titleEn": "Besieged"
+      ]
     },
     {
+      "name": "Презрение",
+      "titleEn": "Contempt",
+      "imdbId": "tt0057345",
       "director": {
+        "ru": "Жан-Люк Годар",
         "en": "Jean-Luc Godard",
-        "imdbId": "nm0000419",
-        "ru": "Жан-Люк Годар"
+        "imdbId": "nm0000419"
       },
       "folders": [
         {
@@ -918,15 +921,15 @@ window.FILMS = {
           "poster": "1_Презрение.jpg",
           "second": "190719978_10159525128164656_1356534893732359274_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "And little Nyuras and Ninas, blow the specks of dust off her.",
-              "enBy": "claude",
-              "ru": "А Нюрочки да Ниночки сдувай с нее пылиночки."
-            },
             "Иосиф Бродский": {
+              "ru": "Теперь так мало греков в Ленинграде",
               "en": "There are so few Greeks left in Leningrad now",
-              "enBy": "claude",
-              "ru": "Теперь так мало греков в Ленинграде"
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "А Нюрочки да Ниночки сдувай с нее пылиночки.",
+              "en": "And little Nyuras and Ninas, blow the specks of dust off her.",
+              "enBy": "claude"
             }
           }
         },
@@ -935,15 +938,15 @@ window.FILMS = {
           "poster": "1_Презрение.jpg",
           "second": "515010926_10163081640714656_5040011060163533287_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "Grandpa and I were painting the shed...",
-              "enBy": "claude",
-              "ru": "Мы с дедом красили сарай..."
-            },
             "Иосиф Бродский": {
+              "ru": "Жёлтым солнце часто очень я рисую - жёлтый сточен.",
               "en": "I paint the sun yellow so often — the yellow's worn down.",
-              "enBy": "claude",
-              "ru": "Жёлтым солнце часто очень я рисую - жёлтый сточен."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Мы с дедом красили сарай...",
+              "en": "Grandpa and I were painting the shed...",
+              "enBy": "claude"
             }
           }
         },
@@ -952,15 +955,15 @@ window.FILMS = {
           "poster": "1_Презрение.jpg",
           "second": "509609089_10163021810394656_2689630090682949122_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "How long have you been a juggler?",
-              "enBy": "claude",
-              "ru": "Давно ли Вы стали жонглёром?"
-            },
             "Иосиф Бродский": {
+              "ru": ".. всю жизнь мы ждем убийства",
               "en": "..our whole life we wait for a murder",
-              "enBy": "claude",
-              "ru": ".. всю жизнь мы ждем убийства"
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Давно ли Вы стали жонглёром?",
+              "en": "How long have you been a juggler?",
+              "enBy": "claude"
             }
           }
         },
@@ -969,15 +972,15 @@ window.FILMS = {
           "poster": "1_Презрение.jpg",
           "second": "Презрение2.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "We're friends, two Yakovs, we're both called the same.",
-              "enBy": "claude",
-              "ru": "Мы друзья - два Якова, зовут нас одинаково."
-            },
             "Иосиф Бродский": {
+              "ru": "Приезжай, попьем вина..",
               "en": "Come visit, we'll drink some wine..",
-              "enBy": "claude",
-              "ru": "Приезжай, попьем вина.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Мы друзья - два Якова, зовут нас одинаково.",
+              "en": "We're friends, two Yakovs, we're both called the same.",
+              "enBy": "claude"
             }
           }
         },
@@ -986,15 +989,15 @@ window.FILMS = {
           "poster": "1_Презрение.jpg",
           "second": "Презрение.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "Lenochka came out on stage, a murmur ran through the rows.",
-              "enBy": "claude",
-              "ru": "Вышла Леночка на сцену, шум пронесся по рядам."
-            },
             "Иосиф Бродский": {
+              "ru": "Плюс эта шляпа типа лопуха..",
               "en": "Plus that hat like a giant burdock leaf..",
-              "enBy": "claude",
-              "ru": "Плюс эта шляпа типа лопуха.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Вышла Леночка на сцену, шум пронесся по рядам.",
+              "en": "Lenochka came out on stage, a murmur ran through the rows.",
+              "enBy": "claude"
             }
           }
         },
@@ -1008,28 +1011,28 @@ window.FILMS = {
           "poster": "1_Презрение.jpg",
           "second": "Презрение3.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "..the picture's unclear, whether spring has come.",
-              "enBy": "claude",
-              "ru": ".. картина неясна, Наступила ли весна."
-            },
             "Иосиф Бродский": {
+              "ru": ".. и грусть затая, обозревал я морской пейзаж...",
               "en": "..and hiding my sadness, I surveyed the seascape...",
-              "enBy": "claude",
-              "ru": ".. и грусть затая, обозревал я морской пейзаж..."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": ".. картина неясна, Наступила ли весна.",
+              "en": "..the picture's unclear, whether spring has come.",
+              "enBy": "claude"
             }
           }
         }
-      ],
-      "imdbId": "tt0057345",
-      "name": "Презрение",
-      "titleEn": "Contempt"
+      ]
     },
     {
+      "name": "Съемки в Палермо",
+      "titleEn": "Palermo Shooting",
+      "imdbId": "tt1008017",
       "director": {
+        "ru": "Вим Вендерс",
         "en": "Wim Wenders",
-        "imdbId": "nm0000694",
-        "ru": "Вим Вендерс"
+        "imdbId": "nm0000694"
       },
       "folders": [
         {
@@ -1037,15 +1040,15 @@ window.FILMS = {
           "poster": "1_Съемки в Палермо.jpg",
           "second": "514517648_10163097194879656_6523825571249210158_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "And schoolgirl Klava speeds along in the car from early morning..",
-              "enBy": "claude",
-              "ru": "А Клава-ученица с утра в машине мчится.."
-            },
             "Иосиф Бродский": {
+              "ru": "И от полос оконных ты понял вдруг: «Вот это скоростя!»",
               "en": "And from the streaking window stripes you suddenly understood: 'Now that's speed!'",
-              "enBy": "claude",
-              "ru": "И от полос оконных ты понял вдруг: «Вот это скоростя!»"
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "А Клава-ученица с утра в машине мчится..",
+              "en": "And schoolgirl Klava speeds along in the car from early morning..",
+              "enBy": "claude"
             }
           }
         },
@@ -1059,28 +1062,28 @@ window.FILMS = {
           "poster": "1_Съемки в Палермо.jpg",
           "second": "2.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "I went out into the garden in vain....",
-              "enBy": "claude",
-              "ru": "Я напрасно вышел в сад...."
-            },
             "Иосиф Бродский": {
+              "ru": "Знала ли ты, какая тебе разлука предстоит с тетивою...",
               "en": "Did you know what a parting from the bowstring awaited you...",
-              "enBy": "claude",
-              "ru": "Знала ли ты, какая тебе разлука предстоит с тетивою..."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Я напрасно вышел в сад....",
+              "en": "I went out into the garden in vain....",
+              "enBy": "claude"
             }
           }
         }
-      ],
-      "imdbId": "tt1008017",
-      "name": "Съемки в Палермо",
-      "titleEn": "Palermo Shooting"
+      ]
     },
     {
+      "name": "Туринская лошадь",
+      "titleEn": "The Turin Horse",
+      "imdbId": "tt1316540",
       "director": {
+        "ru": "Бела Тарр",
         "en": "Béla Tarr",
-        "imdbId": "nm0850601",
-        "ru": "Бела Тарр"
+        "imdbId": "nm0850601"
       },
       "folders": [
         {
@@ -1088,15 +1091,15 @@ window.FILMS = {
           "poster": "1_Туринская лошадь.jpg",
           "second": "2.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "I love my little horse...",
-              "enBy": "claude",
-              "ru": "Я люблю свою лошадку..."
-            },
             "Иосиф Бродский": {
+              "ru": "Лошади бьются среди оглобель черными корзинами вздутых рёбер...",
               "en": "Horses thrash between the shafts, black baskets of swollen ribs...",
-              "enBy": "claude",
-              "ru": "Лошади бьются среди оглобель черными корзинами вздутых рёбер..."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Я люблю свою лошадку...",
+              "en": "I love my little horse...",
+              "enBy": "claude"
             }
           }
         },
@@ -1110,15 +1113,15 @@ window.FILMS = {
           "poster": "1_Туринская лошадь.jpg",
           "second": "514395628_10163074516079656_7856179377212922423_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "..and I'll ride off to visit.",
-              "enBy": "claude",
-              "ru": ".. и верхом поеду в гости."
-            },
             "Иосиф Бродский": {
+              "ru": "Не раздумал пока, запрягай гнедка.",
               "en": "Haven't changed your mind yet? Then harness the bay horse.",
-              "enBy": "claude",
-              "ru": "Не раздумал пока, запрягай гнедка."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": ".. и верхом поеду в гости.",
+              "en": "..and I'll ride off to visit.",
+              "enBy": "claude"
             }
           }
         },
@@ -1137,15 +1140,15 @@ window.FILMS = {
           "poster": "1_Туринская лошадь.jpg",
           "second": "470689920_10162405663104656_6245008224298012354_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "I love my little horse..",
-              "enBy": "claude",
-              "ru": "Я люблю свою лошадку.."
-            },
             "Иосиф Бродский": {
+              "ru": "Он чёрен был, как ночь, как пустота.",
               "en": "He was black as night, as emptiness itself.",
-              "enBy": "claude",
-              "ru": "Он чёрен был, как ночь, как пустота."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Я люблю свою лошадку..",
+              "en": "I love my little horse..",
+              "enBy": "claude"
             }
           }
         },
@@ -1154,26 +1157,26 @@ window.FILMS = {
           "poster": "1_Туринская лошадь.jpg",
           "second": "546188625_10163434507799656_5539471187220573098_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "I'm not bored without a fire — I've got a little flashlight.",
-              "enBy": "claude",
-              "ru": "Мне не скучно без огня — Есть фонарик у меня."
-            },
             "Иосиф Бродский": {
               "ru": ".. но будешь ты всегда озарена пусть слабым, но неповторимым светом."
+            },
+            "Агния Барто": {
+              "ru": "Мне не скучно без огня — Есть фонарик у меня.",
+              "en": "I'm not bored without a fire — I've got a little flashlight.",
+              "enBy": "claude"
             }
           }
         }
-      ],
-      "imdbId": "tt1316540",
-      "name": "Туринская лошадь",
-      "titleEn": "The Turin Horse"
+      ]
     },
     {
+      "name": "Фотоувеличение",
+      "titleEn": "Blow-Up",
+      "imdbId": "tt0060176",
       "director": {
+        "ru": "Микеланджело Антониони",
         "en": "Michelangelo Antonioni",
-        "imdbId": "nm0000774",
-        "ru": "Микеланджело Антониони"
+        "imdbId": "nm0000774"
       },
       "folders": [
         {
@@ -1186,15 +1189,15 @@ window.FILMS = {
           "poster": "1_Фотоувеличение.jpg",
           "second": "Copy of DSC03808.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "In the morning I run to the lawn with a ball..",
-              "enBy": "claude",
-              "ru": "С утра на лужайку бегу я с мячом.."
-            },
             "Иосиф Бродский": {
+              "ru": "Вместе они любили сидеть на склоне холма.",
               "en": "Together they loved to sit on the hillside.",
-              "enBy": "claude",
-              "ru": "Вместе они любили сидеть на склоне холма."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "С утра на лужайку бегу я с мячом..",
+              "en": "In the morning I run to the lawn with a ball..",
+              "enBy": "claude"
             }
           }
         },
@@ -1203,13 +1206,13 @@ window.FILMS = {
           "poster": "1_Фотоувеличение.jpg",
           "second": "491205390_10162766228129656_4174231462536134091_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "Olenka is playing hide-and-seek. Where should we look for her, kids?",
-              "enBy": "claude",
-              "ru": "Оленька играет в прятки. Где искать ее, ребятки?"
-            },
             "Иосиф Бродский": {
               "ru": ".. зачем вся дева, раз есть колено."
+            },
+            "Агния Барто": {
+              "ru": "Оленька играет в прятки. Где искать ее, ребятки?",
+              "en": "Olenka is playing hide-and-seek. Where should we look for her, kids?",
+              "enBy": "claude"
             }
           }
         },
@@ -1218,15 +1221,15 @@ window.FILMS = {
           "poster": "1_Фотоувеличение.jpg",
           "second": "2.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "Tamara and I go around in a pair..",
-              "enBy": "claude",
-              "ru": "Мы с Тамарой ходим парой.."
-            },
             "Иосиф Бродский": {
+              "ru": "И, крылышкуя скорописью ляжек, красавица, с которою не ляжешь, одним прыжком выпархивает в сад",
               "en": "And, wing-fluttering in the shorthand of her thighs, a beauty you will never lie with flits into the garden in a single leap",
-              "enBy": "claude",
-              "ru": "И, крылышкуя скорописью ляжек, красавица, с которою не ляжешь, одним прыжком выпархивает в сад"
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Мы с Тамарой ходим парой..",
+              "en": "Tamara and I go around in a pair..",
+              "enBy": "claude"
             }
           }
         },
@@ -1235,28 +1238,28 @@ window.FILMS = {
           "poster": "1_Фотоувеличение.jpg",
           "second": "486337692_10162667186794656_4182964817195390058_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "I'll run over to Shurka, I'll tell her a secret.",
-              "enBy": "claude",
-              "ru": "Сбегаю к Шурке, секрет ей скажу."
-            },
             "Иосиф Бродский": {
+              "ru": "К какой зиме торопятся слова.",
               "en": "Towards which winter are these words hurrying.",
-              "enBy": "claude",
-              "ru": "К какой зиме торопятся слова."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Сбегаю к Шурке, секрет ей скажу.",
+              "en": "I'll run over to Shurka, I'll tell her a secret.",
+              "enBy": "claude"
             }
           }
         }
-      ],
-      "imdbId": "tt0060176",
-      "name": "Фотоувеличение",
-      "titleEn": "Blow-Up"
+      ]
     },
     {
+      "name": "Я нанял убийцу",
+      "titleEn": "I Hired a Contract Killer",
+      "imdbId": "tt0099818",
       "director": {
+        "ru": "Аки Каурисмяки",
         "en": "Aki Kaurismäki",
-        "imdbId": "nm0442454",
-        "ru": "Аки Каурисмяки"
+        "imdbId": "nm0442454"
       },
       "folders": [
         {
@@ -1264,15 +1267,15 @@ window.FILMS = {
           "poster": "1_Я нанял убийцу.jpg",
           "second": "DSC05159.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "Now we'll beat the enemy!",
-              "enBy": "claude",
-              "ru": "Сейчас противника побьем!"
-            },
             "Иосиф Бродский": {
+              "ru": "Осень выгоняет меня из парка..",
               "en": "Autumn is driving me out of the park..",
-              "enBy": "claude",
-              "ru": "Осень выгоняет меня из парка.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Сейчас противника побьем!",
+              "en": "Now we'll beat the enemy!",
+              "enBy": "claude"
             }
           }
         },
@@ -1281,15 +1284,15 @@ window.FILMS = {
           "poster": "1_Я нанял убийцу.JPG",
           "second": "487453044_10162692966764656_4036614073194973639_n.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "— Mind you don't drink unboiled water! —..",
-              "enBy": "claude",
-              "ru": "— Смотри не пей воды сырой! —.."
-            },
             "Иосиф Бродский": {
+              "ru": "..и глядишь на меня сбежавшими из-под крана глазами..",
               "en": "..and you look at me with eyes that have run off from under the tap..",
-              "enBy": "claude",
-              "ru": "..и глядишь на меня сбежавшими из-под крана глазами.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "— Смотри не пей воды сырой! —..",
+              "en": "— Mind you don't drink unboiled water! —..",
+              "enBy": "claude"
             }
           }
         },
@@ -1298,11 +1301,7 @@ window.FILMS = {
           "poster": "1_Я нанял убийцу.jpg",
           "second": "DSC06791.jpg"
         }
-      ],
-      "imdbId": "tt0099818",
-      "name": "Я нанял убийцу",
-      "titleEn": "I Hired a Contract Killer"
+      ]
     }
   ]
-}
-;
+};
