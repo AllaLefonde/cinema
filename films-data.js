@@ -555,6 +555,23 @@ window.FILMS = {
               "enBy": "claude"
             }
           }
+        },
+        {
+          "folder": "88",
+          "poster": "1_Дни жатвы.jpg",
+          "second": "DSC00229.jpg",
+          "words": {
+            "Агния Барто": {
+              "en": "Tanya agrees with me: — We'll climb out through the window.",
+              "enBy": "claude",
+              "ru": "Со мной согласна Таня: — Мы вылезем в окно."
+            },
+            "Иосиф Бродский": {
+              "en": "How good it is that no one's hand ever saw you off into the darkness..",
+              "enBy": "claude",
+              "ru": "Как хорошо, что никогда во тьму ничья рука тебя не провожала .."
+            }
+          }
         }
       ]
     },
@@ -666,6 +683,23 @@ window.FILMS = {
           }
         },
         {
+          "folder": "87",
+          "poster": "1_Имя Кармен.jpg",
+          "second": "DSC09471.jpg",
+          "words": {
+            "Агния Барто": {
+              "en": "No, mirrors reflect not only our faces",
+              "enBy": "claude",
+              "ru": "Нет, отражают зеркала не только наши лица"
+            },
+            "Иосиф Бродский": {
+              "en": "But, aware of your own instability, you will once again study smiles..",
+              "enBy": "claude",
+              "ru": "Но, сознавая собственную зыбкость, ты будешь вновь разглядывать улыбки.."
+            }
+          }
+        },
+        {
           "folder": "33",
           "poster": "1_Имя Кармен.jpg",
           "second": "Имя Кармен.jpg",
@@ -725,6 +759,38 @@ window.FILMS = {
               "ru": "На даче выключили свет, и, как нарочно, свечек нет!",
               "en": "At the dacha the lights went out, and, as if on purpose, there isn't a candle in sight!",
               "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "86",
+          "poster": "1_Институт Бенжамента.jpg",
+          "second": "DSC07085.jpg",
+          "words": {
+            "Агния Барто": {
+              "ru": "Здесь не комната большая — Здесь огромная страна.."
+            },
+            "Иосиф Бродский": {
+              "en": "Why leave a room to which you will come back later, unchanged at best, more probably mutilated?",
+              "ru": "Зачем выходить оттуда, куда вернешься вечером..",
+              "translator": "Alexandra Berlina"
+            }
+          }
+        },
+        {
+          "folder": "85",
+          "poster": "1_Институт Бенжамента.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Агния Барто": {
+              "en": "The teacher walked into the classroom — should we stand or sit?",
+              "enBy": "claude",
+              "ru": "Вошла учительница в класс,- Вставать или садиться?"
+            },
+            "Иосиф Бродский": {
+              "en": "The waitress has forgotten about you and your omelette..",
+              "enBy": "claude",
+              "ru": "Официантка забыла о вас и вашем омлете.."
             }
           }
         },
@@ -1270,6 +1336,8 @@ window.FILMS = {
           "second": "DSC08104.jpg",
           "words": {
             "Иосиф Бродский": {
+              "en": "..the body has crumbled to dust, the one you failed to hit back in olden times..",
+              "enBy": "claude",
               "ru": ".. истлело тело, в которое ты не попала во время óно.."
             },
             "Агния Барто": {

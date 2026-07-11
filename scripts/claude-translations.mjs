@@ -423,4 +423,29 @@ export const CLAUDE_TRANSLATIONS = {
     "And the sheep rub against the fence, and the sand keeps trickling down.",
   "На меня из-за овцы раскричались все жильцы.":
     "All the tenants yelled at me because of a sheep.",
+
+  // Same line as above, re-entered with the exact spacing found in the
+  // updated text.txt (an extra space after the leading "..").
+  ".. истлело тело, в которое ты не попала во время óно..":
+    "..the body has crumbled to dust, the one you failed to hit back in olden times..",
+
+  // "Мексиканский романсеро" (1975) - checked against Alan Myers &
+  // Brodsky's published NYRB translation of this poem, but this exact
+  // refrain isn't in that excerpt, so no verified match; self-translated.
+  "Официантка забыла о вас и вашем омлете..":
+    "The waitress has forgotten about you and your omelette..",
+  "Вошла учительница в класс,- Вставать или садиться?":
+    "The teacher walked into the classroom — should we stand or sit?",
+
+  // "Сонет к зеркалу" ("Sonnet to a Mirror").
+  "Но, сознавая собственную зыбкость, ты будешь вновь разглядывать улыбки..":
+    "But, aware of your own instability, you will once again study smiles..",
+  "Нет, отражают зеркала не только наши лица":
+    "No, mirrors reflect not only our faces",
+
+  // "Воротишься на родину" ("You'll return to your homeland").
+  "Как хорошо, что никогда во тьму ничья рука тебя не провожала ..":
+    "How good it is that no one's hand ever saw you off into the darkness..",
+  "Со мной согласна Таня: — Мы вылезем в окно.":
+    "Tanya agrees with me: — We'll climb out through the window.",
 };

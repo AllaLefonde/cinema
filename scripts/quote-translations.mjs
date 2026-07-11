@@ -66,4 +66,11 @@ export const QUOTE_TRANSLATIONS = {
     en: "Rain in Rotterdam. Dusk. Environment.",
     translator: "Pushkin Fund translation (1973)",
   },
+
+  // "Не выходи из комнаты" (1970), tr. Alexandra Berlina - same poem as
+  // the folder 6 and 70 quotes.
+  "Зачем выходить оттуда, куда вернешься вечером..": {
+    en: "Why leave a room to which you will come back later, unchanged at best, more probably mutilated?",
+    translator: "Alexandra Berlina",
+  },
 };
