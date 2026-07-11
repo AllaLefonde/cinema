@@ -237,22 +237,27 @@ body {
   color: var(--fg);
 }
 
-.claude-mark {
+.claude-mark,
+.translator-mark {
+  position: relative;
+  top: -0.6em;
   margin-left: 0.3em;
-  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-size: 0.7em;
   font-weight: 700;
-  color: #d97757;
+  background: #000;
+  border-radius: 4px;
+  padding: 0.05em 0.35em;
   cursor: default;
 }
 
+.claude-mark {
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #d97757;
+}
+
 .translator-mark {
-  margin-left: 0.3em;
-  font-style: normal;
-  font-size: 0.7em;
   color: var(--muted);
-  cursor: default;
 }
 
 .gallery {
