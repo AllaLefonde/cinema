@@ -399,4 +399,28 @@ export const CLAUDE_TRANSLATIONS = {
     "...a motel lay hidden, like a nighttime robber, ready to take me in too..",
   "Хорошо жить в шалаше, и домой не хочется,..":
     "It's good to live in a hut, and you don't want to go home,..",
+
+  ".. И сияли нам когда-то каждый вечер огоньки.":
+    "..and lights once used to shine for us every evening.",
+
+  "Заявила бабка деду: У меня уборка в среду!":
+    "Granny announced to grandpa: I've got cleaning on Wednesday!",
+
+  // "1972 год" (1972), dedicated to Viktor Golyshev.
+  "Старение! Здравствуй, мое старение!":
+    "Aging! Hello, my aging!",
+  "Повстречалась мне старушка..":
+    "I came across an old woman..",
+
+  // "Персидская стрела" ("Persian Arrow"), dedicated to Véronique Schiltz.
+  "..истлело тело, в которое ты не попала во время óно..":
+    "..the body has crumbled to dust, the one you failed to hit back in olden times..",
+  "Я метко стреляю, Без промаха бью...":
+    "I shoot with a sure aim, I never miss...",
+
+  // "Стог сена и загон овечий" (1964).
+  "А овцы трутся об ограду и осыпается песок.":
+    "And the sheep rub against the fence, and the sand keeps trickling down.",
+  "На меня из-за овцы раскричались все жильцы.":
+    "All the tenants yelled at me because of a sheep.",
 };

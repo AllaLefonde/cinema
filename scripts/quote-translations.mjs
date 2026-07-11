@@ -52,4 +52,18 @@ export const QUOTE_TRANSLATIONS = {
     en: "Don't leave your room. This is better left undone.",
     translator: "Alexandra Berlina",
   },
+
+  // "Дорогая, я вышел сегодня из дому..." ("Brise Marine", 1989),
+  // self-translated by Brodsky: https://ruverses.com/joseph-brodsky/brise-marine/
+  "Закат догорал на галёрке китайским веером, и туча клубилась..": {
+    en: "The sun was smoldering low like a Chinese fan in a gallery and a cloud reared up its huge lid like a Steinway.",
+    translator: "Joseph Brodsky (self-translation)",
+  },
+
+  // "Роттердамский дневник" ("Rotterdam Diary", 1973), tr. Pushkin Fund,
+  // via Poetry International.
+  "Дождь в Роттердаме. Сумерки. Среда.": {
+    en: "Rain in Rotterdam. Dusk. Environment.",
+    translator: "Pushkin Fund translation (1973)",
+  },
 };
