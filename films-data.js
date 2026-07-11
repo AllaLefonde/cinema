@@ -561,15 +561,15 @@ window.FILMS = {
           "poster": "1_Дни жатвы.jpg",
           "second": "DSC00229.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "Tanya agrees with me: — We'll climb out through the window.",
-              "enBy": "claude",
-              "ru": "Со мной согласна Таня: — Мы вылезем в окно."
-            },
             "Иосиф Бродский": {
+              "ru": "Как хорошо, что никогда во тьму ничья рука тебя не провожала ..",
               "en": "How good it is that no one's hand ever saw you off into the darkness..",
-              "enBy": "claude",
-              "ru": "Как хорошо, что никогда во тьму ничья рука тебя не провожала .."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Со мной согласна Таня: — Мы вылезем в окно.",
+              "en": "Tanya agrees with me: — We'll climb out through the window.",
+              "enBy": "claude"
             }
           }
         }
@@ -687,15 +687,15 @@ window.FILMS = {
           "poster": "1_Имя Кармен.jpg",
           "second": "DSC09471.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "No, mirrors reflect not only our faces",
-              "enBy": "claude",
-              "ru": "Нет, отражают зеркала не только наши лица"
-            },
             "Иосиф Бродский": {
+              "ru": "Но, сознавая собственную зыбкость, ты будешь вновь разглядывать улыбки..",
               "en": "But, aware of your own instability, you will once again study smiles..",
-              "enBy": "claude",
-              "ru": "Но, сознавая собственную зыбкость, ты будешь вновь разглядывать улыбки.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Нет, отражают зеркала не только наши лица",
+              "en": "No, mirrors reflect not only our faces",
+              "enBy": "claude"
             }
           }
         },
@@ -767,13 +767,13 @@ window.FILMS = {
           "poster": "1_Институт Бенжамента.jpg",
           "second": "DSC07085.jpg",
           "words": {
+            "Иосиф Бродский": {
+              "ru": "Зачем выходить оттуда, куда вернешься вечером..",
+              "en": "Why leave a room to which you will come back later, unchanged at best, more probably mutilated?",
+              "translator": "Alexandra Berlina"
+            },
             "Агния Барто": {
               "ru": "Здесь не комната большая — Здесь огромная страна.."
-            },
-            "Иосиф Бродский": {
-              "en": "Why leave a room to which you will come back later, unchanged at best, more probably mutilated?",
-              "ru": "Зачем выходить оттуда, куда вернешься вечером..",
-              "translator": "Alexandra Berlina"
             }
           }
         },
@@ -782,15 +782,15 @@ window.FILMS = {
           "poster": "1_Институт Бенжамента.jpg",
           "second": "img.jpg",
           "words": {
-            "Агния Барто": {
-              "en": "The teacher walked into the classroom — should we stand or sit?",
-              "enBy": "claude",
-              "ru": "Вошла учительница в класс,- Вставать или садиться?"
-            },
             "Иосиф Бродский": {
+              "ru": "Официантка забыла о вас и вашем омлете..",
               "en": "The waitress has forgotten about you and your omelette..",
-              "enBy": "claude",
-              "ru": "Официантка забыла о вас и вашем омлете.."
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Вошла учительница в класс,- Вставать или садиться?",
+              "en": "The teacher walked into the classroom — should we stand or sit?",
+              "enBy": "claude"
             }
           }
         },
@@ -1336,9 +1336,9 @@ window.FILMS = {
           "second": "DSC08104.jpg",
           "words": {
             "Иосиф Бродский": {
+              "ru": ".. истлело тело, в которое ты не попала во время óно..",
               "en": "..the body has crumbled to dust, the one you failed to hit back in olden times..",
-              "enBy": "claude",
-              "ru": ".. истлело тело, в которое ты не попала во время óно.."
+              "enBy": "claude"
             },
             "Агния Барто": {
               "ru": "Я метко стреляю, Без промаха бью...",
