@@ -302,4 +302,101 @@ export const CLAUDE_TRANSLATIONS = {
     "..in damp cellars, in our feelings, in those storerooms where junk lies piled...",
   "Мы в подвале побывали. Там котельная в подвале.":
     "We went down to the cellar. There's a boiler room in the cellar.",
+
+  // Same lines as above, re-entered with the exact spacing found in the
+  // updated text.txt files (an extra space after the leading "..").
+  ".. но будешь ты всегда озарена пусть слабым, но неповторимым светом.":
+    "..but you will always be lit by a faint yet unrepeatable light.",
+  ".. зачем вся дева, раз есть колено.":
+    "..why the whole maiden, when there's a knee.",
+  ".. зараженный классицизмом трезвым, я сам гулял по острию ножа.":
+    "..infected with a sober classicism, I myself walked along the blade of a knife.",
+
+  "И взрослой походкой идет по дорожке, на каблуках, как на тоненьких ножках.":
+    "And with a grown-up gait she walks down the path, on heels, as if on thin little legs.",
+
+  "В овраге дождь меня настиг, а я же книгоноша.":
+    "The rain caught me in the ravine, and I'm just a book-peddler.",
+
+  "Мир останется лживым.":
+    "The world will remain false.",
+  "Не узнать сегодня папу..":
+    "You wouldn't recognize dad today..",
+
+  // "Классический балет есть замок красоты..." (1976), dedicated to
+  // Mikhail Baryshnikov - same poem as the folder 4 and 46 quotes.
+  "Классический балет есть замок красоты..":
+    "Classical ballet is a castle of beauty..",
+  "По порядку.Стройся в ряд! На зарядку.Все подряд!":
+    "In order now. Line up in a row! Time for exercise. Everyone, all together!",
+
+  "Так лучи подбирают пространство..":
+    "That's how rays gather up space..",
+  "У солнышка есть правило: Оно лучи расправило...":
+    "The little sun has a rule: it spread out its rays...",
+
+  "Но, как известно, именно в минуту отчаянья и начинает дуть попутный ветер.":
+    "But, as is well known, it's exactly at the moment of despair that a following wind begins to blow.",
+  "Один щенок был одинок, бродил он неприкаянно..":
+    "One puppy was lonely, he wandered about forlorn..",
+
+  "..у одних — кукла вуду с твоим лицом..":
+    "..some have a voodoo doll with your face on it..",
+  ".. у одних — кукла вуду с твоим лицом..":
+    "..some have a voodoo doll with your face on it..",
+
+  "Мы, оглядываясь, видим лишь руины..":
+    "Looking back, we see nothing but ruins..",
+  "Дом стоял на этом месте! Он пропал с жильцами вместе!":
+    "A house stood right here on this spot! It vanished, tenants and all!",
+  "Соберу свои игрушки и Сереже подарю...":
+    "I'll gather up my toys and give them to Seryozha...",
+
+  "Сейчас поймает окуня любитель-рыболов.":
+    "Right now an amateur angler is about to catch a perch.",
+
+  "..в юрких взмахах руки туземца, у которого ты спросил дорогу..":
+    "..in the nimble waves of a native's hand, the one you asked for directions..",
+  "Вдруг на него рычит щенок, кудлатая дворняга.":
+    "Suddenly a puppy growls at him, a shaggy mutt.",
+
+  // "По дороге на Скирос" (1967) - Theseus leaving the Labyrinth.
+  "Я покидаю город, как Тезей - свой Лабиринт..":
+    "I am leaving the city, as Theseus left his Labyrinth..",
+  "Мы папу не видели. Очень давно..":
+    "We haven't seen dad. Not for a long time..",
+
+  "Он скитался по ржавым крышам...":
+    "He wandered over rusty rooftops...",
+  "Ладно, Кот, иди сюда.":
+    "All right, Cat, come here.",
+
+  // "Ну, как тебе в грузинских палестинах?.." (1960) - Hawthorne reference.
+  "И что там море? Так же ли просторно, как в рифмах почитателя Готорна?":
+    "And what of the sea there? Is it just as spacious as in the rhymes of Hawthorne's admirer?",
+  "Олег всегда рисует так — он будет моряком.":
+    "Oleg always draws it that way — he's going to be a sailor.",
+
+  ".. мы вместе и навеки ..":
+    "..we are together and forever..",
+  "— Ты мне машину дашь?":
+    "— Will you give me the car?",
+
+  "Дверь скрипит. На пороге стоит треска.":
+    "The door creaks. A codfish stands on the threshold.",
+  "Я дверь открыл своим ключом.":
+    "I opened the door with my own key.",
+
+  "Через два года износятся костюмы..":
+    "In two years the suits will have worn out..",
+
+  ".. на последней странице книги со счастливым концом.":
+    "..on the last page of a book with a happy ending.",
+  "У меня еще нагрузки по-немецки и по-русски..":
+    "I've still got extra classes, in German and in Russian..",
+
+  "... укрылся мотель, как ночной грабитель,готовый принять и меня ..":
+    "...a motel lay hidden, like a nighttime robber, ready to take me in too..",
+  "Хорошо жить в шалаше, и домой не хочется,..":
+    "It's good to live in a hut, and you don't want to go home,..",
 };

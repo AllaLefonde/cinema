@@ -45,4 +45,11 @@ export const QUOTE_TRANSLATIONS = {
     en: "I send you, Postumus, these books..",
     translator: "George L. Kline",
   },
+
+  // "Не выходи из комнаты" (1970), tr. Alexandra Berlina, Modern Poetry in
+  // Translation - opening couplet.
+  "Не выходи из комнаты, не совершай ошибку.": {
+    en: "Don't leave your room. This is better left undone.",
+    translator: "Alexandra Berlina",
+  },
 };

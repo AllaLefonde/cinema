@@ -187,12 +187,16 @@ function renderFilm(folder, found) {
     ? `<p class="words-quote">${escapeHtml(quote)}${claudeMark}${translatorMark}</p>`
     : "";
 
+  const metaRowHtml =
+    directorHtml || quoteHtml
+      ? `<div class="meta-row">${directorHtml}${quoteHtml}</div>`
+      : "";
+
   return `
 <div class="title-row">
 <h1 class="film-title">${nameHtml} ${imdbBadge(group.imdbId)}</h1>
-${quoteHtml}
 </div>
-${directorHtml}
+${metaRowHtml}
 <div class="content-wrap">
 <div class="gallery">
 <img src="${posterSrc}" alt="${nameHtml}">
