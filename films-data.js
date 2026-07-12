@@ -1472,8 +1472,8 @@ window.FILMS = {
               "enBy": "claude"
             },
             "Агния Барто": {
-              "ru": "Я люблю свою лошадку..",
-              "en": "I love my little horse..",
+              "ru": "Этот конь не бьет копытом, но в больших боях испытан,.",
+              "en": "This horse doesn't paw the ground, but it's been tested in great battles,.",
               "enBy": "claude"
             }
           }

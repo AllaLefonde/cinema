@@ -13,6 +13,19 @@ function getLang() {
   return localStorage.getItem("lang") === "en" ? "en" : "ru";
 }
 
+let lastViewedFolder = null;
+
+function scrollToLastViewedFilm() {
+  if (!lastViewedFolder) return;
+  const cell = [...document.querySelectorAll("#app [data-folders]")].find((el) =>
+    el.dataset.folders.split(",").includes(lastViewedFolder)
+  );
+  if (!cell) return;
+  cell.scrollIntoView({ block: "center" });
+  cell.classList.add("film-cell-highlight");
+  setTimeout(() => cell.classList.remove("film-cell-highlight"), 1500);
+}
+
 const WORDS_AUTHORS = [
   { value: "", label: "—" },
   { value: "Иосиф Бродский", label: "Бродский" },
@@ -136,7 +149,8 @@ function renderList() {
       const dirCell = fi === 0
         ? `<a class="director-cell imdb-popup${startClass}" href="https://www.imdb.com/name/${director.imdbId}/">${dirName}</a>`
         : `<span class="director-cell${startClass}"></span>`;
-      const filmCell = `<a href="#/${first}" class="film-cell${startClass}" data-preload-folder="${first}">${title}</a>`;
+      const allFolders = group.folders.map((f) => f.folder).join(",");
+      const filmCell = `<a href="#/${first}" class="film-cell${startClass}" data-preload-folder="${first}" data-folders="${allFolders}">${title}</a>`;
       const badgeCell = group.imdbId
         ? `<a class="badge-cell imdb-badge imdb-popup${startClass}" href="https://www.imdb.com/title/${group.imdbId}/">IMDb</a>`
         : `<span class="badge-cell${startClass}"></span>`;
@@ -184,7 +198,7 @@ function renderFilm(folder, found) {
       ? `<sup class="translator-mark" title="Translation: ${escapeHtml(entry.translator)}">&#128100;</sup>`
       : "";
   const quoteHtml = quote
-    ? `<p class="words-quote">${escapeHtml(quote)}${claudeMark}${translatorMark}</p>`
+    ? `<p class="words-quote">&quot;${escapeHtml(quote)}&quot;${claudeMark}${translatorMark}</p>`
     : "";
 
   const metaRowHtml =
@@ -213,10 +227,12 @@ ${nextLink}
 </div>`;
 }
 
-function updateStaticText(showWordsSelect) {
+function updateStaticText(showWordsSelect, showSiteTitle) {
   const lang = getLang();
   const siteTitleLink = document.querySelector(".site-title a");
   if (siteTitleLink) siteTitleLink.textContent = I18N[lang].siteTitle;
+  const siteTitle = document.querySelector(".site-title");
+  if (siteTitle) siteTitle.style.display = showSiteTitle ? "" : "none";
   document.querySelectorAll(".lang-switch button").forEach((btn) => {
     btn.classList.toggle("active", btn.dataset.lang === lang);
   });
@@ -232,11 +248,12 @@ function render() {
   const route = location.hash.replace(/^#\/?/, "");
 
   if (!route) {
-    updateStaticText(false);
+    updateStaticText(false, true);
     document.title = I18N[getLang()].siteTitle;
     app.innerHTML = renderList();
     attachPreloadHandlers();
     attachImdbPopupHandlers();
+    scrollToLastViewedFilm();
     return;
   }
 
@@ -246,10 +263,11 @@ function render() {
     return;
   }
 
+  lastViewedFolder = route;
   const currentFolder = found.group.folders[found.idx];
   const hasWords = !!(currentFolder.words && Object.keys(currentFolder.words).length);
-  updateStaticText(hasWords);
-  document.title = `${filmTitle(found.group)} — ${I18N[getLang()].siteTitle}`;
+  updateStaticText(hasWords, false);
+  document.title = filmTitle(found.group);
   app.innerHTML = renderFilm(route, found);
   attachPreloadHandlers();
   attachImdbPopupHandlers();

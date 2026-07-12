@@ -448,4 +448,7 @@ export const CLAUDE_TRANSLATIONS = {
     "How good it is that no one's hand ever saw you off into the darkness..",
   "Со мной согласна Таня: — Мы вылезем в окно.":
     "Tanya agrees with me: — We'll climb out through the window.",
+
+  "Этот конь не бьет копытом, но в больших боях испытан,.":
+    "This horse doesn't paw the ground, but it's been tested in great battles,.",
 };
