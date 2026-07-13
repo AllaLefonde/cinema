@@ -470,4 +470,9 @@ export const CLAUDE_TRANSLATIONS = {
     "You and I won't come to an agreement.",
   ".. мы совсем не братья..":
     "..we are not brothers at all..",
+
+  "Голова болит, голова болит..":
+    "My head aches, my head aches..",
+  "Вся в бумажках голова.":
+    "The head is all covered in little curl-papers.",
 };

@@ -686,6 +686,23 @@ window.FILMS = {
               "enBy": "claude"
             }
           }
+        },
+        {
+          "folder": "93",
+          "poster": "1_Звери и хозяин заставы.png",
+          "second": "DSC05017.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Голова болит, голова болит..",
+              "en": "My head aches, my head aches..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Вся в бумажках голова.",
+              "en": "The head is all covered in little curl-papers.",
+              "enBy": "claude"
+            }
+          }
         }
       ]
     },
