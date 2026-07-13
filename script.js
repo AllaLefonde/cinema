@@ -2,17 +2,31 @@ const I18N = {
   ru: {
     siteTitle: "Кино от Димы Конрадта",
     director: "Режиссёр",
+    both: "Оба",
     commentator: "Комментатор",
   },
   en: {
     siteTitle: "Cinema by Dima Konradt",
     director: "Director",
+    both: "Both",
     commentator: "Commentator",
   },
 };
 
+const AUTHOR_DISPLAY = {
+  "Иосиф Бродский": { ru: "Бродский", en: "Brodsky" },
+  "Агния Барто": { ru: "Барто", en: "Barto" },
+};
+
+const WORDS_CHOICES = ["", "both", "Иосиф Бродский", "Агния Барто"];
+
 function getLang() {
   return localStorage.getItem("lang") === "en" ? "en" : "ru";
+}
+
+function getWordsAuthor() {
+  const saved = localStorage.getItem("wordsAuthor");
+  return WORDS_CHOICES.includes(saved) ? saved : "both";
 }
 
 let lastViewedFolder = null;
@@ -25,17 +39,6 @@ function scrollToLastViewedFilm() {
   if (!cell) return;
   cell.scrollIntoView({ block: "center" });
   cell.classList.add("film-cell-selected");
-}
-
-const WORDS_AUTHORS = [
-  { value: "", label: "—" },
-  { value: "Иосиф Бродский", label: "Бродский" },
-  { value: "Агния Барто", label: "Барто" },
-];
-
-function getWordsAuthor() {
-  const saved = localStorage.getItem("wordsAuthor");
-  return WORDS_AUTHORS.some((a) => a.value === saved) ? saved : "";
 }
 
 function t(key) {
@@ -109,15 +112,6 @@ function attachImdbPopupHandlers() {
   });
 }
 
-function initWordsSelect() {
-  const select = document.getElementById("words-select");
-  if (!select) return;
-  select.addEventListener("change", () => {
-    localStorage.setItem("wordsAuthor", select.value);
-    render();
-  });
-}
-
 function renderList() {
   const lang = getLang();
   const byDirector = new Map();
@@ -158,6 +152,24 @@ function renderList() {
   return `<div class="films-grid">${cells.join("")}</div>`;
 }
 
+function renderQuote(entry, author, positionClass, withAuthor) {
+  if (!entry) return "";
+  const showingEn = getLang() === "en" && !!entry.en;
+  const quote = showingEn ? entry.en : entry.ru;
+  const claudeMark =
+    showingEn && entry.enBy === "claude"
+      ? `<sup class="claude-mark" title="Translation: Claude (unofficial)">✳</sup>`
+      : "";
+  const translatorMark =
+    showingEn && entry.translator
+      ? `<sup class="translator-mark" title="Translation: ${escapeHtml(entry.translator)}">&#128100;</sup>`
+      : "";
+  const attribution = withAuthor
+    ? ` &mdash; ${escapeHtml(AUTHOR_DISPLAY[author][showingEn ? "en" : "ru"])}`
+    : "";
+  return `<p class="words-quote ${positionClass}">&quot;${escapeHtml(quote)}&quot;${claudeMark}${translatorMark}${attribution}</p>`;
+}
+
 function renderFilm(folder, found) {
   const { group, idx } = found;
   const gn = group.folders.length;
@@ -185,20 +197,16 @@ function renderFilm(folder, found) {
     ? `<a class="imdb-popup" href="https://www.imdb.com/title/${group.imdbId}/">${nameHtml}</a>`
     : nameHtml;
 
-  const wordsAuthor = getWordsAuthor();
-  const entry = wordsAuthor && current.words ? current.words[wordsAuthor] : null;
-  const showingEn = getLang() === "en" && !!entry?.en;
-  const quote = entry ? (showingEn ? entry.en : entry.ru) : null;
-  const claudeMark =
-    showingEn && entry.enBy === "claude"
-      ? `<sup class="claude-mark" title="Translation: Claude (unofficial)">✳</sup>`
-      : "";
-  const translatorMark =
-    showingEn && entry.translator
-      ? `<sup class="translator-mark" title="Translation: ${escapeHtml(entry.translator)}">&#128100;</sup>`
-      : "";
-  const quoteHtml = quote
-    ? `<p class="words-quote">&quot;${escapeHtml(quote)}&quot;${claudeMark}${translatorMark}</p>`
+  const words = current.words || {};
+  const choice = getWordsAuthor();
+  const showBrodsky = choice === "both" || choice === "Иосиф Бродский";
+  const showBarto = choice === "both" || choice === "Агния Барто";
+  const withAuthor = choice === "both";
+  const brodskyHtml = showBrodsky
+    ? renderQuote(words["Иосиф Бродский"], "Иосиф Бродский", "words-quote-tr", withAuthor)
+    : "";
+  const bartoHtml = showBarto
+    ? renderQuote(words["Агния Барто"], "Агния Барто", "words-quote-bl", withAuthor)
     : "";
 
   return `
@@ -209,11 +217,14 @@ function renderFilm(folder, found) {
 <h1 class="film-title">${titleHtml}</h1>
 ${directorHtml}
 </div>
+<div class="img-wrap">
 <img src="${posterSrc}" alt="${nameHtml}">
+${bartoHtml}
+</div>
 </div>
 <div class="gallery-col">
 <div class="img-wrap">
-${quoteHtml}
+${brodskyHtml}
 <img src="${secondSrc}" alt="${nameHtml}">
 </div>
 </div>
@@ -242,9 +253,14 @@ function updateStaticText(showWordsSelect, showSiteTitle) {
   const wordsSwitch = document.getElementById("words-switch");
   if (wordsSwitch) wordsSwitch.style.display = showWordsSelect ? "flex" : "none";
   const wordsSelect = document.getElementById("words-select");
-  if (wordsSelect) wordsSelect.value = getWordsAuthor();
-  const blankOption = document.querySelector('#words-select option[value=""]');
-  if (blankOption) blankOption.textContent = I18N[lang].commentator;
+  if (wordsSelect) {
+    wordsSelect.value = getWordsAuthor();
+    [...wordsSelect.options].forEach((opt) => {
+      if (opt.value === "") opt.textContent = I18N[lang].commentator;
+      else if (opt.value === "both") opt.textContent = I18N[lang].both;
+      else if (AUTHOR_DISPLAY[opt.value]) opt.textContent = AUTHOR_DISPLAY[opt.value][lang];
+    });
+  }
 }
 
 function render() {
@@ -283,6 +299,15 @@ function initLangSwitch() {
       localStorage.setItem("lang", btn.dataset.lang);
       render();
     });
+  });
+}
+
+function initWordsSelect() {
+  const select = document.getElementById("words-select");
+  if (!select) return;
+  select.addEventListener("change", () => {
+    localStorage.setItem("wordsAuthor", select.value);
+    render();
   });
 }
 

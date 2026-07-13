@@ -33,7 +33,7 @@ body {
   width: fit-content;
   max-width: 100%;
   margin: 0 auto;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
 }
 
 .topbar {
@@ -74,12 +74,6 @@ body {
   display: flex;
   align-items: center;
   gap: 0.4rem;
-}
-
-.words-label {
-  font-size: 0.75rem;
-  letter-spacing: 0.03em;
-  color: var(--muted);
 }
 
 .words-switch select {
@@ -242,17 +236,28 @@ body {
 
 .words-quote {
   position: absolute;
-  right: 0;
-  bottom: 100%;
-  margin: 0 0 1.1rem;
+  margin: 0;
   max-width: 85vw;
   white-space: nowrap;
-  text-align: right;
   font-family: "Caveat", cursive;
   font-weight: 500;
   font-size: 1.6rem;
   line-height: 1.2;
   color: var(--fg);
+}
+
+.words-quote-tr {
+  right: 0;
+  bottom: 100%;
+  margin-bottom: 1.1rem;
+  text-align: right;
+}
+
+.words-quote-bl {
+  left: 0;
+  top: 100%;
+  margin-top: 1.1rem;
+  text-align: left;
 }
 
 .claude-mark,
