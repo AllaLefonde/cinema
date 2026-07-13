@@ -2,10 +2,12 @@ const I18N = {
   ru: {
     siteTitle: "Кино от Димы Конрадта",
     director: "Режиссёр",
+    commentator: "Комментатор",
   },
   en: {
     siteTitle: "Cinema by Dima Konradt",
     director: "Director",
+    commentator: "Commentator",
   },
 };
 
@@ -66,11 +68,6 @@ function filmTitle(group) {
 function directorName(group) {
   if (!group.director) return null;
   return getLang() === "en" ? group.director.en : group.director.ru;
-}
-
-function imdbBadge(imdbId) {
-  if (!imdbId) return "";
-  return `<a class="imdb-badge imdb-popup" href="https://www.imdb.com/title/${imdbId}/">IMDb</a>`;
 }
 
 function directorLink(group) {
@@ -184,6 +181,10 @@ function renderFilm(folder, found) {
     ? `<p class="director-line">${t("director")}: ${directorLink(group)}</p>`
     : "";
 
+  const titleHtml = group.imdbId
+    ? `<a class="imdb-popup" href="https://www.imdb.com/title/${group.imdbId}/">${nameHtml}</a>`
+    : nameHtml;
+
   const wordsAuthor = getWordsAuthor();
   const entry = wordsAuthor && current.words ? current.words[wordsAuthor] : null;
   const showingEn = getLang() === "en" && !!entry?.en;
@@ -200,20 +201,22 @@ function renderFilm(folder, found) {
     ? `<p class="words-quote">&quot;${escapeHtml(quote)}&quot;${claudeMark}${translatorMark}</p>`
     : "";
 
-  const metaRowHtml =
-    directorHtml || quoteHtml
-      ? `<div class="meta-row">${directorHtml}${quoteHtml}</div>`
-      : "";
-
   return `
-<div class="title-row">
-<h1 class="film-title">${nameHtml} ${imdbBadge(group.imdbId)}</h1>
-</div>
-${metaRowHtml}
 <div class="content-wrap">
 <div class="gallery">
+<div class="gallery-col">
+<div class="poster-caption">
+<h1 class="film-title">${titleHtml}</h1>
+${directorHtml}
+</div>
 <img src="${posterSrc}" alt="${nameHtml}">
+</div>
+<div class="gallery-col">
+<div class="img-wrap">
+${quoteHtml}
 <img src="${secondSrc}" alt="${nameHtml}">
+</div>
+</div>
 </div>
 <div class="nav-row">
 <div class="nav-arrows">
@@ -240,6 +243,8 @@ function updateStaticText(showWordsSelect, showSiteTitle) {
   if (wordsSwitch) wordsSwitch.style.display = showWordsSelect ? "flex" : "none";
   const wordsSelect = document.getElementById("words-select");
   if (wordsSelect) wordsSelect.value = getWordsAuthor();
+  const blankOption = document.querySelector('#words-select option[value=""]');
+  if (blankOption) blankOption.textContent = I18N[lang].commentator;
 }
 
 function render() {
