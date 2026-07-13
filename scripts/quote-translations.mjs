@@ -73,4 +73,10 @@ export const QUOTE_TRANSLATIONS = {
     en: "Why leave a room to which you will come back later, unchanged at best, more probably mutilated?",
     translator: "Alexandra Berlina",
   },
+
+  // "То не Муза воды набирает в рот" ("To a Friend"), tr. George L. Kline.
+  "Нарисуй на бумаге простой кружок.": {
+    en: "Draw an empty circle on your yellow pad.",
+    translator: "George L. Kline",
+  },
 };

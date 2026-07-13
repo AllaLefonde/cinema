@@ -451,4 +451,13 @@ export const CLAUDE_TRANSLATIONS = {
 
   "Этот конь не бьет копытом, но в больших боях испытан,.":
     "This horse doesn't paw the ground, but it's been tested in great battles,.",
+
+  // "Зимним вечером в Ялте" (1969) - riffs on Goethe's Faust.
+  ".. мгновенье! Ты не столь прекрасно, сколько ты неповторимо.":
+    "..instant! You are not so much beautiful as you are unrepeatable.",
+  "Вот это да! Вот это будет фото!":
+    "Wow, now that! Now that'll be a photo!",
+
+  "Испортил листик чистый!":
+    "Ruined the clean little page!",
 };

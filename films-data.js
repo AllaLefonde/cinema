@@ -528,10 +528,14 @@ window.FILMS = {
           "second": "img.jpg",
           "words": {
             "Иосиф Бродский": {
-              "ru": "Нарисуй на бумаге простой кружок."
+              "ru": "Нарисуй на бумаге простой кружок.",
+              "en": "Draw an empty circle on your yellow pad.",
+              "translator": "George L. Kline"
             },
             "Агния Барто": {
-              "ru": "Испортил листик чистый!"
+              "ru": "Испортил листик чистый!",
+              "en": "Ruined the clean little page!",
+              "enBy": "claude"
             }
           }
         },
@@ -1281,10 +1285,14 @@ window.FILMS = {
           "second": "512670995_10163037743804656_1427972945316955592_n.jpg",
           "words": {
             "Иосиф Бродский": {
-              "ru": ".. мгновенье! Ты не столь прекрасно, сколько ты неповторимо."
+              "ru": ".. мгновенье! Ты не столь прекрасно, сколько ты неповторимо.",
+              "en": "..instant! You are not so much beautiful as you are unrepeatable.",
+              "enBy": "claude"
             },
             "Агния Барто": {
-              "ru": "Вот это да! Вот это будет фото!"
+              "ru": "Вот это да! Вот это будет фото!",
+              "en": "Wow, now that! Now that'll be a photo!",
+              "enBy": "claude"
             }
           }
         },
