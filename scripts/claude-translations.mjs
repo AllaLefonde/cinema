@@ -199,7 +199,7 @@ export const CLAUDE_TRANSLATIONS = {
   ".. картина неясна, Наступила ли весна.":
     "..the picture's unclear, whether spring has come.",
 
-  "- Вздыхаешь из-за стекол? 1Опять стекло раскокал?":
+  "- Вздыхаешь из-за стекол? Опять стекло раскокал?":
     "— Sighing over some glass? Broke another pane again?",
 
   "Он чёрен был, как ночь, как пустота.":

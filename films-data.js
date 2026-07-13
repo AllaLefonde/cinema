@@ -220,7 +220,7 @@ window.FILMS = {
               "enBy": "claude"
             },
             "Агния Барто": {
-              "ru": "- Вздыхаешь из-за стекол? 1Опять стекло раскокал?",
+              "ru": "- Вздыхаешь из-за стекол? Опять стекло раскокал?",
               "en": "— Sighing over some glass? Broke another pane again?",
               "enBy": "claude"
             }
