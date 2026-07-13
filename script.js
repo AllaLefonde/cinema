@@ -22,8 +22,7 @@ function scrollToLastViewedFilm() {
   );
   if (!cell) return;
   cell.scrollIntoView({ block: "center" });
-  cell.classList.add("film-cell-highlight");
-  setTimeout(() => cell.classList.remove("film-cell-highlight"), 1500);
+  cell.classList.add("film-cell-selected");
 }
 
 const WORDS_AUTHORS = [

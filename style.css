@@ -40,7 +40,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.8rem;
 }
 
 .site-title {
@@ -338,15 +338,15 @@ body {
   color: var(--fg);
   text-decoration: none;
   font-size: 0.9rem;
-  transition: color 1.5s ease;
 }
 
 .films-grid .film-cell:hover {
   color: var(--accent);
 }
 
-.film-cell-highlight {
+.film-cell-selected {
   color: var(--accent);
+  font-weight: 700;
 }
 
 .films-grid .badge-cell {
