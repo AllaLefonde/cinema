@@ -465,4 +465,9 @@ export const CLAUDE_TRANSLATIONS = {
     "..and I trudge along again, lost in thought..",
   "— Я тоже человечество! И мне гулять пора!":
     "— I'm humanity too! And it's time for me to go for a walk!",
+
+  "Мы с тобою не договоримся.":
+    "You and I won't come to an agreement.",
+  ".. мы совсем не братья..":
+    "..we are not brothers at all..",
 };
