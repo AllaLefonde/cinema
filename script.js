@@ -2,12 +2,10 @@ const I18N = {
   ru: {
     siteTitle: "Кино от Димы Конрадта",
     director: "Режиссёр",
-    commentator: "Комментатор",
   },
   en: {
     siteTitle: "Cinema by Dima Konradt",
     director: "Director",
-    commentator: "Commentator",
   },
 };
 
@@ -28,9 +26,9 @@ function scrollToLastViewedFilm() {
 }
 
 const WORDS_AUTHORS = [
-  { value: "", label: "—" },
-  { value: "Иосиф Бродский", label: "Бродский" },
-  { value: "Агния Барто", label: "Барто" },
+  { value: "", labelRu: "Комментатор", labelEn: "Commentator" },
+  { value: "Иосиф Бродский", labelRu: "Иосиф Бродский", labelEn: "Joseph Brodsky" },
+  { value: "Агния Барто", labelRu: "Агния Барто", labelEn: "Agnia Barto" },
 ];
 
 function getWordsAuthor() {
@@ -242,9 +240,13 @@ function updateStaticText(showWordsSelect, showSiteTitle) {
   const wordsSwitch = document.getElementById("words-switch");
   if (wordsSwitch) wordsSwitch.style.display = showWordsSelect ? "flex" : "none";
   const wordsSelect = document.getElementById("words-select");
-  if (wordsSelect) wordsSelect.value = getWordsAuthor();
-  const blankOption = document.querySelector('#words-select option[value=""]');
-  if (blankOption) blankOption.textContent = I18N[lang].commentator;
+  if (wordsSelect) {
+    [...wordsSelect.options].forEach((opt) => {
+      const author = WORDS_AUTHORS.find((a) => a.value === opt.value);
+      if (author) opt.textContent = lang === "en" ? author.labelEn : author.labelRu;
+    });
+    wordsSelect.value = getWordsAuthor();
+  }
 }
 
 function render() {
