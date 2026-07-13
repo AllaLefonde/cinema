@@ -460,4 +460,9 @@ export const CLAUDE_TRANSLATIONS = {
 
   "Испортил листик чистый!":
     "Ruined the clean little page!",
+
+  ".. а я опять задумчиво бреду ..":
+    "..and I trudge along again, lost in thought..",
+  "— Я тоже человечество! И мне гулять пора!":
+    "— I'm humanity too! And it's time for me to go for a walk!",
 };
