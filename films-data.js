@@ -489,6 +489,23 @@ window.FILMS = {
           }
         },
         {
+          "folder": "91",
+          "poster": "1_Дни жатвы.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. а я опять задумчиво бреду ..",
+              "en": "..and I trudge along again, lost in thought..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "— Я тоже человечество! И мне гулять пора!",
+              "en": "— I'm humanity too! And it's time for me to go for a walk!",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
           "folder": "80",
           "poster": "1_Дни жатвы.jpg",
           "second": "img.jpg",
@@ -535,23 +552,6 @@ window.FILMS = {
             "Агния Барто": {
               "ru": "Испортил листик чистый!",
               "en": "Ruined the clean little page!",
-              "enBy": "claude"
-            }
-          }
-        },
-        {
-          "folder": "91",
-          "poster": "1_Дни жатвы.jpg",
-          "second": "img.jpg",
-          "words": {
-            "Иосиф Бродский": {
-              "ru": ".. а я опять задумчиво бреду ..",
-              "en": "..and I trudge along again, lost in thought..",
-              "enBy": "claude"
-            },
-            "Агния Барто": {
-              "ru": "— Я тоже человечество! И мне гулять пора!",
-              "en": "— I'm humanity too! And it's time for me to go for a walk!",
               "enBy": "claude"
             }
           }
