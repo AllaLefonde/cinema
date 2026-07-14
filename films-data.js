@@ -671,9 +671,26 @@ window.FILMS = {
           }
         },
         {
+          "folder": "32",
+          "poster": "1_Звери и хозяин заставы.jpg",
+          "second": "540481731_10163374603399656_2589529190581831669_n.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Сын или Бог, я твой.",
+              "en": "Son or God, I am thine.",
+              "translator": "George L. Kline"
+            },
+            "Агния Барто": {
+              "ru": "Я лежу, болею..",
+              "en": "I lie here, I'm sick..",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
           "folder": "93",
-          "poster": "1_Звери и хозяин заставы.png",
-          "second": "DSC05017.jpg",
+          "poster": "1_Звери и хозяин заставы.jpg",
+          "second": "img.jpg",
           "words": {
             "Иосиф Бродский": {
               "ru": "Голова болит, голова болит..",
@@ -688,18 +705,35 @@ window.FILMS = {
           }
         },
         {
-          "folder": "32",
+          "folder": "94",
           "poster": "1_Звери и хозяин заставы.jpg",
-          "second": "540481731_10163374603399656_2589529190581831669_n.jpg",
+          "second": "DSC04551.jpg",
           "words": {
             "Иосиф Бродский": {
-              "ru": "Сын или Бог, я твой.",
-              "en": "Son or God, I am thine.",
-              "translator": "George L. Kline"
+              "ru": ".. их путь лишен подобья круга.",
+              "en": "..their path bears no resemblance to a circle.",
+              "enBy": "claude"
             },
             "Агния Барто": {
-              "ru": "Я лежу, болею..",
-              "en": "I lie here, I'm sick..",
+              "ru": "Мы вчера играли в стадо..",
+              "en": "Yesterday we played herd..",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "95",
+          "poster": "1_Звери и хозяин заставы.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Сначала в бездну свалился стул...",
+              "en": "First the chair fell into the abyss...",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "- Падай, друг любезный! И всему конец!",
+              "en": "— Fall, dear friend! And that's the end of everything!",
               "enBy": "claude"
             }
           }
@@ -841,7 +875,9 @@ window.FILMS = {
               "translator": "Alexandra Berlina"
             },
             "Агния Барто": {
-              "ru": "Здесь не комната большая — Здесь огромная страна.."
+              "ru": "Здесь не комната большая — Здесь огромная страна..",
+              "en": "This isn't just a big room — it's an enormous country..",
+              "enBy": "claude"
             }
           }
         },

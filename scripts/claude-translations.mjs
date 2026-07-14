@@ -475,4 +475,17 @@ export const CLAUDE_TRANSLATIONS = {
     "My head aches, my head aches..",
   "Вся в бумажках голова.":
     "The head is all covered in little curl-papers.",
+
+  "Здесь не комната большая — Здесь огромная страна..":
+    "This isn't just a big room — it's an enormous country..",
+
+  ".. их путь лишен подобья круга.":
+    "..their path bears no resemblance to a circle.",
+  "Мы вчера играли в стадо..":
+    "Yesterday we played herd..",
+
+  "Сначала в бездну свалился стул...":
+    "First the chair fell into the abyss...",
+  "- Падай, друг любезный! И всему конец!":
+    "— Fall, dear friend! And that's the end of everything!",
 };
