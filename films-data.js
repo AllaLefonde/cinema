@@ -671,23 +671,6 @@ window.FILMS = {
           }
         },
         {
-          "folder": "32",
-          "poster": "1_Звери и хозяин заставы.jpg",
-          "second": "540481731_10163374603399656_2589529190581831669_n.jpg",
-          "words": {
-            "Иосиф Бродский": {
-              "ru": "Сын или Бог, я твой.",
-              "en": "Son or God, I am thine.",
-              "translator": "George L. Kline"
-            },
-            "Агния Барто": {
-              "ru": "Я лежу, болею..",
-              "en": "I lie here, I'm sick..",
-              "enBy": "claude"
-            }
-          }
-        },
-        {
           "folder": "93",
           "poster": "1_Звери и хозяин заставы.jpg",
           "second": "img.jpg",
@@ -700,6 +683,23 @@ window.FILMS = {
             "Агния Барто": {
               "ru": "Вся в бумажках голова.",
               "en": "The head is all covered in little curl-papers.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "32",
+          "poster": "1_Звери и хозяин заставы.jpg",
+          "second": "540481731_10163374603399656_2589529190581831669_n.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Сын или Бог, я твой.",
+              "en": "Son or God, I am thine.",
+              "translator": "George L. Kline"
+            },
+            "Агния Барто": {
+              "ru": "Я лежу, болею..",
+              "en": "I lie here, I'm sick..",
               "enBy": "claude"
             }
           }
