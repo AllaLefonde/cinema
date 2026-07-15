@@ -488,4 +488,57 @@ export const CLAUDE_TRANSLATIONS = {
     "First the chair fell into the abyss...",
   "- Падай, друг любезный! И всему конец!":
     "— Fall, dear friend! And that's the end of everything!",
+
+  "Под вечер он видит, застывши в дверях..":
+    "Toward evening, standing frozen in the doorway, he sees..",
+  "мне нужно тоже поиграть хоть полчаса!":
+    "I need to play too, even if just half an hour!",
+
+  "Смотрит с миной безучастной из окна в квартире частной.":
+    "He looks with an indifferent expression from the window of a private apartment.",
+  "Ну, помурлычь хоть немножко!":
+    "Well, purr just a little, won't you!",
+
+  "Он качает головой, стоя у палатки":
+    "He shakes his head, standing by the tent",
+
+  "Подтверждается дым из трубы..":
+    "The smoke from the chimney confirms it..",
+  "Девять блинчиков сгорело..":
+    "Nine little pancakes got burned..",
+
+  "Лети быстрей. О ветре позабочусь.":
+    "Fly faster. I'll take care of the wind.",
+  "Молодцы наши синицы - улетели из темницы.":
+    "Well done, our little tomtits — they've flown free from their prison.",
+
+  "Мы незримы будем, чтоб снова в ночь играть ..":
+    "We shall be invisible, so as to play again in the night..",
+  "Жила подружка Дженни в моем воображеньи ..":
+    "There lived a friend named Jenny in my imagination..",
+
+  "Проснулся я, и нет руки..":
+    "I woke up, and my arm was gone..",
+  "В школе за партой и в смертной борьбе верный товарищ поможет тебе.":
+    "At your school desk and in a mortal struggle, a true comrade will help you.",
+
+  "Это было плаванье сквозь туман.":
+    "It was a voyage through the fog.",
+  "Туман на рассвете! Верный прогноз!":
+    "Fog at dawn! A reliable forecast!",
+
+  "Северо-западный ветер его поднимает..":
+    "The northwest wind lifts him..",
+  "Понесёмся над лесами, А потом вернёмся к маме.":
+    "We'll go soaring over the forests, and then come back home to mom.",
+
+  ".. и главное было, что их было трое..":
+    "..and the main thing was that there were three of them..",
+  "Отличились мальчики.":
+    "The boys distinguished themselves.",
+
+  "Слева деревья. Справа озеро ..":
+    "Trees on the left. A lake on the right ..",
+  "В большом гнезде на деревце птенцов не сосчитать.":
+    "In the big nest on the little tree, the chicks are too many to count.",
 };

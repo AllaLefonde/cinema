@@ -22,6 +22,11 @@ export const FILM_META = {
     imdbId: "tt0077405",
     director: { ru: "Терренс Малик", en: "Terrence Malick", imdbId: "nm0000517" },
   },
+  "Дурная кровь": {
+    titleEn: "Bad Blood",
+    imdbId: "tt0091497",
+    director: { ru: "Леос Каракс", en: "Leos Carax", imdbId: "nm0136021" },
+  },
   "Звери и хозяин заставы": {
     titleEn: "Animals with the Tollkeeper",
     imdbId: "tt0118621",
@@ -41,6 +46,11 @@ export const FILM_META = {
     titleEn: "Institute Benjamenta",
     imdbId: "tt0113429",
     director: { ru: "Братья Куэй", en: "Quay Brothers", imdbId: "nm0703028" },
+  },
+  "Красная пустыня": {
+    titleEn: "Red Desert",
+    imdbId: "tt0058003",
+    director: { ru: "Микеланджело Антониони", en: "Michelangelo Antonioni", imdbId: "nm0000774" },
   },
   "Маргаритки": {
     titleEn: "Daisies",

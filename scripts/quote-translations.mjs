@@ -79,4 +79,11 @@ export const QUOTE_TRANSLATIONS = {
     en: "Draw an empty circle on your yellow pad.",
     translator: "George L. Kline",
   },
+
+  // "Пилигримы" ("Pilgrims", 1958), tr. Ivan Doan:
+  // https://ruverses.com/joseph-brodsky/pilgrims/7591/
+  ".. остались только иллюзия и дорога ..": {
+    en: "..the things that remain are, hence, the illusion and the road..",
+    translator: "Ivan Doan",
+  },
 };

@@ -128,6 +128,23 @@ window.FILMS = {
               "enBy": "claude"
             }
           }
+        },
+        {
+          "folder": "96",
+          "poster": "1_37.2 градуса по утрам.jpg",
+          "second": "DSC02737.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Смотрит с миной безучастной из окна в квартире частной.",
+              "en": "He looks with an indifferent expression from the window of a private apartment.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Ну, помурлычь хоть немножко!",
+              "en": "Well, purr just a little, won't you!",
+              "enBy": "claude"
+            }
+          }
         }
       ]
     },
@@ -627,6 +644,120 @@ window.FILMS = {
       ]
     },
     {
+      "name": "Дурная кровь",
+      "titleEn": "Bad Blood",
+      "imdbId": "tt0091497",
+      "director": {
+        "ru": "Леос Каракс",
+        "en": "Leos Carax",
+        "imdbId": "nm0136021"
+      },
+      "folders": [
+        {
+          "folder": "99",
+          "poster": "1_Дурная кровь.jpg",
+          "second": "511620383_10163039934644656_5140423996587223933_n.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Лети быстрей. О ветре позабочусь.",
+              "en": "Fly faster. I'll take care of the wind.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Молодцы наши синицы - улетели из темницы.",
+              "en": "Well done, our little tomtits — they've flown free from their prison.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "100",
+          "poster": "1_Дурная кровь.jpg",
+          "second": "514871825_10163071359534656_6269367120852102279_n.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Мы незримы будем, чтоб снова в ночь играть ..",
+              "en": "We shall be invisible, so as to play again in the night..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Жила подружка Дженни в моем воображеньи ..",
+              "en": "There lived a friend named Jenny in my imagination..",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "104",
+          "poster": "1_Дурная кровь.jpg",
+          "second": "481004368_10162577672099656_6444222333996351272_n.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. и главное было, что их было трое..",
+              "en": "..and the main thing was that there were three of them..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Отличились мальчики.",
+              "en": "The boys distinguished themselves.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "101",
+          "poster": "1_Дурная кровь.jpg",
+          "second": "DSC05650.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Проснулся я, и нет руки..",
+              "en": "I woke up, and my arm was gone..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "В школе за партой и в смертной борьбе верный товарищ поможет тебе.",
+              "en": "At your school desk and in a mortal struggle, a true comrade will help you.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "102",
+          "poster": "1_Дурная кровь.jpg",
+          "second": "130687492_10159100634114656_9107757804642686568_n.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Это было плаванье сквозь туман.",
+              "en": "It was a voyage through the fog.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Туман на рассвете! Верный прогноз!",
+              "en": "Fog at dawn! A reliable forecast!",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "103",
+          "poster": "1_Дурная кровь.jpg",
+          "second": "DSC07867.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Северо-западный ветер его поднимает..",
+              "en": "The northwest wind lifts him..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Понесёмся над лесами, А потом вернёмся к маме.",
+              "en": "We'll go soaring over the forests, and then come back home to mom.",
+              "enBy": "claude"
+            }
+          }
+        }
+      ]
+    },
+    {
       "name": "Звери и хозяин заставы",
       "titleEn": "Animals with the Tollkeeper",
       "imdbId": "tt0118621",
@@ -734,6 +865,40 @@ window.FILMS = {
             "Агния Барто": {
               "ru": "- Падай, друг любезный! И всему конец!",
               "en": "— Fall, dear friend! And that's the end of everything!",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "97",
+          "poster": "1_Звери и хозяин заставы.jpeg",
+          "second": "DSC08918.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. остались только иллюзия и дорога ..",
+              "en": "..the things that remain are, hence, the illusion and the road..",
+              "translator": "Ivan Doan"
+            },
+            "Агния Барто": {
+              "ru": "Он качает головой, стоя у палатки",
+              "en": "He shakes his head, standing by the tent",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "105",
+          "poster": "1_Звери и хозяин заставы.jpeg",
+          "second": "508179259_10163006419619656_3322617700614892586_n.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Слева деревья. Справа озеро ..",
+              "en": "Trees on the left. A lake on the right ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "В большом гнезде на деревце птенцов не сосчитать.",
+              "en": "In the big nest on the little tree, the chicks are too many to count.",
               "enBy": "claude"
             }
           }
@@ -981,6 +1146,52 @@ window.FILMS = {
       ]
     },
     {
+      "name": "Красная пустыня",
+      "titleEn": "Red Desert",
+      "imdbId": "tt0058003",
+      "director": {
+        "ru": "Микеланджело Антониони",
+        "en": "Michelangelo Antonioni",
+        "imdbId": "nm0000774"
+      },
+      "folders": [
+        {
+          "folder": "67",
+          "poster": "1_Красная пустыня.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Под вечер он видит, застывши в дверях..",
+              "en": "Toward evening, standing frozen in the doorway, he sees..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "мне нужно тоже поиграть хоть полчаса!",
+              "en": "I need to play too, even if just half an hour!",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "98",
+          "poster": "1_Красная пустыня.jpeg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Подтверждается дым из трубы..",
+              "en": "The smoke from the chimney confirms it..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Девять блинчиков сгорело..",
+              "en": "Nine little pancakes got burned..",
+              "enBy": "claude"
+            }
+          }
+        }
+      ]
+    },
+    {
       "name": "Маргаритки",
       "titleEn": "Daisies",
       "imdbId": "tt0060959",
@@ -1112,7 +1323,7 @@ window.FILMS = {
         {
           "folder": "76",
           "poster": "1_Маргаритки.jpg",
-          "second": "DSC06426.jpg",
+          "second": "508838082_10163020302244656_6260219427145140332_n.jpg",
           "words": {
             "Иосиф Бродский": {
               "ru": "Дверь скрипит. На пороге стоит треска.",
