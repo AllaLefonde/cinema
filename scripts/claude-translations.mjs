@@ -576,4 +576,9 @@ export const CLAUDE_TRANSLATIONS = {
     "The automobile reminded me of a bedbug..",
   "— У меня сейчас поломка, но с утра я снова в путь.":
     "— I've broken down right now, but by morning I'll be back on the road.",
+
+  "Безупречная линия горизонта ..":
+    "An impeccable line of the horizon..",
+  "Печально Вова смотрит вдаль ..":
+    "Vova gazes sadly into the distance..",
 };

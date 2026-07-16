@@ -1050,6 +1050,23 @@ window.FILMS = {
               "enBy": "claude"
             }
           }
+        },
+        {
+          "folder": "112",
+          "poster": "1_Имя Кармен.jpg",
+          "second": "DSC08134.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Безупречная линия горизонта ..",
+              "en": "An impeccable line of the horizon..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Печально Вова смотрит вдаль ..",
+              "en": "Vova gazes sadly into the distance..",
+              "enBy": "claude"
+            }
+          }
         }
       ]
     },
