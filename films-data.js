@@ -1132,6 +1132,23 @@ window.FILMS = {
           }
         },
         {
+          "folder": "115",
+          "poster": "1_Институт Бенжамента.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Отпускаю вас.",
+              "en": "I release you.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Но я ей руку протянул.",
+              "en": "But I held out my hand to her.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
           "folder": "23",
           "poster": "1_Институт_Бенжамента.jpg",
           "second": "515678055_10163101214154656_3023369308894970829_n.jpg",
@@ -1195,23 +1212,6 @@ window.FILMS = {
             "Агния Барто": {
               "ru": "Очень трудно оставаться детям в тёмной комнате.",
               "en": "It's very hard for children to stay in a dark room.",
-              "enBy": "claude"
-            }
-          }
-        },
-        {
-          "folder": "115",
-          "poster": "1_Институт Бенжамента.jpg",
-          "second": "img.jpg",
-          "words": {
-            "Иосиф Бродский": {
-              "ru": "Отпускаю вас.",
-              "en": "I release you.",
-              "enBy": "claude"
-            },
-            "Агния Барто": {
-              "ru": "Но я ей руку протянул.",
-              "en": "But I held out my hand to her.",
               "enBy": "claude"
             }
           }
