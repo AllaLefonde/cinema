@@ -1132,6 +1132,23 @@ window.FILMS = {
           }
         },
         {
+          "folder": "115",
+          "poster": "1_Институт Бенжамента.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Отпускаю вас.",
+              "en": "I release you.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Но я ей руку протянул.",
+              "en": "But I held out my hand to her.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
           "folder": "23",
           "poster": "1_Институт_Бенжамента.jpg",
           "second": "515678055_10163101214154656_3023369308894970829_n.jpg",
@@ -1144,6 +1161,23 @@ window.FILMS = {
             "Агния Барто": {
               "ru": "На даче выключили свет, и, как нарочно, свечек нет!",
               "en": "At the dacha the lights went out, and, as if on purpose, there isn't a candle in sight!",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "116",
+          "poster": "1_Институт Бенжамента.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. сумевшая не растерять лучей ..",
+              "en": "..that managed not to lose its rays..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Подставляем мы корыто, Медный таз и два ведра.",
+              "en": "We set out the washtub, a copper basin, and two buckets.",
               "enBy": "claude"
             }
           }
@@ -1195,40 +1229,6 @@ window.FILMS = {
             "Агния Барто": {
               "ru": "Очень трудно оставаться детям в тёмной комнате.",
               "en": "It's very hard for children to stay in a dark room.",
-              "enBy": "claude"
-            }
-          }
-        },
-        {
-          "folder": "115",
-          "poster": "1_Институт Бенжамента.jpg",
-          "second": "img.jpg",
-          "words": {
-            "Иосиф Бродский": {
-              "ru": "Отпускаю вас.",
-              "en": "I release you.",
-              "enBy": "claude"
-            },
-            "Агния Барто": {
-              "ru": "Но я ей руку протянул.",
-              "en": "But I held out my hand to her.",
-              "enBy": "claude"
-            }
-          }
-        },
-        {
-          "folder": "116",
-          "poster": "1_Институт Бенжамента.jpg",
-          "second": "img.jpg",
-          "words": {
-            "Иосиф Бродский": {
-              "ru": ".. сумевшая не растерять лучей ..",
-              "en": "..that managed not to lose its rays..",
-              "enBy": "claude"
-            },
-            "Агния Барто": {
-              "ru": "Подставляем мы корыто, Медный таз и два ведра.",
-              "en": "We set out the washtub, a copper basin, and two buckets.",
               "enBy": "claude"
             }
           }
