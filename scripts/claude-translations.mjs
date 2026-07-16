@@ -563,4 +563,7 @@ export const CLAUDE_TRANSLATIONS = {
 
   "Посмотри-ка! — Погляди-ка!":
     "Look at that! — Take a look!",
+
+  "Ты тоже от счастья растаешь сейчас.":
+    "You too will melt with happiness right now.",
 };

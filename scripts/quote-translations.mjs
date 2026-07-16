@@ -86,4 +86,11 @@ export const QUOTE_TRANSLATIONS = {
     en: "..the things that remain are, hence, the illusion and the road..",
     translator: "Ivan Doan",
   },
+
+  // "Семь строф" ("Seven Strophes", 1981), tr. P.C. Graves, in
+  // "Collected Poems in English" (2000).
+  "Так творятся миры.": {
+    en: "Thus they make worlds.",
+    translator: "P.C. Graves",
+  },
 };
