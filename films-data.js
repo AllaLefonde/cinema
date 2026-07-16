@@ -1035,23 +1035,6 @@ window.FILMS = {
           }
         },
         {
-          "folder": "33",
-          "poster": "1_Имя Кармен.jpg",
-          "second": "Имя Кармен.jpg",
-          "words": {
-            "Иосиф Бродский": {
-              "ru": "Не выключила даже телевизор, и там мелькали полосы...",
-              "en": "She didn't even turn off the television, and stripes flickered there...",
-              "enBy": "claude"
-            },
-            "Агния Барто": {
-              "ru": "И сегодня целый вечер. Что-то мне заняться нечем!",
-              "en": "And tonight, the whole evening. Somehow I've got nothing to do!",
-              "enBy": "claude"
-            }
-          }
-        },
-        {
           "folder": "112",
           "poster": "1_Имя Кармен.jpg",
           "second": "DSC08134.jpg",
@@ -1064,6 +1047,23 @@ window.FILMS = {
             "Агния Барто": {
               "ru": "Печально Вова смотрит вдаль ..",
               "en": "Vova gazes sadly into the distance..",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "33",
+          "poster": "1_Имя Кармен.jpg",
+          "second": "Имя Кармен.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Не выключила даже телевизор, и там мелькали полосы...",
+              "en": "She didn't even turn off the television, and stripes flickered there...",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "И сегодня целый вечер. Что-то мне заняться нечем!",
+              "en": "And tonight, the whole evening. Somehow I've got nothing to do!",
               "enBy": "claude"
             }
           }
