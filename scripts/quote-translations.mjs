@@ -60,6 +60,12 @@ export const QUOTE_TRANSLATIONS = {
     translator: "Joseph Brodsky (self-translation)",
   },
 
+  // Same poem as above, opening line.
+  ".. я вышел сегодня из дому поздно вечером ..": {
+    en: "..I ventured out of the house late this evening..",
+    translator: "Joseph Brodsky (self-translation)",
+  },
+
   // "Роттердамский дневник" ("Rotterdam Diary", 1973), tr. Pushkin Fund,
   // via Poetry International.
   "Дождь в Роттердаме. Сумерки. Среда.": {
