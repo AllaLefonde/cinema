@@ -592,4 +592,12 @@ export const CLAUDE_TRANSLATIONS = {
     "I release you.",
   "Но я ей руку протянул.":
     "But I held out my hand to her.",
+
+  ".. сумевшая не растерять лучей ..":
+    "..that managed not to lose its rays..",
+  "Подставляем мы корыто, Медный таз и два ведра.":
+    "We set out the washtub, a copper basin, and two buckets.",
+
+  "Мама по комнатам в фаpтyке белом нетоpопливо пpойдёт ..":
+    "Mom will walk unhurriedly through the rooms in a white apron..",
 };

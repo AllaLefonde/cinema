@@ -106,4 +106,10 @@ export const QUOTE_TRANSLATIONS = {
     en: "Then in the night the town is lost; a train is clad in silver plush.",
     translator: "Alexey Vernitsky",
   },
+
+  // "Шесть лет спустя" ("Six Years Later", 1968), tr. Richard Wilbur.
+  "Так долго вместе прожили ..": {
+    en: "So long had life together been that now..",
+    translator: "Richard Wilbur",
+  },
 };

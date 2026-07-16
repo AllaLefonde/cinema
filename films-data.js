@@ -1132,23 +1132,6 @@ window.FILMS = {
           }
         },
         {
-          "folder": "115",
-          "poster": "1_Институт Бенжамента.jpg",
-          "second": "img.jpg",
-          "words": {
-            "Иосиф Бродский": {
-              "ru": "Отпускаю вас.",
-              "en": "I release you.",
-              "enBy": "claude"
-            },
-            "Агния Барто": {
-              "ru": "Но я ей руку протянул.",
-              "en": "But I held out my hand to her.",
-              "enBy": "claude"
-            }
-          }
-        },
-        {
           "folder": "23",
           "poster": "1_Институт_Бенжамента.jpg",
           "second": "515678055_10163101214154656_3023369308894970829_n.jpg",
@@ -1215,6 +1198,40 @@ window.FILMS = {
               "enBy": "claude"
             }
           }
+        },
+        {
+          "folder": "115",
+          "poster": "1_Институт Бенжамента.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Отпускаю вас.",
+              "en": "I release you.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Но я ей руку протянул.",
+              "en": "But I held out my hand to her.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "116",
+          "poster": "1_Институт Бенжамента.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. сумевшая не растерять лучей ..",
+              "en": "..that managed not to lose its rays..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Подставляем мы корыто, Медный таз и два ведра.",
+              "en": "We set out the washtub, a copper basin, and two buckets.",
+              "enBy": "claude"
+            }
+          }
         }
       ]
     },
@@ -1275,6 +1292,23 @@ window.FILMS = {
             "Агния Барто": {
               "ru": "Не узнать сегодня папу..",
               "en": "You wouldn't recognize dad today..",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "117",
+          "poster": "1_Конформист.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Так долго вместе прожили ..",
+              "en": "So long had life together been that now..",
+              "translator": "Richard Wilbur"
+            },
+            "Агния Барто": {
+              "ru": "Мама по комнатам в фаpтyке белом нетоpопливо пpойдёт ..",
+              "en": "Mom will walk unhurriedly through the rooms in a white apron..",
               "enBy": "claude"
             }
           }
