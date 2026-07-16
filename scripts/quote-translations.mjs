@@ -99,4 +99,11 @@ export const QUOTE_TRANSLATIONS = {
     en: "Thus they make worlds.",
     translator: "P.C. Graves",
   },
+
+  // "Рождественский романс" ("Christmas Carol", 1961), tr. Alexey Vernitsky:
+  // https://ruverses.com/joseph-brodsky/in-such-an-inexplicable-blue/
+  "Плывет в глазах холодный вечер ..": {
+    en: "Then in the night the town is lost; a train is clad in silver plush.",
+    translator: "Alexey Vernitsky",
+  },
 };

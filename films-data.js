@@ -1084,6 +1084,23 @@ window.FILMS = {
               "enBy": "claude"
             }
           }
+        },
+        {
+          "folder": "114",
+          "poster": "1_Имя Кармен.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Плывет в глазах холодный вечер ..",
+              "en": "Then in the night the town is lost; a train is clad in silver plush.",
+              "translator": "Alexey Vernitsky"
+            },
+            "Агния Барто": {
+              "ru": "Ветер на терраске, Холодно в коляске!",
+              "en": "Windy out on the porch, cold inside the stroller!",
+              "enBy": "claude"
+            }
+          }
         }
       ]
     },

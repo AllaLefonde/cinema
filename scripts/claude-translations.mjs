@@ -584,4 +584,7 @@ export const CLAUDE_TRANSLATIONS = {
 
   "Мы все время, Сёма, едем ..":
     "We're always on the move, Syoma..",
+
+  "Ветер на терраске, Холодно в коляске!":
+    "Windy out on the porch, cold inside the stroller!",
 };
