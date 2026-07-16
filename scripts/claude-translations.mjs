@@ -587,4 +587,9 @@ export const CLAUDE_TRANSLATIONS = {
 
   "Ветер на терраске, Холодно в коляске!":
     "Windy out on the porch, cold inside the stroller!",
+
+  "Отпускаю вас.":
+    "I release you.",
+  "Но я ей руку протянул.":
+    "But I held out my hand to her.",
 };

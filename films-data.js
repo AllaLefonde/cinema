@@ -1198,6 +1198,23 @@ window.FILMS = {
               "enBy": "claude"
             }
           }
+        },
+        {
+          "folder": "115",
+          "poster": "1_Институт Бенжамента.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Отпускаю вас.",
+              "en": "I release you.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Но я ей руку протянул.",
+              "en": "But I held out my hand to her.",
+              "enBy": "claude"
+            }
+          }
         }
       ]
     },
