@@ -581,4 +581,7 @@ export const CLAUDE_TRANSLATIONS = {
     "An impeccable line of the horizon..",
   "Печально Вова смотрит вдаль ..":
     "Vova gazes sadly into the distance..",
+
+  "Мы все время, Сёма, едем ..":
+    "We're always on the move, Syoma..",
 };

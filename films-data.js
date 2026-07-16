@@ -1001,18 +1001,6 @@ window.FILMS = {
           }
         },
         {
-          "folder": "113",
-          "poster": "1_Имя Кармен.jpg",
-          "second": "DSC02946.jpg",
-          "words": {
-            "Иосиф Бродский": {
-              "ru": ".. я вышел сегодня из дому поздно вечером ..",
-              "en": "..I ventured out of the house late this evening..",
-              "translator": "Joseph Brodsky (self-translation)"
-            }
-          }
-        },
-        {
           "folder": "49",
           "poster": "1_Имя Кармен.jpg",
           "second": "486681606_10162678180179656_8334813600274068291_n.jpg",
@@ -1047,6 +1035,23 @@ window.FILMS = {
           }
         },
         {
+          "folder": "33",
+          "poster": "1_Имя Кармен.jpg",
+          "second": "Имя Кармен.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Не выключила даже телевизор, и там мелькали полосы...",
+              "en": "She didn't even turn off the television, and stripes flickered there...",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "И сегодня целый вечер. Что-то мне заняться нечем!",
+              "en": "And tonight, the whole evening. Somehow I've got nothing to do!",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
           "folder": "112",
           "poster": "1_Имя Кармен.jpg",
           "second": "DSC08134.jpg",
@@ -1064,18 +1069,18 @@ window.FILMS = {
           }
         },
         {
-          "folder": "33",
+          "folder": "113",
           "poster": "1_Имя Кармен.jpg",
-          "second": "Имя Кармен.jpg",
+          "second": "DSC02946.jpg",
           "words": {
             "Иосиф Бродский": {
-              "ru": "Не выключила даже телевизор, и там мелькали полосы...",
-              "en": "She didn't even turn off the television, and stripes flickered there...",
-              "enBy": "claude"
+              "ru": ".. я вышел сегодня из дому поздно вечером ..",
+              "en": "..I ventured out of the house late this evening..",
+              "translator": "Joseph Brodsky (self-translation)"
             },
             "Агния Барто": {
-              "ru": "И сегодня целый вечер. Что-то мне заняться нечем!",
-              "en": "And tonight, the whole evening. Somehow I've got nothing to do!",
+              "ru": "Мы все время, Сёма, едем ..",
+              "en": "We're always on the move, Syoma..",
               "enBy": "claude"
             }
           }
