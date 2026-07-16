@@ -113,23 +113,6 @@ window.FILMS = {
           }
         },
         {
-          "folder": "96",
-          "poster": "1_37.2 градуса по утрам.jpg",
-          "second": "DSC02737.jpg",
-          "words": {
-            "Иосиф Бродский": {
-              "ru": "Смотрит с миной безучастной из окна в квартире частной.",
-              "en": "He looks with an indifferent expression from the window of a private apartment.",
-              "enBy": "claude"
-            },
-            "Агния Барто": {
-              "ru": "Ну, помурлычь хоть немножко!",
-              "en": "Well, purr just a little, won't you!",
-              "enBy": "claude"
-            }
-          }
-        },
-        {
           "folder": "5",
           "poster": "1_37.2 градуса по утрам.jpg",
           "second": "DSC06223.jpg",
@@ -142,6 +125,23 @@ window.FILMS = {
             "Агния Барто": {
               "ru": "Он вырастет — Будет Героем Труда!",
               "en": "He'll grow up — he'll be a Hero of Labor!",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "96",
+          "poster": "1_37.2 градуса по утрам.jpg",
+          "second": "DSC02737.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Смотрит с миной безучастной из окна в квартире частной.",
+              "en": "He looks with an indifferent expression from the window of a private apartment.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Ну, помурлычь хоть немножко!",
+              "en": "Well, purr just a little, won't you!",
               "enBy": "claude"
             }
           }
@@ -754,6 +754,23 @@ window.FILMS = {
               "enBy": "claude"
             }
           }
+        },
+        {
+          "folder": "107",
+          "poster": "1_Дурная кровь.jpg",
+          "second": "DSC02276.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. примерь на глаз любовь и страсть ..",
+              "en": "..try on for size love and passion..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Посмотри-ка! — Погляди-ка!",
+              "en": "Look at that! — Take a look!",
+              "enBy": "claude"
+            }
+          }
         }
       ]
     },
@@ -768,6 +785,23 @@ window.FILMS = {
       },
       "folders": [
         {
+          "folder": "31",
+          "poster": "1_Звери и хозяин заставы.jpg",
+          "second": "512733002_10163046832059656_8905155531304154183_n.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "В какую-нибудь будущую ночь ты вновь придёшь..",
+              "en": "Some future night you will appear again..",
+              "translator": "Daniel Weissbort & Joseph Brodsky"
+            },
+            "Агния Барто": {
+              "ru": "Ух, сильное кино!",
+              "en": "Wow, what a powerful movie!",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
           "folder": "30",
           "poster": "1_Звери и хозяин заставы.jpg",
           "second": "DSC03711.jpg",
@@ -780,23 +814,6 @@ window.FILMS = {
             "Агния Барто": {
               "ru": "..перед сном поговорим про фонари за окном.",
               "en": "..before sleep let's talk about the streetlights outside the window.",
-              "enBy": "claude"
-            }
-          }
-        },
-        {
-          "folder": "32",
-          "poster": "1_Звери и хозяин заставы.jpg",
-          "second": "540481731_10163374603399656_2589529190581831669_n.jpg",
-          "words": {
-            "Иосиф Бродский": {
-              "ru": "Сын или Бог, я твой.",
-              "en": "Son or God, I am thine.",
-              "translator": "George L. Kline"
-            },
-            "Агния Барто": {
-              "ru": "Я лежу, болею..",
-              "en": "I lie here, I'm sick..",
               "enBy": "claude"
             }
           }
@@ -819,52 +836,18 @@ window.FILMS = {
           }
         },
         {
-          "folder": "105",
-          "poster": "1_Звери и хозяин заставы.jpeg",
-          "second": "508179259_10163006419619656_3322617700614892586_n.jpg",
-          "words": {
-            "Иосиф Бродский": {
-              "ru": "Слева деревья. Справа озеро ..",
-              "en": "Trees on the left. A lake on the right ..",
-              "enBy": "claude"
-            },
-            "Агния Барто": {
-              "ru": "В большом гнезде на деревце птенцов не сосчитать.",
-              "en": "In the big nest on the little tree, the chicks are too many to count.",
-              "enBy": "claude"
-            }
-          }
-        },
-        {
-          "folder": "97",
-          "poster": "1_Звери и хозяин заставы.jpeg",
-          "second": "DSC08918.jpg",
-          "words": {
-            "Иосиф Бродский": {
-              "ru": ".. остались только иллюзия и дорога ..",
-              "en": "..the things that remain are, hence, the illusion and the road..",
-              "translator": "Ivan Doan"
-            },
-            "Агния Барто": {
-              "ru": "Он качает головой, стоя у палатки",
-              "en": "He shakes his head, standing by the tent",
-              "enBy": "claude"
-            }
-          }
-        },
-        {
-          "folder": "31",
+          "folder": "32",
           "poster": "1_Звери и хозяин заставы.jpg",
-          "second": "512733002_10163046832059656_8905155531304154183_n.jpg",
+          "second": "540481731_10163374603399656_2589529190581831669_n.jpg",
           "words": {
             "Иосиф Бродский": {
-              "ru": "В какую-нибудь будущую ночь ты вновь придёшь..",
-              "en": "Some future night you will appear again..",
-              "translator": "Daniel Weissbort & Joseph Brodsky"
+              "ru": "Сын или Бог, я твой.",
+              "en": "Son or God, I am thine.",
+              "translator": "George L. Kline"
             },
             "Агния Барто": {
-              "ru": "Ух, сильное кино!",
-              "en": "Wow, what a powerful movie!",
+              "ru": "Я лежу, болею..",
+              "en": "I lie here, I'm sick..",
               "enBy": "claude"
             }
           }
@@ -899,6 +882,40 @@ window.FILMS = {
             "Агния Барто": {
               "ru": "- Падай, друг любезный! И всему конец!",
               "en": "— Fall, dear friend! And that's the end of everything!",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "97",
+          "poster": "1_Звери и хозяин заставы.jpeg",
+          "second": "DSC08918.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. остались только иллюзия и дорога ..",
+              "en": "..the things that remain are, hence, the illusion and the road..",
+              "translator": "Ivan Doan"
+            },
+            "Агния Барто": {
+              "ru": "Он качает головой, стоя у палатки",
+              "en": "He shakes his head, standing by the tent",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "105",
+          "poster": "1_Звери и хозяин заставы.jpeg",
+          "second": "508179259_10163006419619656_3322617700614892586_n.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Слева деревья. Справа озеро ..",
+              "en": "Trees on the left. A lake on the right ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "В большом гнезде на деревце птенцов не сосчитать.",
+              "en": "In the big nest on the little tree, the chicks are too many to count.",
               "enBy": "claude"
             }
           }
@@ -1156,6 +1173,23 @@ window.FILMS = {
       },
       "folders": [
         {
+          "folder": "67",
+          "poster": "1_Красная пустыня.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Под вечер он видит, застывши в дверях..",
+              "en": "Toward evening, standing frozen in the doorway, he sees..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "мне нужно тоже поиграть хоть полчаса!",
+              "en": "I need to play too, even if just half an hour!",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
           "folder": "98",
           "poster": "1_Красная пустыня.jpeg",
           "second": "img.jpg",
@@ -1173,18 +1207,35 @@ window.FILMS = {
           }
         },
         {
-          "folder": "67",
+          "folder": "106",
           "poster": "1_Красная пустыня.jpg",
-          "second": "img.jpg",
+          "second": "507036456_10162993317479656_7571469525771582825_n.jpg",
           "words": {
             "Иосиф Бродский": {
-              "ru": "Под вечер он видит, застывши в дверях..",
-              "en": "Toward evening, standing frozen in the doorway, he sees..",
+              "ru": "Горизонт себя выворачивает, как пальто, наизнанку с помощью рыхлых волн.",
+              "en": "The horizon turns itself inside out, like a coat, with the help of loose waves.",
               "enBy": "claude"
             },
             "Агния Барто": {
-              "ru": "мне нужно тоже поиграть хоть полчаса!",
-              "en": "I need to play too, even if just half an hour!",
+              "ru": "Все сильней бушует ветер, налетает на причал ..",
+              "en": "The wind rages ever stronger, battering against the pier..",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "108",
+          "poster": "1_Красная пустыня.jpg",
+          "second": "DSC06815.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Замер всадник, реке стало тесно в русле.",
+              "en": "The horseman froze, the river grew too cramped in its bed.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "— Если кто меня обидит — cтарший брат в окно увидит.",
+              "en": "— If anyone should wrong me — my big brother will see it from the window.",
               "enBy": "claude"
             }
           }

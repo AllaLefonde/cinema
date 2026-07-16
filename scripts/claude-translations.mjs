@@ -541,4 +541,26 @@ export const CLAUDE_TRANSLATIONS = {
     "Trees on the left. A lake on the right ..",
   "В большом гнезде на деревце птенцов не сосчитать.":
     "In the big nest on the little tree, the chicks are too many to count.",
+
+  "Горизонт себя выворачивает, как пальто, наизнанку с помощью рыхлых волн.":
+    "The horizon turns itself inside out, like a coat, with the help of loose waves.",
+  "Все сильней бушует ветер, налетает на причал ..":
+    "The wind rages ever stronger, battering against the pier..",
+
+  ".. примерь на глаз любовь и страсть ..":
+    "..try on for size love and passion..",
+  "Едет, едет Настенька в новенькой коляске, открывает ясные, новенькие глазки.":
+    "Little Nastenka rides along in her brand-new stroller, opening her bright, brand-new eyes.",
+
+  // Note: this line is from "Письмо" (the song by Aleksandr Vasiliev /
+  // Spleen), commonly but incorrectly misattributed to Brodsky online.
+  "Замер всадник, реке стало тесно в русле.":
+    "The horseman froze, the river grew too cramped in its bed.",
+  "— Если кто меня обидит — Старший брат в окно увидит.":
+    "— If anyone should wrong me — my big brother will see it from the window.",
+  "— Если кто меня обидит — cтарший брат в окно увидит.":
+    "— If anyone should wrong me — my big brother will see it from the window.",
+
+  "Посмотри-ка! — Погляди-ка!":
+    "Look at that! — Take a look!",
 };
