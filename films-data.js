@@ -162,6 +162,40 @@ window.FILMS = {
               "enBy": "claude"
             }
           }
+        },
+        {
+          "folder": "110",
+          "poster": "1_37.2 градуса по утрам.jpg",
+          "second": "DSC03147.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. сплошной капроновый дождь вокруг.",
+              "en": "..a solid nylon rain all around.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Блестит дождя косая сетка ..",
+              "en": "The slanting net of rain glistens..",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "111",
+          "poster": "1_37.2 градуса по утрам.jpg",
+          "second": "DSC03244.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Автомобиль напомнил о клопе ..",
+              "en": "The automobile reminded me of a bedbug..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "— У меня сейчас поломка, но с утра я снова в путь.",
+              "en": "— I've broken down right now, but by morning I'll be back on the road.",
+              "enBy": "claude"
+            }
+          }
         }
       ]
     },

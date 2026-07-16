@@ -566,4 +566,14 @@ export const CLAUDE_TRANSLATIONS = {
 
   "Ты тоже от счастья растаешь сейчас.":
     "You too will melt with happiness right now.",
+
+  ".. сплошной капроновый дождь вокруг.":
+    "..a solid nylon rain all around.",
+  "Блестит дождя косая сетка ..":
+    "The slanting net of rain glistens..",
+
+  "Автомобиль напомнил о клопе ..":
+    "The automobile reminded me of a bedbug..",
+  "— У меня сейчас поломка, но с утра я снова в путь.":
+    "— I've broken down right now, but by morning I'll be back on the road.",
 };
