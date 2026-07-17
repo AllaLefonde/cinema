@@ -2180,6 +2180,23 @@ window.FILMS = {
       },
       "folders": [
         {
+          "folder": "127",
+          "poster": "1_Фотоувеличение.jpg",
+          "second": "DSC05531.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. и образ твой - фотографа момент ..",
+              "en": "..and your image — a photographer's moment..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "— Скажите, есть у вас луна? На ней хотим сниматься.",
+              "en": "— Tell me, do you have the moon? We want to be photographed on it.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
           "folder": "77",
           "poster": "1_Фотоувеличение.jpg",
           "second": "img.jpg",
@@ -2248,23 +2265,6 @@ window.FILMS = {
           }
         },
         {
-          "folder": "44",
-          "poster": "1_Фотоувеличение.jpg",
-          "second": "486337692_10162667186794656_4182964817195390058_n.jpg",
-          "words": {
-            "Иосиф Бродский": {
-              "ru": "К какой зиме торопятся слова.",
-              "en": "Towards which winter are these words hurrying.",
-              "enBy": "claude"
-            },
-            "Агния Барто": {
-              "ru": "Сбегаю к Шурке, секрет ей скажу.",
-              "en": "I'll run over to Shurka, I'll tell her a secret.",
-              "enBy": "claude"
-            }
-          }
-        },
-        {
           "folder": "126",
           "poster": "1_Фотоувеличение.jpg",
           "second": "DSC06563.jpg",
@@ -2282,18 +2282,18 @@ window.FILMS = {
           }
         },
         {
-          "folder": "127",
+          "folder": "44",
           "poster": "1_Фотоувеличение.jpg",
-          "second": "DSC05531.jpg",
+          "second": "486337692_10162667186794656_4182964817195390058_n.jpg",
           "words": {
             "Иосиф Бродский": {
-              "ru": ".. и образ твой - фотографа момент ..",
-              "en": "..and your image — a photographer's moment..",
+              "ru": "К какой зиме торопятся слова.",
+              "en": "Towards which winter are these words hurrying.",
               "enBy": "claude"
             },
             "Агния Барто": {
-              "ru": "— Скажите, есть у вас луна? На ней хотим сниматься.",
-              "en": "— Tell me, do you have the moon? We want to be photographed on it.",
+              "ru": "Сбегаю к Шурке, секрет ей скажу.",
+              "en": "I'll run over to Shurka, I'll tell her a secret.",
               "enBy": "claude"
             }
           }
