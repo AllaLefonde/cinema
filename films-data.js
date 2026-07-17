@@ -2263,6 +2263,40 @@ window.FILMS = {
               "enBy": "claude"
             }
           }
+        },
+        {
+          "folder": "126",
+          "poster": "1_Фотоувеличение.jpg",
+          "second": "DSC06563.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "И глаз. тонет беззвучно в лице тарелки ..",
+              "en": "And the eye. sinks silently into the face of the plate..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Уж лучше бы мой папа .. разбил тарелку об пол!",
+              "en": "It would've been better if my dad .. had smashed the plate on the floor!",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "127",
+          "poster": "1_Фотоувеличение.jpg",
+          "second": "DSC05531.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. и образ твой - фотографа момент ..",
+              "en": "..and your image — a photographer's moment..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "— Скажите, есть у вас луна? На ней хотим сниматься.",
+              "en": "— Tell me, do you have the moon? We want to be photographed on it.",
+              "enBy": "claude"
+            }
+          }
         }
       ]
     },

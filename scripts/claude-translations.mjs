@@ -636,4 +636,14 @@ export const CLAUDE_TRANSLATIONS = {
     "Something about a spiral in a tower.",
   "И говорит: — Ну, лезь!":
     "And says: — Well, climb up!",
+
+  "И глаз. тонет беззвучно в лице тарелки ..":
+    "And the eye. sinks silently into the face of the plate..",
+  "Уж лучше бы мой папа .. разбил тарелку об пол!":
+    "It would've been better if my dad .. had smashed the plate on the floor!",
+
+  ".. и образ твой - фотографа момент ..":
+    "..and your image — a photographer's moment..",
+  "— Скажите, есть у вас луна? На ней хотим сниматься.":
+    "— Tell me, do you have the moon? We want to be photographed on it.",
 };
