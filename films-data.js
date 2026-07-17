@@ -1263,6 +1263,23 @@ window.FILMS = {
           }
         },
         {
+          "folder": "118",
+          "poster": "1_Конформист.jpg",
+          "second": "img.png",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. знак тождества не разглядеть ..",
+              "en": "..the sign of equality cannot be discerned..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Обычный нос, обычный рот.",
+              "en": "An ordinary nose, an ordinary mouth.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
           "folder": "65",
           "poster": "1_Конформист.jpg",
           "second": "515010196_10163098250329656_3951645410182998241_n.jpg",
@@ -1309,23 +1326,6 @@ window.FILMS = {
             "Агния Барто": {
               "ru": "Мама по комнатам в фаpтyке белом нетоpопливо пpойдёт ..",
               "en": "Mom will walk unhurriedly through the rooms in a white apron..",
-              "enBy": "claude"
-            }
-          }
-        },
-        {
-          "folder": "118",
-          "poster": "1_Конформист.jpg",
-          "second": "img.png",
-          "words": {
-            "Иосиф Бродский": {
-              "ru": ".. знак тождества не разглядеть ..",
-              "en": "..the sign of equality cannot be discerned..",
-              "enBy": "claude"
-            },
-            "Агния Барто": {
-              "ru": "Обычный нос, обычный рот.",
-              "en": "An ordinary nose, an ordinary mouth.",
               "enBy": "claude"
             }
           }
