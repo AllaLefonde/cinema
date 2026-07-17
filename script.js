@@ -63,6 +63,10 @@ function findByFolder(folder) {
   return null;
 }
 
+function getAllFolders() {
+  return window.FILMS.groups.flatMap((g) => g.folders);
+}
+
 function filmTitle(group) {
   const lang = getLang();
   return lang === "en" && group.titleEn ? group.titleEn : group.name;
@@ -176,15 +180,19 @@ function renderFilm(folder, found) {
   const current = group.folders[idx];
   const nameHtml = escapeHtml(filmTitle(group));
 
-  const prevFolder = idx > 0 ? group.folders[idx - 1].folder : null;
-  const nextFolder = idx < gn - 1 ? group.folders[idx + 1].folder : null;
+  const allFolders = getAllFolders();
+  const globalIdx = allFolders.indexOf(current);
+  const globalTotal = allFolders.length;
+
+  const prevFolder = globalIdx > 0 ? allFolders[globalIdx - 1].folder : null;
+  const nextFolder = globalIdx < globalTotal - 1 ? allFolders[globalIdx + 1].folder : null;
 
   const prevLink = prevFolder
     ? `<a href="#/${prevFolder}" data-preload-folder="${prevFolder}">&larr;</a>`
-    : `<span class="disabled">&larr;</span>`;
+    : "";
   const nextLink = nextFolder
     ? `<a href="#/${nextFolder}" data-preload-folder="${nextFolder}">&rarr;</a>`
-    : `<span class="disabled">&rarr;</span>`;
+    : "";
 
   const posterSrc = `${current.folder}/${encodeURI(current.poster)}`;
   const secondSrc = `${current.folder}/${encodeURI(current.second)}`;
@@ -235,7 +243,7 @@ ${prevLink}
 <a href="#/">&uarr;</a>
 ${nextLink}
 </div>
-<span class="counter">${idx + 1} / ${gn}</span>
+<span class="counter">${idx + 1} / ${gn} (${globalIdx + 1} / ${globalTotal})</span>
 </div>
 </div>`;
 }
