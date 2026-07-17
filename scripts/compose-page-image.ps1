@@ -7,7 +7,8 @@
 #   powershell -File scripts/compose-page-image.ps1 -Folder 1
 
 param(
-  [Parameter(Mandatory=$true)][string]$Folder
+  [Parameter(Mandatory=$true)][string]$Folder,
+  [string]$OutName
 )
 
 Add-Type -AssemblyName System.Drawing
@@ -26,15 +27,27 @@ $textPath = Join-Path $dir "text.txt"
 $order = ""
 $brodsky = ""
 $barto = ""
+$change = $false
 if (Test-Path $textPath) {
   $lines = Get-Content $textPath -Encoding UTF8
   foreach ($line in $lines) {
     if ($line -match '^order:\s*(.*)$') { $order = $matches[1].Trim() }
     elseif ($line -match '^Иосиф Бродский:\s*(.*)$') { $brodsky = $matches[1].Trim() }
     elseif ($line -match '^Агния Барто:\s*(.*)$') { $barto = $matches[1].Trim() }
+    elseif ($line -match '^change:\s*true\s*$') { $change = $true }
   }
 }
-$quote = if ($brodsky) { $brodsky } else { $barto }
+
+# Normally Brodsky is shown above the second photo and Barto below the
+# poster, matching the site's default "both" layout. change:true swaps
+# which quote/author goes in which position.
+if ($change) {
+  $topQuote = $barto; $topAuthor = "Барто"
+  $bottomQuote = $brodsky; $bottomAuthor = "Бродский"
+} else {
+  $topQuote = $brodsky; $topAuthor = "Бродский"
+  $bottomQuote = $barto; $bottomAuthor = "Барто"
+}
 
 # Film name from poster filename, same rule as build-manifest.mjs
 $base = [System.IO.Path]::GetFileNameWithoutExtension($poster.Name)
@@ -54,8 +67,8 @@ if (Test-Path $metaPath) {
 $targetHeight = 900
 $gap = 40
 $sideMargin = 50
-$topTextHeight = 115
-$bottomMargin = 50
+$topTextHeight = 160
+$bottomTextHeight = 160
 
 $imgPoster = [System.Drawing.Image]::FromFile($poster.FullName)
 $imgSecond = [System.Drawing.Image]::FromFile($second.FullName)
@@ -68,7 +81,7 @@ $w2 = [int]($imgSecond.Width * $scale2)
 $x1 = $sideMargin
 $x2 = $sideMargin + $w1 + $gap
 $canvasWidth = $w1 + $gap + $w2 + (2 * $sideMargin)
-$canvasHeight = $targetHeight + $topTextHeight + $bottomMargin
+$canvasHeight = $targetHeight + $topTextHeight + $bottomTextHeight
 
 $bmp = New-Object System.Drawing.Bitmap -ArgumentList @($canvasWidth, $canvasHeight)
 $g = [System.Drawing.Graphics]::FromImage($bmp)
@@ -77,8 +90,11 @@ $g.InterpolationMode = [System.Drawing.Drawing2D.InterpolationMode]::HighQuality
 $g.TextRenderingHint = [System.Drawing.Text.TextRenderingHint]::AntiAliasGridFit
 $g.Clear([System.Drawing.Color]::Black)
 
+$borderPen = New-Object System.Drawing.Pen -ArgumentList @([System.Drawing.Color]::FromArgb(217, 217, 217), 2)
+
 $g.DrawImage($imgPoster, $x1, $topTextHeight, $w1, $targetHeight)
 $g.DrawImage($imgSecond, $x2, $topTextHeight, $w2, $targetHeight)
+$g.DrawRectangle($borderPen, 0, 0, ($canvasWidth - 1), ($canvasHeight - 1))
 
 $white = [System.Drawing.Brushes]::White
 $muted = New-Object System.Drawing.SolidBrush -ArgumentList @([System.Drawing.Color]::FromArgb(179, 179, 179))
@@ -92,6 +108,7 @@ $leftFormat.Alignment = [System.Drawing.StringAlignment]::Near
 
 $rightFormat = New-Object System.Drawing.StringFormat
 $rightFormat.Alignment = [System.Drawing.StringAlignment]::Far
+$rightFormat.LineAlignment = [System.Drawing.StringAlignment]::Far
 
 $titleRect = New-Object System.Drawing.RectangleF -ArgumentList @($x1, 15, $w1, 40)
 $g.DrawString($filmName, $titleFont, $white, $titleRect, $leftFormat)
@@ -100,14 +117,28 @@ if ($director) {
   $g.DrawString("Режиссёр: $director", $dirFont, $muted, $dirRect, $leftFormat)
 }
 
-if ($quote) {
-  $quoteRect = New-Object System.Drawing.RectangleF -ArgumentList @($x2, 20, $w2, ($topTextHeight - 30))
-  $quoteText = '"' + $quote + '"'
-  $g.DrawString($quoteText, $quoteFont, $white, $quoteRect, $rightFormat)
+if ($topQuote) {
+  $topText = '"' + $topQuote + '" ' + [char]0x2014 + ' ' + $topAuthor
+  $font = $quoteFont
+  while ($g.MeasureString($topText, $font).Width -gt ($canvasWidth - (2 * $sideMargin)) -and $font.Size -gt 10) {
+    $font = New-Object System.Drawing.Font -ArgumentList @("Comic Sans MS", ($font.Size - 1), [System.Drawing.FontStyle]::Italic)
+  }
+  $topRect = New-Object System.Drawing.RectangleF -ArgumentList @(0, 10, ($x2 + $w2), ($topTextHeight - 15))
+  $g.DrawString($topText, $font, $white, $topRect, $rightFormat)
+}
+
+if ($bottomQuote) {
+  $bottomText = '"' + $bottomQuote + '" ' + [char]0x2014 + ' ' + $bottomAuthor
+  $font = $quoteFont
+  while ($g.MeasureString($bottomText, $font).Width -gt ($canvasWidth - (2 * $sideMargin)) -and $font.Size -gt 10) {
+    $font = New-Object System.Drawing.Font -ArgumentList @("Comic Sans MS", ($font.Size - 1), [System.Drawing.FontStyle]::Italic)
+  }
+  $bottomRect = New-Object System.Drawing.RectangleF -ArgumentList @($x1, ($topTextHeight + $targetHeight + 10), ($canvasWidth - $x1), ($bottomTextHeight - 20))
+  $g.DrawString($bottomText, $font, $white, $bottomRect, $leftFormat)
 }
 
 $ext = $poster.Extension
-$outName = if ($order) { "$base`_$order$ext" } else { "$base`_$Folder$ext" }
+$outName = if ($OutName) { $OutName } elseif ($order) { "$base`_$order$ext" } else { "$base`_$Folder$ext" }
 $outDir = Join-Path $root "all"
 if (-not (Test-Path $outDir)) { New-Item -ItemType Directory -Path $outDir | Out-Null }
 $outPath = Join-Path $outDir $outName
