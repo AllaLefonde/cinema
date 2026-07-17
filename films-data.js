@@ -1443,6 +1443,57 @@ window.FILMS = {
               "enBy": "claude"
             }
           }
+        },
+        {
+          "folder": "121",
+          "poster": "1_Красная пустыня.jpg",
+          "second": "DSC05735.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "За дверью бессмысленно все ..",
+              "en": "Nothing makes sense outside, happiness least of all..",
+              "translator": "Alexandra Berlina"
+            },
+            "Агния Барто": {
+              "ru": "За стеной соседи встали, а потом опять легли.",
+              "en": "Behind the wall the neighbors got up, then lay back down again.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "122",
+          "poster": "1_Красная пустыня.jpg",
+          "second": "DSC05981.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "И если призрак здесь когда-то жил, то он покинул этот дом.",
+              "en": "And if a ghost once lived here, it has left this house.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Окна стали чёрными, шорохи за шторами.",
+              "en": "The windows turned black, rustling sounds behind the curtains.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "123",
+          "poster": "1_Красная пустыня.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Завещаю стене стук шагов посреди тишины.",
+              "en": "I bequeath to the wall the sound of footsteps amid the silence.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Он дрался! Курил! Он сидел на заборе!",
+              "en": "He got into fights! He smoked! He sat on the fence!",
+              "enBy": "claude"
+            }
+          }
         }
       ]
     },
@@ -1685,6 +1736,40 @@ window.FILMS = {
             "Агния Барто": {
               "ru": "Мы много мелодий запомнить должны",
               "en": "We must remember many melodies",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "124",
+          "poster": "1_Осажденные.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Прощай, позабудь и не обессудь. А письма сожги, как мост.",
+              "en": "Farewell, forget, and don't hold it against me. And burn the letters, like a bridge.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Нужно выстирать подушку ..",
+              "en": "The pillow needs washing..",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "125",
+          "poster": "1_Осажденные.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Что-нибудь про спираль в башне.",
+              "en": "Something about a spiral in a tower.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "И говорит: — Ну, лезь!",
+              "en": "And says: — Well, climb up!",
               "enBy": "claude"
             }
           }

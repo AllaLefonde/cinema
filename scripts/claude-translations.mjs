@@ -613,4 +613,27 @@ export const CLAUDE_TRANSLATIONS = {
     "Oh, the dance of women!",
   "Ты, как бабочка, легка! Ты стройнее мотылька!":
     "You're as light as a butterfly! You're slimmer than a moth!",
+
+  "За стеной соседи встали, а потом опять легли.":
+    "Behind the wall the neighbors got up, then lay back down again.",
+
+  "И если призрак здесь когда-то жил, то он покинул этот дом.":
+    "And if a ghost once lived here, it has left this house.",
+  "Окна стали чёрными, шорохи за шторами.":
+    "The windows turned black, rustling sounds behind the curtains.",
+
+  "Завещаю стене стук шагов посреди тишины.":
+    "I bequeath to the wall the sound of footsteps amid the silence.",
+  "Он дрался! Курил! Он сидел на заборе!":
+    "He got into fights! He smoked! He sat on the fence!",
+
+  "Прощай, позабудь и не обессудь. А письма сожги, как мост.":
+    "Farewell, forget, and don't hold it against me. And burn the letters, like a bridge.",
+  "Нужно выстирать подушку ..":
+    "The pillow needs washing..",
+
+  "Что-нибудь про спираль в башне.":
+    "Something about a spiral in a tower.",
+  "И говорит: — Ну, лезь!":
+    "And says: — Well, climb up!",
 };

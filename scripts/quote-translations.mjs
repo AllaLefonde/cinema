@@ -119,4 +119,11 @@ export const QUOTE_TRANSLATIONS = {
     en: "..one appears, then others adorn the inklike sphere.",
     translator: "Daniel Weissbort & Joseph Brodsky",
   },
+
+  // "Не выходи из комнаты" (1970), tr. Alexandra Berlina - same poem as
+  // folders 6, 70, and 86.
+  "За дверью бессмысленно все ..": {
+    en: "Nothing makes sense outside, happiness least of all..",
+    translator: "Alexandra Berlina",
+  },
 };
