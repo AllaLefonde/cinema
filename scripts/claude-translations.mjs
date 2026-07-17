@@ -605,4 +605,12 @@ export const CLAUDE_TRANSLATIONS = {
     "..the sign of equality cannot be discerned..",
   "Обычный нос, обычный рот.":
     "An ordinary nose, an ordinary mouth.",
+
+  "Ученицы, как синицы, распевают иногда.":
+    "Schoolgirls, like little tomtits, sometimes burst into song.",
+
+  "О, женский танец!":
+    "Oh, the dance of women!",
+  "Ты, как бабочка, легка! Ты стройнее мотылька!":
+    "You're as light as a butterfly! You're slimmer than a moth!",
 };

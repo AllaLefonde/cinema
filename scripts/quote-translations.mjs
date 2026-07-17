@@ -112,4 +112,11 @@ export const QUOTE_TRANSLATIONS = {
     en: "So long had life together been that now..",
     translator: "Richard Wilbur",
   },
+
+  // "Часть речи" cycle ("A Part of Speech", 1975-76), poem 1, tr. Daniel
+  // Weissbort with revisions by Brodsky, in "A Part of Speech" (FSG, 1980).
+  ".. если одна, то за ней другая.": {
+    en: "..one appears, then others adorn the inklike sphere.",
+    translator: "Daniel Weissbort & Joseph Brodsky",
+  },
 };

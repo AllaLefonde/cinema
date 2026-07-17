@@ -1263,23 +1263,6 @@ window.FILMS = {
           }
         },
         {
-          "folder": "118",
-          "poster": "1_Конформист.jpg",
-          "second": "img.png",
-          "words": {
-            "Иосиф Бродский": {
-              "ru": ".. знак тождества не разглядеть ..",
-              "en": "..the sign of equality cannot be discerned..",
-              "enBy": "claude"
-            },
-            "Агния Барто": {
-              "ru": "Обычный нос, обычный рот.",
-              "en": "An ordinary nose, an ordinary mouth.",
-              "enBy": "claude"
-            }
-          }
-        },
-        {
           "folder": "65",
           "poster": "1_Конформист.jpg",
           "second": "515010196_10163098250329656_3951645410182998241_n.jpg",
@@ -1326,6 +1309,57 @@ window.FILMS = {
             "Агния Барто": {
               "ru": "Мама по комнатам в фаpтyке белом нетоpопливо пpойдёт ..",
               "en": "Mom will walk unhurriedly through the rooms in a white apron..",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "118",
+          "poster": "1_Конформист.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. знак тождества не разглядеть ..",
+              "en": "..the sign of equality cannot be discerned..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Обычный нос, обычный рот.",
+              "en": "An ordinary nose, an ordinary mouth.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "119",
+          "poster": "1_Конформист.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. если одна, то за ней другая.",
+              "en": "..one appears, then others adorn the inklike sphere.",
+              "translator": "Daniel Weissbort & Joseph Brodsky"
+            },
+            "Агния Барто": {
+              "ru": "Ученицы, как синицы, распевают иногда.",
+              "en": "Schoolgirls, like little tomtits, sometimes burst into song.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "120",
+          "poster": "1_Конформист.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "О, женский танец!",
+              "en": "Oh, the dance of women!",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Ты, как бабочка, легка! Ты стройнее мотылька!",
+              "en": "You're as light as a butterfly! You're slimmer than a moth!",
               "enBy": "claude"
             }
           }
