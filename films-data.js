@@ -1312,6 +1312,23 @@ window.FILMS = {
               "enBy": "claude"
             }
           }
+        },
+        {
+          "folder": "118",
+          "poster": "1_Конформист.jpg",
+          "second": "img.png",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. знак тождества не разглядеть ..",
+              "en": "..the sign of equality cannot be discerned..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Обычный нос, обычный рот.",
+              "en": "An ordinary nose, an ordinary mouth.",
+              "enBy": "claude"
+            }
+          }
         }
       ]
     },

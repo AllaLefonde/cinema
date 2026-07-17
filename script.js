@@ -187,6 +187,10 @@ function renderFilm(folder, found) {
   const prevFolder = globalIdx > 0 ? allFolders[globalIdx - 1].folder : null;
   const nextFolder = globalIdx < globalTotal - 1 ? allFolders[globalIdx + 1].folder : null;
 
+  const allGroups = window.FILMS.groups;
+  const groupIdx = allGroups.indexOf(group);
+  const groupTotal = allGroups.length;
+
   const prevLink = prevFolder
     ? `<a href="#/${prevFolder}" data-preload-folder="${prevFolder}">&larr;</a>`
     : "";
@@ -243,7 +247,7 @@ ${prevLink}
 <a href="#/">&uarr;</a>
 ${nextLink}
 </div>
-<span class="counter">${idx + 1} / ${gn} (${globalIdx + 1} / ${globalTotal})</span>
+<span class="counter">${idx + 1} / ${gn} (${groupIdx + 1} / ${groupTotal})</span>
 </div>
 </div>`;
 }

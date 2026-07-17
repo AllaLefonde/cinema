@@ -600,4 +600,9 @@ export const CLAUDE_TRANSLATIONS = {
 
   "Мама по комнатам в фаpтyке белом нетоpопливо пpойдёт ..":
     "Mom will walk unhurriedly through the rooms in a white apron..",
+
+  ".. знак тождества не разглядеть ..":
+    "..the sign of equality cannot be discerned..",
+  "Обычный нос, обычный рот.":
+    "An ordinary nose, an ordinary mouth.",
 };
