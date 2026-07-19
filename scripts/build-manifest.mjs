@@ -54,6 +54,15 @@ function readOrder(dir) {
   return match[1].trim() && Number.isFinite(n) ? n : undefined;
 }
 
+// Reads the "change: true" line from a folder's text.txt, if any. When set,
+// the two commentators' quotes swap positions (which one sits above the
+// second photo vs below the poster) relative to the default layout.
+function readChange(dir) {
+  const file = path.join(dir, "text.txt");
+  if (!existsSync(file)) return undefined;
+  return /^change:\s*true\s*$/im.test(readFileSync(file, "utf8")) || undefined;
+}
+
 function sortKey(f) {
   return f.order ?? Number(f.folder) + 100000;
 }
@@ -82,8 +91,9 @@ for (const folder of folderNames) {
 
   const words = readWords(dir);
   const order = readOrder(dir);
+  const change = readChange(dir);
 
-  folders.push({ folder, name, poster, second, words, order });
+  folders.push({ folder, name, poster, second, words, order, change });
 }
 
 const byName = new Map();
@@ -98,11 +108,12 @@ const groups = [...byName.entries()]
     ...(FILM_META[name] ?? {}),
     folders: items
       .sort((a, b) => sortKey(a) - sortKey(b))
-      .map(({ folder, poster, second, words }) => ({
+      .map(({ folder, poster, second, words, change }) => ({
         folder,
         poster,
         second,
         ...(words ? { words } : {}),
+        ...(change ? { change } : {}),
       })),
   }))
   .sort((a, b) => a.name.localeCompare(b.name, "ru"));

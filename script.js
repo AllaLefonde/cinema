@@ -63,8 +63,29 @@ function findByFolder(folder) {
   return null;
 }
 
+function directorGroups() {
+  const lang = getLang();
+  const byDirector = new Map();
+  for (const group of window.FILMS.groups) {
+    if (!group.director) continue;
+    const key = group.director.imdbId;
+    if (!byDirector.has(key)) byDirector.set(key, { director: group.director, films: [] });
+    byDirector.get(key).films.push(group);
+  }
+
+  return [...byDirector.values()].sort((a, b) => {
+    const an = lang === "en" ? a.director.en : a.director.ru;
+    const bn = lang === "en" ? b.director.en : b.director.ru;
+    return an.localeCompare(bn, lang === "en" ? "en" : "ru");
+  });
+}
+
+function orderedGroups() {
+  return directorGroups().flatMap((d) => d.films);
+}
+
 function getAllFolders() {
-  return window.FILMS.groups.flatMap((g) => g.folders);
+  return orderedGroups().flatMap((g) => g.folders);
 }
 
 function filmTitle(group) {
@@ -118,19 +139,7 @@ function attachImdbPopupHandlers() {
 
 function renderList() {
   const lang = getLang();
-  const byDirector = new Map();
-  for (const group of window.FILMS.groups) {
-    if (!group.director) continue;
-    const key = group.director.imdbId;
-    if (!byDirector.has(key)) byDirector.set(key, { director: group.director, films: [] });
-    byDirector.get(key).films.push(group);
-  }
-
-  const directors = [...byDirector.values()].sort((a, b) => {
-    const an = lang === "en" ? a.director.en : a.director.ru;
-    const bn = lang === "en" ? b.director.en : b.director.ru;
-    return an.localeCompare(bn, lang === "en" ? "en" : "ru");
-  });
+  const directors = directorGroups();
 
   const cells = [];
   directors.forEach(({ director, films }, di) => {
@@ -187,7 +196,7 @@ function renderFilm(folder, found) {
   const prevFolder = globalIdx > 0 ? allFolders[globalIdx - 1].folder : null;
   const nextFolder = globalIdx < globalTotal - 1 ? allFolders[globalIdx + 1].folder : null;
 
-  const allGroups = window.FILMS.groups;
+  const allGroups = orderedGroups();
   const groupIdx = allGroups.indexOf(group);
   const groupTotal = allGroups.length;
 
@@ -211,14 +220,20 @@ function renderFilm(folder, found) {
 
   const words = current.words || {};
   const choice = getWordsAuthor();
-  const showBrodsky = choice === "both" || choice === "Иосиф Бродский";
-  const showBarto = choice === "both" || choice === "Агния Барто";
   const withAuthor = choice === "both";
-  const brodskyHtml = showBrodsky
-    ? renderQuote(words["Иосиф Бродский"], "Иосиф Бродский", "words-quote-tr", withAuthor)
+
+  // Normally Иосиф Бродский sits above the second photo and Агния Барто
+  // below the poster; change: true (from the folder's text.txt) swaps
+  // which commentator goes in which position.
+  const topAuthor = current.change ? "Агния Барто" : "Иосиф Бродский";
+  const bottomAuthor = current.change ? "Иосиф Бродский" : "Агния Барто";
+  const showTop = choice === "both" || choice === topAuthor;
+  const showBottom = choice === "both" || choice === bottomAuthor;
+  const topHtml = showTop
+    ? renderQuote(words[topAuthor], topAuthor, "words-quote-tr", withAuthor)
     : "";
-  const bartoHtml = showBarto
-    ? renderQuote(words["Агния Барто"], "Агния Барто", "words-quote-bl", withAuthor)
+  const bottomHtml = showBottom
+    ? renderQuote(words[bottomAuthor], bottomAuthor, "words-quote-bl", withAuthor)
     : "";
 
   return `
@@ -231,12 +246,12 @@ ${directorHtml}
 </div>
 <div class="img-wrap">
 <img src="${posterSrc}" alt="${nameHtml}">
-${bartoHtml}
+${bottomHtml}
 </div>
 </div>
 <div class="gallery-col">
 <div class="img-wrap">
-${brodskyHtml}
+${topHtml}
 <img src="${secondSrc}" alt="${nameHtml}">
 </div>
 </div>

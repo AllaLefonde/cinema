@@ -45,7 +45,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "1",
@@ -201,7 +202,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         }
       ]
     },
@@ -233,7 +235,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "47",
@@ -304,7 +307,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "51",
@@ -358,7 +362,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         }
       ]
     },
@@ -407,7 +412,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "60",
@@ -427,7 +433,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "59",
@@ -481,7 +488,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "75",
@@ -535,7 +543,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         }
       ]
     },
@@ -618,7 +627,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "11",
@@ -752,7 +762,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "99",
@@ -789,7 +800,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "104",
@@ -826,7 +838,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "102",
@@ -846,7 +859,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "103",
@@ -946,7 +960,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "97",
@@ -1046,7 +1061,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "113",
@@ -1083,7 +1099,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "87",
@@ -1200,7 +1217,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "23",
@@ -1237,7 +1255,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "86",
@@ -1257,7 +1276,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "85",
@@ -1374,7 +1394,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "120",
@@ -1394,7 +1415,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "64",
@@ -1494,7 +1516,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "106",
@@ -1548,7 +1571,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "122",
@@ -1614,7 +1638,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "57",
@@ -1685,7 +1710,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "55",
@@ -1705,7 +1731,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "76",
@@ -1805,7 +1832,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "124",
@@ -1859,7 +1887,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         }
       ]
     },
@@ -1891,7 +1920,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "22",
@@ -1928,7 +1958,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "36",
@@ -1948,7 +1979,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "37",
@@ -2002,7 +2034,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         }
       ]
     },
@@ -2119,7 +2152,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "82",
@@ -2168,7 +2202,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "72",
@@ -2256,7 +2291,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "43",
@@ -2305,7 +2341,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "77",
@@ -2359,7 +2396,8 @@ window.FILMS = {
             "change": {
               "ru": "true"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "4",
