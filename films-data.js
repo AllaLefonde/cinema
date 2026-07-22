@@ -477,8 +477,8 @@ window.FILMS = {
           "words": {
             "Иосиф Бродский": {
               "ru": "Не выходи из комнаты, не совершай ошибку.",
-              "en": "Don't leave your room. This is better left undone.",
-              "translator": "Alexandra Berlina"
+              "en": "Don’t leave your room, don’t commit that fateful mistake.",
+              "translator": "Thomas de Waal"
             },
             "Агния Барто": {
               "ru": "Сейчас поймает окуня любитель-рыболов.",
@@ -1265,8 +1265,8 @@ window.FILMS = {
           "words": {
             "Иосиф Бродский": {
               "ru": "Зачем выходить оттуда, куда вернешься вечером..",
-              "en": "Why leave a room to which you will come back later, unchanged at best, more probably mutilated?",
-              "translator": "Alexandra Berlina"
+              "en": "Why leave this place? Tonight you will come home ..",
+              "translator": "Thomas de Waal"
             },
             "Агния Барто": {
               "ru": "Здесь не комната большая — Здесь огромная страна..",
@@ -1488,8 +1488,8 @@ window.FILMS = {
           "words": {
             "Иосиф Бродский": {
               "ru": "За дверью бессмысленно все ..",
-              "en": "Nothing makes sense outside, happiness least of all..",
-              "translator": "Alexandra Berlina"
+              "en": "Outside’s absurd ..",
+              "translator": "Thomas de Waal"
             },
             "Агния Барто": {
               "ru": "За стеной соседи встали, а потом опять легли.",
@@ -1741,8 +1741,8 @@ window.FILMS = {
           "words": {
             "Иосиф Бродский": {
               "ru": "Дверь скрипит. На пороге стоит треска.",
-              "en": "The door creaks. A codfish stands on the threshold.",
-              "enBy": "claude"
+              "en": "The door is creaking. A cod stands at the sill.",
+              "enBy": "Joseph Brodsky"
             },
             "Агния Барто": {
               "ru": "Я дверь открыл своим ключом.",
@@ -1787,8 +1787,8 @@ window.FILMS = {
           "words": {
             "Иосиф Бродский": {
               "ru": "..  слейся лицом с обоями.",
-              "en": "..vanish, merge with the wall.",
-              "translator": "Alexandra Berlina"
+              "en": ".. essay wall-paper fusion.",
+              "translator": "Thomas de Waal"
             },
             "Агния Барто": {
               "ru": "Ходят тени по стене..",
@@ -1858,8 +1858,8 @@ window.FILMS = {
           "second": "DSC04716.jpg",
           "words": {
             "Иосиф Бродский": {
-              "ru": "Опять какая-то зараза. Сходила мимо унитаза!",
-              "en": "Some nuisance again — missed the toilet bowl and went right past it!",
+              "ru": "Швабра, епитрахиль пыль не сотрут.",
+              "en": "A mop and an epitrachelion won't wipe away the dust.",
               "enBy": "claude"
             },
             "Агния Барто": {

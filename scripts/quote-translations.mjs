@@ -4,11 +4,11 @@
 // opportunistically, never invented. Missing entries fall back to Claude's
 // own translation (claude-translations.mjs) or the Russian text.
 export const QUOTE_TRANSLATIONS = {
-  // "Не выходи из комнаты" (1970), tr. Alexandra Berlina, Modern Poetry in
-  // Translation: https://modernpoetryintranslation.com/dont-leave-your-room-by-joseph-brodsky/
+  // "Не выходи из комнаты" (1970), tr. Thomas de Waal
+  // Translation: https://ruverses.com/joseph-brodsky/don-t-leave-the-room/12874/
   "..  слейся лицом с обоями.": {
-    en: "..vanish, merge with the wall.",
-    translator: "Alexandra Berlina",
+    en: "..essay wall-paper fusion.",
+    translator: "Thomas de Waal",
   },
 
   // "Теперь все чаще чувствую усталость..." (1960), tr. George L. Kline,
@@ -46,11 +46,11 @@ export const QUOTE_TRANSLATIONS = {
     translator: "George L. Kline",
   },
 
-  // "Не выходи из комнаты" (1970), tr. Alexandra Berlina, Modern Poetry in
+  // "Не выходи из комнаты" (1970), tr. Thomas de Waal
   // Translation - opening couplet.
   "Не выходи из комнаты, не совершай ошибку.": {
-    en: "Don't leave your room. This is better left undone.",
-    translator: "Alexandra Berlina",
+    en: "Don’t leave your room, don’t commit that fateful mistake.",
+    translator: "Thomas de Waal",
   },
 
   // "Дорогая, я вышел сегодня из дому..." ("Brise Marine", 1989),
@@ -73,11 +73,11 @@ export const QUOTE_TRANSLATIONS = {
     translator: "Pushkin Fund translation (1973)",
   },
 
-  // "Не выходи из комнаты" (1970), tr. Alexandra Berlina - same poem as
+  // "Не выходи из комнаты" (1970), tr. Thomas de Waal
   // the folder 6 and 70 quotes.
   "Зачем выходить оттуда, куда вернешься вечером..": {
-    en: "Why leave a room to which you will come back later, unchanged at best, more probably mutilated?",
-    translator: "Alexandra Berlina",
+    en: "WWhy leave this place? Tonight you will come home ..",
+    translator: "Thomas de Waal",
   },
 
   // "То не Муза воды набирает в рот" ("To a Friend"), tr. George L. Kline.
@@ -120,10 +120,10 @@ export const QUOTE_TRANSLATIONS = {
     translator: "Daniel Weissbort & Joseph Brodsky",
   },
 
-  // "Не выходи из комнаты" (1970), tr. Alexandra Berlina - same poem as
+  // "Не выходи из комнаты" (1970), tr. Thomas de Waal
   // folders 6, 70, and 86.
   "За дверью бессмысленно все ..": {
-    en: "Nothing makes sense outside, happiness least of all..",
-    translator: "Alexandra Berlina",
+    en: "Outside’s absurd, especially that whoop of joy..",
+    translator: "Thomas de Waal",
   },
 };

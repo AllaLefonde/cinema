@@ -37,8 +37,8 @@ export const CLAUDE_TRANSLATIONS = {
   "Он проснулся ночью темной, было только три часа.":
     "He woke in the dark of night, it was only three o'clock.",
 
-  "Опять какая-то зараза. Сходила мимо унитаза!":
-    "Some nuisance again — missed the toilet bowl and went right past it!",
+  "Швабра, епитрахиль пыль не сотрут.":
+    "A mop and an epitrachelion won't wipe away the dust.",
   "— На это есть уборщица!":
     "— That's what the cleaning lady is for!",
 
@@ -382,8 +382,6 @@ export const CLAUDE_TRANSLATIONS = {
   "— Ты мне машину дашь?":
     "— Will you give me the car?",
 
-  "Дверь скрипит. На пороге стоит треска.":
-    "The door creaks. A codfish stands on the threshold.",
   "Я дверь открыл своим ключом.":
     "I opened the door with my own key.",
 
