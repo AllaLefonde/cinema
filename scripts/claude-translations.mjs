@@ -70,8 +70,6 @@ export const CLAUDE_TRANSLATIONS = {
   "С утра на лужайку бегу я с мячом..":
     "In the morning I run to the lawn with a ball..",
 
-  "Хочу быть с тобой, моя радость, хочу быть рядом.":
-    "I want to be with you, my joy, I want to be near.",
   "Дай мороженого ложку, только ложку на дорожку..":
     "Give me a spoonful of ice cream, just one spoonful for the road..",
 

@@ -17,8 +17,8 @@ window.FILMS = {
           "words": {
             "Иосиф Бродский": {
               "ru": "Хочу быть с тобой, моя радость, хочу быть рядом.",
-              "en": "I want to be with you, my joy, I want to be near.",
-              "enBy": "claude"
+              "en": "I wish you were here, dear, I wish you were here",
+              "translator": "Joseph Brodsky (original song)"
             },
             "Агния Барто": {
               "ru": "Дай мороженого ложку, только ложку на дорожку..",
