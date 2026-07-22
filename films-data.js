@@ -44,6 +44,9 @@ window.FILMS = {
             },
             "change": {
               "ru": "true"
+            },
+            "стих Бродского": {
+              "ru": "6"
             }
           },
           "change": true
@@ -62,6 +65,9 @@ window.FILMS = {
               "ru": "Дело было вечером..",
               "en": "It happened one evening, there was nothing to do..",
               "enBy": "claude"
+            },
+            "стих Бродского": {
+              "ru": "3"
             }
           }
         },
@@ -181,6 +187,9 @@ window.FILMS = {
               "ru": "Он вырастет — Будет Героем Труда!",
               "en": "He'll grow up — he'll be a Hero of Labor!",
               "enBy": "claude"
+            },
+            "стих Бродского": {
+              "ru": "9"
             }
           }
         },
@@ -487,6 +496,9 @@ window.FILMS = {
             },
             "change": {
               "ru": "true"
+            },
+            "стих Бродского": {
+              "ru": "1"
             }
           },
           "change": true
@@ -522,6 +534,9 @@ window.FILMS = {
               "ru": "Он проснулся ночью темной, было только три часа.",
               "en": "He woke in the dark of night, it was only three o'clock.",
               "enBy": "claude"
+            },
+            "стих Бродского": {
+              "ru": "2"
             }
           }
         },
@@ -542,6 +557,9 @@ window.FILMS = {
             },
             "change": {
               "ru": "true"
+            },
+            "стих Бродского": {
+              "ru": "13"
             }
           },
           "change": true
@@ -589,6 +607,9 @@ window.FILMS = {
               "ru": "Пробегут, зацокают лошади с повозкой.",
               "en": "Horses will run by, hooves clattering, pulling a cart.",
               "enBy": "claude"
+            },
+            "стих Бродского": {
+              "ru": "11"
             }
           }
         },
@@ -644,6 +665,9 @@ window.FILMS = {
               "ru": "Улетела птичья стая..",
               "en": "The flock of birds has flown away..",
               "enBy": "claude"
+            },
+            "стих Бродского": {
+              "ru": "12"
             }
           }
         },
@@ -922,6 +946,9 @@ window.FILMS = {
               "ru": "Я лежу, болею..",
               "en": "I lie here, I'm sick..",
               "enBy": "claude"
+            },
+            "стих Бродского": {
+              "ru": "10"
             }
           }
         },
@@ -1265,7 +1292,7 @@ window.FILMS = {
           "words": {
             "Иосиф Бродский": {
               "ru": "Зачем выходить оттуда, куда вернешься вечером..",
-              "en": "Why leave this place? Tonight you will come home ..",
+              "en": "WWhy leave this place? Tonight you will come home ..",
               "translator": "Thomas de Waal"
             },
             "Агния Барто": {
@@ -1275,6 +1302,9 @@ window.FILMS = {
             },
             "change": {
               "ru": "true"
+            },
+            "стих Бродского": {
+              "ru": "1"
             }
           },
           "change": true
@@ -1488,13 +1518,16 @@ window.FILMS = {
           "words": {
             "Иосиф Бродский": {
               "ru": "За дверью бессмысленно все ..",
-              "en": "Outside’s absurd ..",
+              "en": "Outside’s absurd, especially that whoop of joy..",
               "translator": "Thomas de Waal"
             },
             "Агния Барто": {
               "ru": "За стеной соседи встали, а потом опять легли.",
               "en": "Behind the wall the neighbors got up, then lay back down again.",
               "enBy": "claude"
+            },
+            "стих Бродского": {
+              "ru": "1"
             }
           }
         },
@@ -1740,14 +1773,15 @@ window.FILMS = {
           "second": "508838082_10163020302244656_6260219427145140332_n.jpg",
           "words": {
             "Иосиф Бродский": {
-              "ru": "Дверь скрипит. На пороге стоит треска.",
-              "en": "The door is creaking. A cod stands at the sill.",
-              "enBy": "Joseph Brodsky"
+              "ru": "Дверь скрипит. На пороге стоит треска."
             },
             "Агния Барто": {
               "ru": "Я дверь открыл своим ключом.",
               "en": "I opened the door with my own key.",
               "enBy": "claude"
+            },
+            "стих Бродского": {
+              "ru": "4"
             }
           }
         }
@@ -1777,6 +1811,9 @@ window.FILMS = {
               "ru": "Мы много мелодий запомнить должны..",
               "en": "We must remember many melodies..",
               "enBy": "claude"
+            },
+            "стих Бродского": {
+              "ru": "9"
             }
           }
         },
@@ -1787,13 +1824,16 @@ window.FILMS = {
           "words": {
             "Иосиф Бродский": {
               "ru": "..  слейся лицом с обоями.",
-              "en": ".. essay wall-paper fusion.",
+              "en": "..essay wall-paper fusion.",
               "translator": "Thomas de Waal"
             },
             "Агния Барто": {
               "ru": "Ходят тени по стене..",
               "en": "Shadows walk along the wall..",
               "enBy": "claude"
+            },
+            "стих Бродского": {
+              "ru": "1"
             }
           }
         },
@@ -1866,6 +1906,9 @@ window.FILMS = {
               "ru": "— На это есть уборщица!",
               "en": "— That's what the cleaning lady is for!",
               "enBy": "claude"
+            },
+            "стих Бродского": {
+              "ru": "10"
             }
           }
         },
@@ -2201,6 +2244,9 @@ window.FILMS = {
             },
             "change": {
               "ru": "true"
+            },
+            "стих Бродского": {
+              "ru": "7"
             }
           },
           "change": true
@@ -2413,6 +2459,9 @@ window.FILMS = {
               "ru": "Мы с Тамарой ходим парой..",
               "en": "Tamara and I go around in a pair..",
               "enBy": "claude"
+            },
+            "стих Бродского": {
+              "ru": "8"
             }
           }
         },
