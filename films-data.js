@@ -16,14 +16,15 @@ window.FILMS = {
           "second": "2.jpg",
           "words": {
             "Иосиф Бродский": {
-              "ru": "Хочу быть с тобой, моя радость, хочу быть рядом.",
-              "en": "I wish you were here, dear, I wish you were here",
-              "translator": "Joseph Brodsky (original song)"
+              "ru": "Хочу быть с тобой, моя радость, хочу быть рядом."
             },
             "Агния Барто": {
               "ru": "Дай мороженого ложку, только ложку на дорожку..",
               "en": "Give me a spoonful of ice cream, just one spoonful for the road..",
               "enBy": "claude"
+            },
+            "стих Бродского": {
+              "ru": "17"
             }
           }
         },
@@ -85,6 +86,9 @@ window.FILMS = {
               "ru": "В овраге дождь меня настиг, а я же книгоноша.",
               "en": "The rain caught me in the ravine, and I'm just a book-peddler.",
               "enBy": "claude"
+            },
+            "стих Бродского": {
+              "ru": "5"
             }
           }
         },
@@ -119,6 +123,9 @@ window.FILMS = {
               "ru": "Обед! Обед! Несут обед!",
               "en": "Dinner! Dinner! They're bringing dinner!",
               "enBy": "claude"
+            },
+            "стих Бродского": {
+              "ru": "20"
             }
           }
         },
@@ -153,6 +160,9 @@ window.FILMS = {
               "ru": "Перед школой, утром рано, я на стройку захожу. За большим подъемным краном по утрам теперь слежу.",
               "en": "Before school, early in the morning, I stop by the building site. Every morning now I watch the big crane.",
               "enBy": "claude"
+            },
+            "стих Бродского": {
+              "ru": "18"
             }
           }
         },
@@ -243,6 +253,9 @@ window.FILMS = {
             },
             "change": {
               "ru": "true"
+            },
+            "стих Бродского": {
+              "ru": "19"
             }
           },
           "change": true
@@ -370,6 +383,9 @@ window.FILMS = {
             },
             "change": {
               "ru": "true"
+            },
+            "стих Бродского": {
+              "ru": "15"
             }
           },
           "change": true
@@ -1851,6 +1867,9 @@ window.FILMS = {
               "ru": "Он взбирается без лифта на двенадцатый этаж.",
               "en": "He climbs without an elevator to the twelfth floor.",
               "enBy": "claude"
+            },
+            "стих Бродского": {
+              "ru": "14"
             }
           }
         },
@@ -2421,6 +2440,9 @@ window.FILMS = {
               "ru": "С утра на лужайку бегу я с мячом..",
               "en": "In the morning I run to the lawn with a ball..",
               "enBy": "claude"
+            },
+            "стих Бродского": {
+              "ru": "16"
             }
           }
         },
