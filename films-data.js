@@ -1668,6 +1668,9 @@ window.FILMS = {
               "ru": "Попросили как-то осень сад покрасить в ровный цвет.",
               "en": "They once asked autumn to paint the garden a single even color.",
               "enBy": "claude"
+            },
+            "стих Бродского": {
+              "ru": "21"
             }
           }
         },
@@ -1974,9 +1977,7 @@ window.FILMS = {
           "second": "190719978_10159525128164656_1356534893732359274_n.jpg",
           "words": {
             "Иосиф Бродский": {
-              "ru": "Теперь так мало греков в Ленинграде",
-              "en": "Not many Greeks are left in Leningrad",
-              "translator": "Kirill Tolmachev"
+              "ru": "Теперь так мало греков в Ленинграде"
             },
             "Агния Барто": {
               "ru": "А Нюрочки да Ниночки сдувай с нее пылиночки.",
@@ -1985,6 +1986,9 @@ window.FILMS = {
             },
             "change": {
               "ru": "true"
+            },
+            "стих Бродского": {
+              "ru": "22"
             }
           },
           "change": true
