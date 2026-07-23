@@ -98,8 +98,6 @@ export const CLAUDE_TRANSLATIONS = {
   "Люди на улице подняли головы: голуби, голуби..":
     "People in the street raised their heads: pigeons, pigeons..",
 
-  "Теперь так мало греков в Ленинграде":
-    "There are so few Greeks left in Leningrad now",
   "А Нюрочки да Ниночки сдувай с нее пылиночки.":
     "And little Nyuras and Ninas, blow the specks of dust off her.",
 
@@ -642,4 +640,7 @@ export const CLAUDE_TRANSLATIONS = {
     "..and your image — a photographer's moment..",
   "— Скажите, есть у вас луна? На ней хотим сниматься.":
     "— Tell me, do you have the moon? We want to be photographed on it.",
+
+  "Дверь скрипит. На пороге стоит треска.":
+    "The door creaks. A cod is standing on the threshold.",
 };

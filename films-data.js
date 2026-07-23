@@ -16,7 +16,9 @@ window.FILMS = {
           "second": "2.jpg",
           "words": {
             "Иосиф Бродский": {
-              "ru": "Хочу быть с тобой, моя радость, хочу быть рядом."
+              "ru": "Хочу быть с тобой, моя радость, хочу быть рядом.",
+              "en": "I wish you were here, dear, I wish you were here.",
+              "translator": "Joseph Brodsky (original English)"
             },
             "Агния Барто": {
               "ru": "Дай мороженого ложку, только ложку на дорожку..",
@@ -1789,7 +1791,9 @@ window.FILMS = {
           "second": "508838082_10163020302244656_6260219427145140332_n.jpg",
           "words": {
             "Иосиф Бродский": {
-              "ru": "Дверь скрипит. На пороге стоит треска."
+              "ru": "Дверь скрипит. На пороге стоит треска.",
+              "en": "The door creaks. A cod is standing on the threshold.",
+              "enBy": "claude"
             },
             "Агния Барто": {
               "ru": "Я дверь открыл своим ключом.",
@@ -1971,8 +1975,8 @@ window.FILMS = {
           "words": {
             "Иосиф Бродский": {
               "ru": "Теперь так мало греков в Ленинграде",
-              "en": "There are so few Greeks left in Leningrad now",
-              "enBy": "claude"
+              "en": "Not many Greeks are left in Leningrad",
+              "translator": "Kirill Tolmachev"
             },
             "Агния Барто": {
               "ru": "А Нюрочки да Ниночки сдувай с нее пылиночки.",

@@ -165,7 +165,7 @@ function renderList() {
   return `<div class="films-grid">${cells.join("")}</div>`;
 }
 
-function renderQuote(entry, author, positionClass, withAuthor) {
+function renderQuote(entry, author, positionClass, withAuthor, poemNumber) {
   if (!entry) return "";
   const showingEn = getLang() === "en" && !!entry.en;
   const quote = showingEn ? entry.en : entry.ru;
@@ -180,7 +180,79 @@ function renderQuote(entry, author, positionClass, withAuthor) {
   const attribution = withAuthor
     ? ` &mdash; ${escapeHtml(AUTHOR_DISPLAY[author][showingEn ? "en" : "ru"])}`
     : "";
-  return `<p class="words-quote ${positionClass}">&quot;${escapeHtml(quote)}&quot;${claudeMark}${translatorMark}${attribution}</p>`;
+  const hasPoem = poemNumber && window.POEMS && window.POEMS[poemNumber];
+  const poemClass = hasPoem ? " has-poem" : "";
+  const poemAttr = hasPoem ? ` data-poem="${escapeHtml(poemNumber)}"` : "";
+  return `<p class="words-quote ${positionClass}${poemClass}"${poemAttr}>&quot;${escapeHtml(quote)}&quot;${claudeMark}${translatorMark}${attribution}</p>`;
+}
+
+function getPoemText(poemNumber) {
+  const poem = poemNumber && window.POEMS && window.POEMS[poemNumber];
+  if (!poem) return null;
+  const lang = getLang();
+  return (lang === "en" ? poem.en : poem.ru) || poem.ru || poem.en || null;
+}
+
+function positionPoemPopup(el, popup) {
+  const margin = 10;
+  const rect = el.getBoundingClientRect();
+  const popupRect = popup.getBoundingClientRect();
+  let left = rect.left;
+  let top = rect.bottom + margin;
+  if (top + popupRect.height > window.innerHeight - margin) {
+    top = rect.top - popupRect.height - margin;
+  }
+  if (top < margin) top = margin;
+  if (left + popupRect.width > window.innerWidth - margin) {
+    left = window.innerWidth - popupRect.width - margin;
+  }
+  if (left < margin) left = margin;
+  popup.style.left = `${left}px`;
+  popup.style.top = `${top}px`;
+}
+
+function showPoemPopup(el) {
+  const popup = document.getElementById("poem-popup");
+  if (!popup) return;
+  const text = getPoemText(el.dataset.poem);
+  if (!text) return;
+  popup.textContent = text;
+  popup.style.display = "block";
+  positionPoemPopup(el, popup);
+}
+
+function hidePoemPopup() {
+  const popup = document.getElementById("poem-popup");
+  if (popup) popup.style.display = "none";
+}
+
+let poemHideTimer = null;
+
+function cancelPoemHide() {
+  if (poemHideTimer) {
+    clearTimeout(poemHideTimer);
+    poemHideTimer = null;
+  }
+}
+
+function schedulePoemHide() {
+  cancelPoemHide();
+  poemHideTimer = setTimeout(hidePoemPopup, 150);
+}
+
+function attachPoemPopupHandlers() {
+  document.querySelectorAll("#app .has-poem").forEach((el) => {
+    el.addEventListener("mouseenter", () => {
+      cancelPoemHide();
+      showPoemPopup(el);
+    });
+    el.addEventListener("mouseleave", schedulePoemHide);
+  });
+  const popup = document.getElementById("poem-popup");
+  if (popup) {
+    popup.addEventListener("mouseenter", cancelPoemHide);
+    popup.addEventListener("mouseleave", schedulePoemHide);
+  }
 }
 
 function renderFilm(folder, found) {
@@ -229,11 +301,24 @@ function renderFilm(folder, found) {
   const bottomAuthor = current.change ? "Иосиф Бродский" : "Агния Барто";
   const showTop = choice === "both" || choice === topAuthor;
   const showBottom = choice === "both" || choice === bottomAuthor;
+  const poemNumber = words["стих Бродского"] && words["стих Бродского"].ru;
   const topHtml = showTop
-    ? renderQuote(words[topAuthor], topAuthor, "words-quote-tr", withAuthor)
+    ? renderQuote(
+        words[topAuthor],
+        topAuthor,
+        "words-quote-tr",
+        withAuthor,
+        topAuthor === "Иосиф Бродский" ? poemNumber : undefined
+      )
     : "";
   const bottomHtml = showBottom
-    ? renderQuote(words[bottomAuthor], bottomAuthor, "words-quote-bl", withAuthor)
+    ? renderQuote(
+        words[bottomAuthor],
+        bottomAuthor,
+        "words-quote-bl",
+        withAuthor,
+        bottomAuthor === "Иосиф Бродский" ? poemNumber : undefined
+      )
     : "";
 
   return `
@@ -293,6 +378,7 @@ function updateStaticText(showWordsSelect, showSiteTitle) {
 function render() {
   const app = document.getElementById("app");
   const route = location.hash.replace(/^#\/?/, "");
+  hidePoemPopup();
 
   if (!route) {
     updateStaticText(false, true);
@@ -318,6 +404,7 @@ function render() {
   app.innerHTML = renderFilm(route, found);
   attachPreloadHandlers();
   attachImdbPopupHandlers();
+  attachPoemPopupHandlers();
 }
 
 function initLangSwitch() {

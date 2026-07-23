@@ -126,4 +126,12 @@ export const QUOTE_TRANSLATIONS = {
     en: "Outside’s absurd, especially that whoop of joy..",
     translator: "Thomas de Waal",
   },
+
+  // "I wish you were here, dear" (1989) - Brodsky wrote this one in English
+  // himself; the Russian is Viktor Kulle's translation of it, so "en" here
+  // is Brodsky's own original rather than a translation of the Russian.
+  "Хочу быть с тобой, моя радость, хочу быть рядом.": {
+    en: "I wish you were here, dear, I wish you were here.",
+    translator: "Joseph Brodsky (original English)",
+  },
 };
