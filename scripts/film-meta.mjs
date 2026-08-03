@@ -27,6 +27,11 @@ export const FILM_META = {
     imdbId: "tt0091497",
     director: { ru: "Леос Каракс", en: "Leos Carax", imdbId: "nm0136021" },
   },
+  "Замри-умри-воскресни!": {
+    titleEn: "Freeze Die Come to Life",
+    imdbId: "tt0101003",
+    director: { ru: "Виталий Каневский", en: "Vitali Kanevsky", imdbId: "nm0437592" },
+  },
   "Звери и хозяин заставы": {
     titleEn: "Animals with the Tollkeeper",
     imdbId: "tt0118621",

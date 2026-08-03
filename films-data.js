@@ -924,6 +924,90 @@ window.FILMS = {
       ]
     },
     {
+      "name": "Замри-умри-воскресни!",
+      "titleEn": "Freeze Die Come to Life",
+      "imdbId": "tt0101003",
+      "director": {
+        "ru": "Виталий Каневский",
+        "en": "Vitali Kanevsky",
+        "imdbId": "nm0437592"
+      },
+      "folders": [
+        {
+          "folder": "130",
+          "poster": "1_Замри-умри-воскресни!.jpg",
+          "second": "DSC04376.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Нам судьбой суждено встретиться ..",
+              "en": "We are destined to meet again ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Вдруг, откуда ни возьмись, как принцесса в сказке ..",
+              "en": "Suddenly, out of nowhere, like a princess in a fairy tale ..",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "128",
+          "poster": "1_Замри-умри-воскресни!.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Поздравляю себя с этой ранней находкой",
+              "en": "I congratulate myself on this early find",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "В лесу жил добрый ежик ..",
+              "en": "In the forest lived a kind little hedgehog..",
+              "enBy": "claude"
+            },
+            "change": {
+              "ru": "true"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "129",
+          "poster": "1_Замри-умри-воскресни!.jpg",
+          "second": "DSC08151.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "... при полумраке озарений не узнавать учителей.",
+              "en": "..in the half-light of epiphanies, not to recognize your teachers.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Нас на уроке ветерок тихонько обдувал.",
+              "en": "A breeze gently fanned us during the lesson.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "131",
+          "poster": "1_Замри-умри-воскресни!.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. чернела в зеленой ряске, как дверь в темноту, дыра ..",
+              "en": "..black in the green duckweed, like a door into darkness, a hole ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Пруд заглохший я найду, в чаще спрятанный.",
+              "en": "I'll find a stagnant pond, hidden deep in the thicket.",
+              "enBy": "claude"
+            }
+          }
+        }
+      ]
+    },
+    {
       "name": "Звери и хозяин заставы",
       "titleEn": "Animals with the Tollkeeper",
       "imdbId": "tt0118621",

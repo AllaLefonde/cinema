@@ -643,4 +643,39 @@ export const CLAUDE_TRANSLATIONS = {
 
   "Дверь скрипит. На пороге стоит треска.":
     "The door creaks. A cod is standing on the threshold.",
+
+  "В лесу жил добрый ежик ..":
+    "In the forest lived a kind little hedgehog..",
+
+  // "Неужели не я.." (1962), part of the "От окраины к центру" cycle -
+  // same poem as the "..и сиянье небес.." quote above.
+  "Поздравляю себя с этой ранней находкой":
+    "I congratulate myself on this early find",
+
+  // "Приходит время сожалений" (1961).
+  "... при полумраке озарений не узнавать учителей.":
+    "..in the half-light of epiphanies, not to recognize your teachers.",
+  // "Урок в саду" (1955).
+  "Нас на уроке ветерок тихонько обдувал.":
+    "A breeze gently fanned us during the lesson.",
+
+  // Widely circulated online as Brodsky ("Нам судьбой суждено встретиться
+  // снова в одном из февральских дней. Делаю ставку на тридцать первое."),
+  // but at least one source disputes the attribution, crediting it to
+  // Aleksey Andreev instead - same kind of likely misattribution as the
+  // "Замер всадник.." line above.
+  "Нам судьбой суждено встретиться ..":
+    "We are destined to meet again ..",
+
+  // "Встреча" ("Encounter") by Agnia Barto.
+  "Вдруг, откуда ни возьмись, как принцесса в сказке ..":
+    "Suddenly, out of nowhere, like a princess in a fairy tale ..",
+
+  // "Холмы" ("Hills", 1962).
+  ".. чернела в зеленой ряске, как дверь в темноту, дыра ..":
+    "..black in the green duckweed, like a door into darkness, a hole ..",
+
+  // "Одиночество" ("Loneliness", 1978), from the collection "Думай, думай...".
+  "Пруд заглохший я найду, в чаще спрятанный.":
+    "I'll find a stagnant pond, hidden deep in the thicket.",
 };
