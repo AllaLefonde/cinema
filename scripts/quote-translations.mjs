@@ -4,6 +4,16 @@
 // opportunistically, never invented. Missing entries fall back to Claude's
 // own translation (claude-translations.mjs) or the Russian text.
 export const QUOTE_TRANSLATIONS = {
+  // "Это -- ряд наблюдений. В углу -- тепло.." (1975-1976), from the "Часть
+  // речи" ("A Part of Speech") cycle. Published in NYRB, Dec 20 1979,
+  // uncredited to any translator, consistent with Brodsky's other
+  // self-translations from this period.
+  // https://www.nybooks.com/articles/1979/12/20/from-a-part-of-speech/
+  "Человек страшней, чем его скелет.": {
+    en: "Man is more frightening than his skeleton.",
+    translator: "Joseph Brodsky (self-translation)",
+  },
+
   // "Не выходи из комнаты" (1970), tr. Thomas de Waal
   // Translation: https://ruverses.com/joseph-brodsky/don-t-leave-the-room/12874/
   "..  слейся лицом с обоями.": {

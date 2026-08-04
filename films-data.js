@@ -989,6 +989,27 @@ window.FILMS = {
           }
         },
         {
+          "folder": "132",
+          "poster": "1_Замри-умри-воскресни!.jpg",
+          "second": "DSC03693.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Человек страшней, чем его скелет.",
+              "en": "Man is more frightening than his skeleton.",
+              "translator": "Joseph Brodsky (self-translation)"
+            },
+            "Агния Барто": {
+              "ru": "Не швырнул на столик шляпу ..",
+              "en": "He didn't fling his hat onto the table ..",
+              "enBy": "claude"
+            },
+            "change": {
+              "ru": "true"
+            }
+          },
+          "change": true
+        },
+        {
           "folder": "131",
           "poster": "1_Замри-умри-воскресни!.jpg",
           "second": "img.jpg",

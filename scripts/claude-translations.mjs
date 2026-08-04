@@ -678,4 +678,9 @@ export const CLAUDE_TRANSLATIONS = {
   // "Одиночество" ("Loneliness", 1978), from the collection "Думай, думай...".
   "Пруд заглохший я найду, в чаще спрятанный.":
     "I'll find a stagnant pond, hidden deep in the thicket.",
+
+  // "Не узнать сегодня папу" - same poem as the "Мир останется лживым." /
+  // "Не узнать сегодня папу.." pairing above.
+  "Не швырнул на столик шляпу ..":
+    "He didn't fling his hat onto the table ..",
 };
