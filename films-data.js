@@ -1025,6 +1025,23 @@ window.FILMS = {
               "enBy": "claude"
             }
           }
+        },
+        {
+          "folder": "133",
+          "poster": "1_Замри-умри-воскресни!.jpg",
+          "second": "DSC07769.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Вечер. Развалины геометрии.",
+              "en": "Evening. Ruins of geometry.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Нет, в жизни мне не повезло ..",
+              "en": "No, I've had no luck in life ..",
+              "enBy": "claude"
+            }
+          }
         }
       ]
     },

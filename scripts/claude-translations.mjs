@@ -683,4 +683,14 @@ export const CLAUDE_TRANSLATIONS = {
   // "Не узнать сегодня папу.." pairing above.
   "Не швырнул на столик шляпу ..":
     "He didn't fling his hat onto the table ..",
+
+  // "Вечер. Развалины геометрии..." (1987). No verified published English
+  // translation found.
+  "Вечер. Развалины геометрии.":
+    "Evening. Ruins of geometry.",
+
+  // "Однажды я разбил стекло", opening line. No verified published English
+  // translation found.
+  "Нет, в жизни мне не повезло ..":
+    "No, I've had no luck in life ..",
 };
