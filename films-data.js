@@ -692,7 +692,7 @@ window.FILMS = {
         {
           "folder": "92",
           "poster": "1_Дни жатвы.jpg",
-          "second": "DSC04718.jpg",
+          "second": "DSC03033.jpg",
           "words": {
             "Иосиф Бродский": {
               "ru": "Мы с тобою не договоримся.",
