@@ -2071,8 +2071,8 @@ window.FILMS = {
               "enBy": "claude"
             },
             "Агния Барто": {
-              "ru": "Мы много мелодий запомнить должны",
-              "en": "We must remember many melodies",
+              "ru": "Вот лет через двадцать решу я жениться, тогда эта песня и мне пригодится.",
+              "en": "In about twenty years I'll decide to marry, and then this song will come in handy for me too.",
               "enBy": "claude"
             },
             "change": {

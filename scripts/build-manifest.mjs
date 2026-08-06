@@ -28,7 +28,7 @@ function readWords(dir) {
     const match = line.match(/^([^:]+):\s*(.*)$/);
     if (!match) continue;
     const [, author, quote] = match;
-    if (author.trim().toLowerCase() === "order") continue;
+    if (["order", "change"].includes(author.trim().toLowerCase())) continue;
     const ru = quote.trim();
     if (!ru) continue;
     const verified = QUOTE_TRANSLATIONS[ru];
