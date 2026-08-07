@@ -253,8 +253,6 @@ export const CLAUDE_TRANSLATIONS = {
 
   "И бессмысленный грохот рояля поплывет над твоей головой..":
     "And the meaningless clatter of the piano will float above your head..",
-  "Мы много мелодий запомнить должны":
-    "We must remember many melodies",
   "Вот лет через двадцать решу я жениться, тогда эта песня и мне пригодится.":
     "In about twenty years I'll decide to marry, and then this song will come in handy for me too.",
 
