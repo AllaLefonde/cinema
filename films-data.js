@@ -45,9 +45,6 @@ window.FILMS = {
               "en": "The house went off to Leningrad for the October parade..",
               "enBy": "claude"
             },
-            "change": {
-              "ru": "true"
-            },
             "стих Бродского": {
               "ru": "6"
             }
@@ -219,9 +216,6 @@ window.FILMS = {
               "ru": "Блестит дождя косая сетка ..",
               "en": "The slanting net of rain glistens..",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -252,9 +246,6 @@ window.FILMS = {
               "ru": "Как танцует Любочка! Лучше всех подруг.",
               "en": "How Lyubochka dances! Better than all her friends.",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             },
             "стих Бродского": {
               "ru": "19"
@@ -327,9 +318,6 @@ window.FILMS = {
               "ru": "- Вздыхаешь из-за стекол? Опять стекло раскокал?",
               "en": "— Sighing over some glass? Broke another pane again?",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -383,9 +371,6 @@ window.FILMS = {
               "en": "Where do my friends live? On a high hill.",
               "enBy": "claude"
             },
-            "change": {
-              "ru": "true"
-            },
             "стих Бродского": {
               "ru": "15"
             }
@@ -435,9 +420,6 @@ window.FILMS = {
               "ru": "К нам прилетела птица проститься.",
               "en": "A bird has flown to us to say goodbye.",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -456,9 +438,6 @@ window.FILMS = {
               "ru": "Жили на свете два верных дружка..",
               "en": "Once upon a time there lived two loyal friends..",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -511,9 +490,6 @@ window.FILMS = {
               "ru": "Сейчас поймает окуня любитель-рыболов.",
               "en": "Right now an amateur angler is about to catch a perch.",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             },
             "стих Бродского": {
               "ru": "1"
@@ -572,9 +548,6 @@ window.FILMS = {
               "ru": "Люди на улице подняли головы: голуби, голуби..",
               "en": "People in the street raised their heads: pigeons, pigeons..",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             },
             "стих Бродского": {
               "ru": "13"
@@ -662,9 +635,6 @@ window.FILMS = {
               "ru": ".. И сияли нам когда-то каждый вечер огоньки.",
               "en": "..and lights once used to shine for us every evening.",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -800,9 +770,6 @@ window.FILMS = {
               "ru": "Посмотри-ка! — Погляди-ка!",
               "en": "Look at that! — Take a look!",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -838,9 +805,6 @@ window.FILMS = {
               "ru": "Жила подружка Дженни в моем воображеньи ..",
               "en": "There lived a friend named Jenny in my imagination..",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -876,9 +840,6 @@ window.FILMS = {
               "ru": "В школе за партой и в смертной борьбе верный товарищ поможет тебе.",
               "en": "At your school desk and in a mortal struggle, a true comrade will help you.",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -897,9 +858,6 @@ window.FILMS = {
               "ru": "Туман на рассвете! Верный прогноз!",
               "en": "Fog at dawn! A reliable forecast!",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -964,9 +922,6 @@ window.FILMS = {
               "ru": "В лесу жил добрый ежик ..",
               "en": "In the forest lived a kind little hedgehog..",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -1002,9 +957,6 @@ window.FILMS = {
               "ru": "Не швырнул на столик шляпу ..",
               "en": "He didn't fling his hat onto the table ..",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -1123,9 +1075,6 @@ window.FILMS = {
               "ru": "В большом гнезде на деревце птенцов не сосчитать.",
               "en": "In the big nest on the little tree, the chicks are too many to count.",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -1224,9 +1173,6 @@ window.FILMS = {
               "ru": "Приходите ровно в пять, мама будет выступать.",
               "en": "Come at exactly five, mom will be performing.",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -1262,9 +1208,6 @@ window.FILMS = {
               "ru": "Я свою сестренку Лиду никому не дам в обиду!",
               "en": "I won't let anyone hurt my little sister Lida!",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -1380,9 +1323,6 @@ window.FILMS = {
               "ru": "Но я ей руку протянул.",
               "en": "But I held out my hand to her.",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -1418,9 +1358,6 @@ window.FILMS = {
               "ru": "Подставляем мы корыто, Медный таз и два ведра.",
               "en": "We set out the washtub, a copper basin, and two buckets.",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -1439,9 +1376,6 @@ window.FILMS = {
               "ru": "Здесь не комната большая — Здесь огромная страна..",
               "en": "This isn't just a big room — it's an enormous country..",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             },
             "стих Бродского": {
               "ru": "1"
@@ -1560,9 +1494,6 @@ window.FILMS = {
               "ru": "По порядку.Стройся в ряд! На зарядку.Все подряд!",
               "en": "In order now. Line up in a row! Time for exercise. Everyone, all together!",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -1581,9 +1512,6 @@ window.FILMS = {
               "ru": "Ты, как бабочка, легка! Ты стройнее мотылька!",
               "en": "You're as light as a butterfly! You're slimmer than a moth!",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -1685,9 +1613,6 @@ window.FILMS = {
               "ru": "Он дрался! Курил! Он сидел на заборе!",
               "en": "He got into fights! He smoked! He sat on the fence!",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -1740,9 +1665,6 @@ window.FILMS = {
               "ru": "мне нужно тоже поиграть хоть полчаса!",
               "en": "I need to play too, even if just half an hour!",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -1810,9 +1732,6 @@ window.FILMS = {
               "ru": "- А это сок для тебя в бутылке.",
               "en": "— And this is juice for you, in a bottle.",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -1882,9 +1801,6 @@ window.FILMS = {
               "ru": "Я теперь до старости в нашем классе староста.",
               "en": "Now I'll be class monitor till old age.",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -1903,9 +1819,6 @@ window.FILMS = {
               "ru": "Он спрятался ловко, он спрятался смело.",
               "en": "He hid cleverly, he hid bravely.",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -2016,9 +1929,6 @@ window.FILMS = {
               "ru": "И говорит: — Ну, лезь!",
               "en": "And says: — Well, climb up!",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -2074,9 +1984,6 @@ window.FILMS = {
               "ru": "Вот лет через двадцать решу я жениться, тогда эта песня и мне пригодится.",
               "en": "In about twenty years I'll decide to marry, and then this song will come in handy for me too.",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -2105,9 +2012,6 @@ window.FILMS = {
               "ru": "А Нюрочки да Ниночки сдувай с нее пылиночки.",
               "en": "And little Nyuras and Ninas, blow the specks of dust off her.",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             },
             "стих Бродского": {
               "ru": "22"
@@ -2146,9 +2050,6 @@ window.FILMS = {
               "ru": "Давно ли Вы стали жонглёром?",
               "en": "How long have you been a juggler?",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -2167,9 +2068,6 @@ window.FILMS = {
               "ru": "Мы друзья - два Якова, зовут нас одинаково.",
               "en": "We're friends, two Yakovs, we're both called the same.",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -2222,9 +2120,6 @@ window.FILMS = {
               "ru": ".. картина неясна, Наступила ли весна.",
               "en": "..the picture's unclear, whether spring has come.",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -2340,9 +2235,6 @@ window.FILMS = {
               "ru": "Я метко стреляю, Без промаха бью...",
               "en": "I shoot with a sure aim, I never miss...",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -2390,9 +2282,6 @@ window.FILMS = {
               "ru": "Я люблю свою лошадку...",
               "en": "I love my little horse...",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             },
             "стих Бродского": {
               "ru": "7"
@@ -2482,9 +2371,6 @@ window.FILMS = {
               "ru": "Этот конь не бьет копытом, но в больших боях испытан,.",
               "en": "This horse doesn't paw the ground, but it's been tested in great battles,.",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -2532,9 +2418,6 @@ window.FILMS = {
               "ru": "— Скажите, есть у вас луна? На ней хотим сниматься.",
               "en": "— Tell me, do you have the moon? We want to be photographed on it.",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
@@ -2590,9 +2473,6 @@ window.FILMS = {
               "ru": "Оленька играет в прятки. Где искать ее, ребятки?",
               "en": "Olenka is playing hide-and-seek. Where should we look for her, kids?",
               "enBy": "claude"
-            },
-            "change": {
-              "ru": "true"
             }
           },
           "change": true
