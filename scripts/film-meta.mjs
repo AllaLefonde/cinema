@@ -67,6 +67,11 @@ export const FILM_META = {
     imdbId: "tt0149723",
     director: { ru: "Бернардо Бертолуччи", en: "Bernardo Bertolucci", imdbId: "nm0000934" },
   },
+  "Пиросмани": {
+    titleEn: "Pirosmani",
+    imdbId: "tt0064815",
+    director: { ru: "Георгий Шенгелая", en: "Giorgi Shengelaia", imdbId: "nm0791543" },
+  },
   "Презрение": {
     titleEn: "Contempt",
     imdbId: "tt0057345",

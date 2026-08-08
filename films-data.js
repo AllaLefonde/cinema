@@ -981,7 +981,7 @@ window.FILMS = {
         {
           "folder": "133",
           "poster": "1_Замри-умри-воскресни!.jpg",
-          "second": "DSC07769.jpg",
+          "second": "DSC07663.jpg",
           "words": {
             "Иосиф Бродский": {
               "ru": "Вечер. Развалины геометрии.",
@@ -1983,6 +1983,194 @@ window.FILMS = {
             "Агния Барто": {
               "ru": "Вот лет через двадцать решу я жениться, тогда эта песня и мне пригодится.",
               "en": "In about twenty years I'll decide to marry, and then this song will come in handy for me too.",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        }
+      ]
+    },
+    {
+      "name": "Пиросмани",
+      "titleEn": "Pirosmani",
+      "imdbId": "tt0064815",
+      "director": {
+        "ru": "Георгий Шенгелая",
+        "en": "Giorgi Shengelaia",
+        "imdbId": "nm0791543"
+      },
+      "folders": [
+        {
+          "folder": "134",
+          "poster": "1_Пиросмани.jpg",
+          "second": "DSC07416.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. в коляску, под зонтом, без верха, мы молча взгромоздимся и вперед ..",
+              "en": "..into the carriage, under the parasol, roofless, we'll silently clamber up, and onward ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Ехали мы, ехали. Охали мы, эхали...",
+              "en": "On we rode, and rode. We groaned, and rode some more...",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "141",
+          "poster": "1_Пиросмани.jpg",
+          "second": "DSC01317.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Повернись ко мне в профиль.",
+              "en": "Turn to me in profile.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Не велят нам равнодушно относиться к старикам.",
+              "en": "We're told not to be indifferent toward old people.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "140",
+          "poster": "1_Пиросмани.jpg",
+          "second": "DSC09615.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. словно девочки-сестры из непрожитых лет ..",
+              "en": "..like sister-girls out of years never lived ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": ".. вижу целую семейку, друг на друга все похожи...",
+              "en": "..I see a whole little family, all of them looking alike...",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "135",
+          "poster": "1_Пиросмани.jpg",
+          "second": "DSC09098.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Кажинный раз на этом самом месте я вспоминаю о своей невесте.",
+              "en": "Every blessed time, right in this very spot, I recall my bride-to-be.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": ".. как неживая, будто в сон погружена.",
+              "en": "..as if lifeless, as though sunk into sleep.",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "139",
+          "poster": "1_Пиросмани.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. как хорошо, что ничего взамен не будет",
+              "en": "..how good it is that nothing will be given in return",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Материнскою заботой окружает их народ.",
+              "en": "The people surround them with a mother's care.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "142",
+          "poster": "1_Пиросмани.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Как пейзажу с места вбок, нам с ума сойти нельзя.",
+              "en": "Just as a landscape can't shift sideways from its place, we mustn't lose our minds.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Холмы синеют вдалеке, как будто волны на реке ..",
+              "en": "Hills show blue in the distance, like waves upon a river ..",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "138",
+          "poster": "1_Пиросмани.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Пока ты пела и летала, похолодало.",
+              "en": "While you sang and flew about, it turned cold.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "У неё и голос слабый, никакого слуха нет.",
+              "en": "Besides, her voice is weak, and she has no ear for music at all.",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "143",
+          "poster": "1_Пиросмани.jpg",
+          "second": "DSC08197.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. фото, где вся семья.",
+              "en": "..a photo with the whole family in it.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Ты помнишь эти дни?",
+              "en": "Do you remember those days?",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "136",
+          "poster": "1_Пиросмани.jpg",
+          "second": "DSC06090.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Мой народ, терпеливый и добрый народ, пьющий, песни орущий ..",
+              "en": "My people, a patient and kindly people, drinking, bawling out songs ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Девочки на празднике соберутся в круг.",
+              "en": "At the party the girls will gather in a circle.",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "137",
+          "poster": "1_Пиросмани.jpg",
+          "second": "DSC02370.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "На блюдечке я сердце понесу и где-нибудь оставлю во дворе ..",
+              "en": "On a little saucer I'll carry my heart and leave it somewhere in the yard ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": ".. И дай я тебя обниму.",
+              "en": "..And let me give you a hug.",
               "enBy": "claude"
             }
           },

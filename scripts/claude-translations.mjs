@@ -693,4 +693,69 @@ export const CLAUDE_TRANSLATIONS = {
   // translation found.
   "Нет, в жизни мне не повезло ..":
     "No, I've had no luck in life ..",
+
+  // No verified published English translation found.
+  ".. в коляску, под зонтом, без верха, мы молча взгромоздимся и вперед ..":
+    "..into the carriage, under the parasol, roofless, we'll silently clamber up, and onward ..",
+  "Ехали мы, ехали. Охали мы, эхали...":
+    "On we rode, and rode. We groaned, and rode some more...",
+
+  // Widely circulated online as a folk/comic verse ("Каждый раз на этом
+  // самом месте вспоминаю о своей невесте.."); attributed to Brodsky in
+  // some online quote collections, but this reads as an anonymous jokey
+  // quatrain rather than his verse - same kind of likely misattribution as
+  // the "Замер всадник.." and "Нам судьбой суждено встретиться.." lines
+  // above.
+  "Кажинный раз на этом самом месте я вспоминаю о своей невесте.":
+    "Every blessed time, right in this very spot, I recall my bride-to-be.",
+  ".. как неживая, будто в сон погружена.":
+    "..as if lifeless, as though sunk into sleep.",
+
+  // No verified published English translation found.
+  "Мой народ, терпеливый и добрый народ, пьющий, песни орущий ..":
+    "My people, a patient and kindly people, drinking, bawling out songs ..",
+  "Девочки на празднике соберутся в круг.":
+    "At the party the girls will gather in a circle.",
+
+  // No verified published English translation found.
+  "На блюдечке я сердце понесу и где-нибудь оставлю во дворе ..":
+    "On a little saucer I'll carry my heart and leave it somewhere in the yard ..",
+  ".. И дай я тебя обниму.":
+    "..And let me give you a hug.",
+
+  // No verified published English translation found.
+  "Пока ты пела и летала, похолодало.":
+    "While you sang and flew about, it turned cold.",
+  "У неё и голос слабый, никакого слуха нет.":
+    "Besides, her voice is weak, and she has no ear for music at all.",
+
+  // No verified published English translation found.
+  ".. как хорошо, что ничего взамен не будет":
+    "..how good it is that nothing will be given in return",
+  "Материнскою заботой окружает их народ.":
+    "The people surround them with a mother's care.",
+
+  // No verified published English translation found.
+  ".. словно девочки-сестры из непрожитых лет ..":
+    "..like sister-girls out of years never lived ..",
+  ".. вижу целую семейку, друг на друга все похожи...":
+    "..I see a whole little family, all of them looking alike...",
+
+  // No verified published English translation found.
+  "Повернись ко мне в профиль.":
+    "Turn to me in profile.",
+  "Не велят нам равнодушно относиться к старикам.":
+    "We're told not to be indifferent toward old people.",
+
+  // No verified published English translation found.
+  "Как пейзажу с места вбок, нам с ума сойти нельзя.":
+    "Just as a landscape can't shift sideways from its place, we mustn't lose our minds.",
+  "Холмы синеют вдалеке, как будто волны на реке ..":
+    "Hills show blue in the distance, like waves upon a river ..",
+
+  // No verified published English translation found.
+  ".. фото, где вся семья.":
+    "..a photo with the whole family in it.",
+  "Ты помнишь эти дни?":
+    "Do you remember those days?",
 };
