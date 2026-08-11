@@ -380,6 +380,174 @@ window.FILMS = {
       ]
     },
     {
+      "name": "Алиса в городах",
+      "titleEn": "Alice in the Cities",
+      "imdbId": "tt0069687",
+      "director": {
+        "ru": "Вим Вендерс",
+        "en": "Wim Wenders",
+        "imdbId": "nm0000694"
+      },
+      "folders": [
+        {
+          "folder": "150",
+          "poster": "1_Алиса в городах.jpg",
+          "second": "DSC02512.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Мы будем жить с тобой на берегу ..",
+              "en": "You and I will live together on the shore ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Волна сегодня высока! Плохой улов у рыбака ..",
+              "en": "The wave is high today! The fisherman's catch is poor ..",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "144",
+          "poster": "1_Алиса в городах.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Дорогу развезло, как реку.",
+              "en": "The road turned to mud, like a river.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Ливень! Ливень! Льётся, льётся ..",
+              "en": "Downpour! Downpour! Pouring, pouring ..",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "152",
+          "poster": "1_Алиса в городах.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Это буду я: ничего внутри.",
+              "en": "That will be me: nothing inside.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Нет, я не гордость, не отрада, я — горе нашего отряда.",
+              "en": "No, I'm not the pride, not the joy, I'm the misfortune of our troop.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "145",
+          "poster": "1_Алиса в городах.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Цинтия, где же ты?",
+              "en": "Cynthia, where are you?",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Кто там ползает внизу?",
+              "en": "Who's crawling down there?",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "149",
+          "poster": "1_Алиса в городах.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. лица лишь подтверждают, что можно слиться разными способами ..",
+              "en": "..faces only confirm that one can merge in different ways ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Спокойно стой! Тебя снимаю снова!",
+              "en": "Stand still! I'm photographing you again!",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "146",
+          "poster": "1_Алиса в городах.jpg",
+          "second": "DSC06640.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. они в субботу закрывают в десять, а я хотел мороженого.",
+              "en": "..they close at ten on Saturdays, and I wanted ice cream.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Никого же он не кормит, сам мороженое ест.",
+              "en": "He's not feeding anyone — he's eating the ice cream himself.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "147",
+          "poster": "1_Алиса в городах.jpg",
+          "second": "DSC02514.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Переживи крик. Переживи смех.",
+              "en": "Outlive the scream. Outlive the laughter.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "В сарае, в темном уголке, и не найдешь его.",
+              "en": "In the shed, in a dark little corner, you won't even find it.",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "148",
+          "poster": "1_Алиса в городах.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Вот я вновь посетил эту местность любви ..",
+              "en": "Here I have again visited this land of love ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Сколько раз бывали в парке мы с отцом ..",
+              "en": "How many times my father and I have been to the park ..",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "151",
+          "poster": "1_Алиса в городах.jpg",
+          "second": "DSC04370.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. и молча пропускать через себя республиканских велосипедистов.",
+              "en": "..and silently let republican cyclists pass through you.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "И скачут лягушки за мной по пятам и просят меня:— Прокати, капитан!",
+              "en": "And frogs go hopping at my heels, begging me: — Give us a ride, captain!",
+              "enBy": "claude"
+            }
+          }
+        }
+      ]
+    },
+    {
       "name": "Бойцовая рыбка",
       "titleEn": "Rumble Fish",
       "imdbId": "tt0086216",

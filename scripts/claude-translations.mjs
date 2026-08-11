@@ -758,4 +758,58 @@ export const CLAUDE_TRANSLATIONS = {
     "..a photo with the whole family in it.",
   "Ты помнишь эти дни?":
     "Do you remember those days?",
+
+  // No verified published English translation found.
+  "Дорогу развезло, как реку.":
+    "The road turned to mud, like a river.",
+  "Ливень! Ливень! Льётся, льётся ..":
+    "Downpour! Downpour! Pouring, pouring ..",
+
+  // No verified published English translation found.
+  "Цинтия, где же ты?":
+    "Cynthia, where are you?",
+  "Кто там ползает внизу?":
+    "Who's crawling down there?",
+
+  // No verified published English translation found.
+  ".. они в субботу закрывают в десять, а я хотел мороженого.":
+    "..they close at ten on Saturdays, and I wanted ice cream.",
+  "Никого же он не кормит, сам мороженое ест.":
+    "He's not feeding anyone — he's eating the ice cream himself.",
+
+  // No verified published English translation found.
+  "Переживи крик. Переживи смех.":
+    "Outlive the scream. Outlive the laughter.",
+  "В сарае, в темном уголке, и не найдешь его.":
+    "In the shed, in a dark little corner, you won't even find it.",
+
+  // No verified published English translation found.
+  "Вот я вновь посетил эту местность любви ..":
+    "Here I have again visited this land of love ..",
+  "Сколько раз бывали в парке мы с отцом ..":
+    "How many times my father and I have been to the park ..",
+
+  // No verified published English translation found.
+  ".. лица лишь подтверждают, что можно слиться разными способами ..":
+    "..faces only confirm that one can merge in different ways ..",
+  "Спокойно стой! Тебя снимаю снова!":
+    "Stand still! I'm photographing you again!",
+
+  // No verified published English translation found.
+  "Мы будем жить с тобой на берегу ..":
+    "You and I will live together on the shore ..",
+  "Волна сегодня высока! Плохой улов у рыбака ..":
+    "The wave is high today! The fisherman's catch is poor ..",
+
+  // No verified published English translation found.
+  ".. и молча пропускать через себя республиканских велосипедистов.":
+    "..and silently let republican cyclists pass through you.",
+  "И скачут лягушки за мной по пятам и просят меня:— Прокати, капитан!":
+    "And frogs go hopping at my heels, begging me: — Give us a ride, captain!",
+
+  // No verified published English translation found.
+  "Это буду я: ничего внутри.":
+    "That will be me: nothing inside.",
+  "Нет, я не гордость, не отрада, я — горе нашего отряда.":
+    "No, I'm not the pride, not the joy, I'm the misfortune of our troop.",
 };

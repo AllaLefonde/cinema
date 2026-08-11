@@ -12,6 +12,11 @@ export const FILM_META = {
     imdbId: "tt0147864",
     director: { ru: "Андрей Черных", en: "Andrey Chernykh", imdbId: "nm0155988" },
   },
+  "Алиса в городах": {
+    titleEn: "Alice in the Cities",
+    imdbId: "tt0069687",
+    director: { ru: "Вим Вендерс", en: "Wim Wenders", imdbId: "nm0000694" },
+  },
   "Бойцовая рыбка": {
     titleEn: "Rumble Fish",
     imdbId: "tt0086216",
