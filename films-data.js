@@ -539,9 +539,7 @@ window.FILMS = {
               "enBy": "claude"
             },
             "Агния Барто": {
-              "ru": "И скачут лягушки за мной по пятам и просят меня:— Прокати, капитан!",
-              "en": "And frogs go hopping at my heels, begging me: — Give us a ride, captain!",
-              "enBy": "claude"
+              "ru": "И скачут лягушки за мной по пятам и1 просят меня:— Прокати, капитан!"
             }
           }
         }
