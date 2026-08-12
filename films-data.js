@@ -408,6 +408,23 @@ window.FILMS = {
           "change": true
         },
         {
+          "folder": "153",
+          "poster": "1_Алиса в городах.jpg",
+          "second": "DSC06343.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Все это лило, било, вздергивало и мотало ..",
+              "en": "All this poured, battered, jerked, and flung about ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Нет, не в этом городе я, ребята, рос.",
+              "en": "No, I didn't grow up in this city, guys.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
           "folder": "144",
           "poster": "1_Алиса в городах.jpg",
           "second": "img.jpg",
@@ -539,7 +556,9 @@ window.FILMS = {
               "enBy": "claude"
             },
             "Агния Барто": {
-              "ru": "И скачут лягушки за мной по пятам и1 просят меня:— Прокати, капитан!"
+              "ru": "И скачут лягушки за мной по пятам и просят меня:— Прокати, капитан!",
+              "en": "And frogs go hopping at my heels, begging me: — Give me a ride, captain!",
+              "enBy": "claude"
             }
           }
         }
