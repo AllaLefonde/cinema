@@ -413,14 +413,10 @@ window.FILMS = {
           "second": "DSC06343.jpg",
           "words": {
             "Иосиф Бродский": {
-              "ru": "Все это лило, било, вздергивало и мотало ..",
-              "en": "All this poured, battered, jerked, and flung about ..",
-              "enBy": "claude"
+              "ru": "Все это лило, било, вздергивало и мотало .."
             },
             "Агния Барто": {
-              "ru": "Нет, не в этом городе я, ребята, рос.",
-              "en": "No, I didn't grow up in this city, guys.",
-              "enBy": "claude"
+              "ru": "Нет, не в этом городе я, ребята, рос."
             }
           }
         },
@@ -557,7 +553,7 @@ window.FILMS = {
             },
             "Агния Барто": {
               "ru": "И скачут лягушки за мной по пятам и просят меня:— Прокати, капитан!",
-              "en": "And frogs go hopping at my heels, begging me: — Give me a ride, captain!",
+              "en": "And frogs go hopping at my heels, begging me: — Give us a ride, captain!",
               "enBy": "claude"
             }
           }
