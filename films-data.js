@@ -2592,8 +2592,7 @@ window.FILMS = {
               "en": "I need to speak at the assembly, I need to get all the kids excited.",
               "enBy": "claude"
             }
-          },
-          "change": true
+          }
         },
         {
           "folder": "159",
@@ -2627,7 +2626,8 @@ window.FILMS = {
               "en": "But today is your holiday ..",
               "enBy": "claude"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "161",
@@ -2644,7 +2644,8 @@ window.FILMS = {
               "en": "Beneath you, ships; above you, clouds ..",
               "enBy": "claude"
             }
-          }
+          },
+          "change": true
         },
         {
           "folder": "160",
