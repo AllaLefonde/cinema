@@ -413,10 +413,14 @@ window.FILMS = {
           "second": "DSC06343.jpg",
           "words": {
             "Иосиф Бродский": {
-              "ru": "Все это лило, било, вздергивало и мотало .."
+              "ru": "Все это лило, било, вздергивало и мотало ..",
+              "en": "All this poured, battered, jerked, and flung about ..",
+              "enBy": "claude"
             },
             "Агния Барто": {
-              "ru": "Нет, не в этом городе я, ребята, рос."
+              "ru": "Нет, не в этом городе я, ребята, рос.",
+              "en": "No, I didn't grow up in this city, guys.",
+              "enBy": "claude"
             }
           }
         },
