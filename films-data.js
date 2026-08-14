@@ -2663,6 +2663,24 @@ window.FILMS = {
               "enBy": "claude"
             }
           }
+        },
+        {
+          "folder": "163",
+          "poster": "1_Санаторий Под Клепсидрой.jpg",
+          "second": "DSC06308.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Зажжём же свечи.",
+              "en": "Let us light the candles.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Счастье я держала ..",
+              "en": "I was holding happiness ..",
+              "enBy": "claude"
+            }
+          },
+          "change": true
         }
       ]
     },

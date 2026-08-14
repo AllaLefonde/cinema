@@ -872,4 +872,10 @@ export const CLAUDE_TRANSLATIONS = {
     "Once there was a king, once there was a king, he was as brave as a lion.",
   "Брату в пору башмаки: не малы, не велики.":
     "The shoes fit brother just right: not too small, not too big.",
+
+  // No verified published English translation found.
+  "Зажжём же свечи.":
+    "Let us light the candles.",
+  "Счастье я держала ..":
+    "I was holding happiness ..",
 };
