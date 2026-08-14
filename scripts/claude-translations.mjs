@@ -812,4 +812,64 @@ export const CLAUDE_TRANSLATIONS = {
     "That will be me: nothing inside.",
   "Нет, я не гордость, не отрада, я — горе нашего отряда.":
     "No, I'm not the pride, not the joy, I'm the misfortune of our troop.",
+
+  // No verified published English translation found.
+  "Все это лило, било, вздергивало и мотало ..":
+    "All this poured, battered, jerked, and flung about ..",
+  "Нет, не в этом городе я, ребята, рос.":
+    "No, I didn't grow up in this city, guys.",
+
+  // No verified published English translation found.
+  "Птица уже не влетает в форточку.":
+    "The bird no longer flies in through the vent-window.",
+  "Это что за птица?":
+    "What kind of bird is this?",
+
+  // No verified published English translation found.
+  "Здесь можно жить ..":
+    "One can live here ..",
+  "К своей сестрёнке в пятый класс заглянет непременно ..":
+    "He'll be sure to stop by his little sister's fifth-grade class ..",
+
+  // No verified published English translation found.
+  "Сумев отгородиться от людей, я от себя хочу отгородиться.":
+    "Having managed to fence myself off from people, I now want to fence myself off from myself.",
+  "Совсем не понимаю ..":
+    "I don't understand at all ..",
+
+  // No verified published English translation found.
+  "Тот храм обступал их, как замерший лес.":
+    "That temple surrounded them like a frozen forest.",
+  "Слышим музыку и пенье и чужие голоса.":
+    "We hear music and singing and strangers' voices.",
+
+  // No verified published English translation found.
+  ".. все стало набором игрушек из глины.":
+    "..everything became a set of clay toys.",
+  "Нужно выступить на сборе, нужно всех ребят увлечь.":
+    "I need to speak at the assembly, I need to get all the kids excited.",
+
+  // No verified published English translation found.
+  ".. смотреть в глаза возлюбленного друга ..":
+    "..to look into the eyes of a beloved friend ..",
+  "По тропинке длинной он уходит в путь…":
+    "Down the long path he sets off on his way…",
+
+  // No verified published English translation found.
+  "Не будет больше праздников для вас ..":
+    "There will be no more holidays for you ..",
+  "А сегодня праздник твой ..":
+    "But today is your holiday ..",
+
+  // No verified published English translation found.
+  ".. и льется мед огней вечерних ..":
+    "..and the honey of evening lights pours down ..",
+  "Под тобой корабли, над тобой облака ..":
+    "Beneath you, ships; above you, clouds ..",
+
+  // No verified published English translation found.
+  "Жил-был король, жил-был король, он храбрый был, как лев.":
+    "Once there was a king, once there was a king, he was as brave as a lion.",
+  "Брату в пору башмаки: не малы, не велики.":
+    "The shoes fit brother just right: not too small, not too big.",
 };

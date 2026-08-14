@@ -2496,6 +2496,172 @@ window.FILMS = {
       ]
     },
     {
+      "name": "Санаторий Под Клепсидрой",
+      "titleEn": "The Hourglass Sanatorium",
+      "imdbId": "tt0070628",
+      "director": {
+        "ru": "Войцех Хас",
+        "en": "Wojciech Has",
+        "imdbId": "nm0367860"
+      },
+      "folders": [
+        {
+          "folder": "154",
+          "poster": "1_Санаторий Под Клепсидрой.jpg",
+          "second": "23.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Птица уже не влетает в форточку.",
+              "en": "The bird no longer flies in through the vent-window.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Это что за птица?",
+              "en": "What kind of bird is this?",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "155",
+          "poster": "1_Санаторий Под Клепсидрой.jpg",
+          "second": "DSC03740.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Здесь можно жить ..",
+              "en": "One can live here ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "К своей сестрёнке в пятый класс заглянет непременно ..",
+              "en": "He'll be sure to stop by his little sister's fifth-grade class ..",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "156",
+          "poster": "1_Санаторий Под Клепсидрой.jpg",
+          "second": "DSC07738.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Сумев отгородиться от людей, я от себя хочу отгородиться.",
+              "en": "Having managed to fence myself off from people, I now want to fence myself off from myself.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Совсем не понимаю ..",
+              "en": "I don't understand at all ..",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "157",
+          "poster": "1_Санаторий Под Клепсидрой.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Тот храм обступал их, как замерший лес.",
+              "en": "That temple surrounded them like a frozen forest.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Слышим музыку и пенье и чужие голоса.",
+              "en": "We hear music and singing and strangers' voices.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "158",
+          "poster": "1_Санаторий Под Клепсидрой.jpg",
+          "second": "DSC06582.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. все стало набором игрушек из глины.",
+              "en": "..everything became a set of clay toys.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Нужно выступить на сборе, нужно всех ребят увлечь.",
+              "en": "I need to speak at the assembly, I need to get all the kids excited.",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "159",
+          "poster": "1_Санаторий Под Клепсидрой.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. смотреть в глаза возлюбленного друга ..",
+              "en": "..to look into the eyes of a beloved friend ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "По тропинке длинной он уходит в путь…",
+              "en": "Down the long path he sets off on his way…",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "162",
+          "poster": "1_Санаторий Под Клепсидрой.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Не будет больше праздников для вас ..",
+              "en": "There will be no more holidays for you ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "А сегодня праздник твой ..",
+              "en": "But today is your holiday ..",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "161",
+          "poster": "1_Санаторий Под Клепсидрой.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. и льется мед огней вечерних ..",
+              "en": "..and the honey of evening lights pours down ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Под тобой корабли, над тобой облака ..",
+              "en": "Beneath you, ships; above you, clouds ..",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "160",
+          "poster": "1_Санаторий Под Клепсидрой.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Жил-был король, жил-был король, он храбрый был, как лев.",
+              "en": "Once there was a king, once there was a king, he was as brave as a lion.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Брату в пору башмаки: не малы, не велики.",
+              "en": "The shoes fit brother just right: not too small, not too big.",
+              "enBy": "claude"
+            }
+          }
+        }
+      ]
+    },
+    {
       "name": "Съемки в Палермо",
       "titleEn": "Palermo Shooting",
       "imdbId": "tt1008017",

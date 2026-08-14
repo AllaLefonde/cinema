@@ -82,6 +82,11 @@ export const FILM_META = {
     imdbId: "tt0057345",
     director: { ru: "Жан-Люк Годар", en: "Jean-Luc Godard", imdbId: "nm0000419" },
   },
+  "Санаторий Под Клепсидрой": {
+    titleEn: "The Hourglass Sanatorium",
+    imdbId: "tt0070628",
+    director: { ru: "Войцех Хас", en: "Wojciech Has", imdbId: "nm0367860" },
+  },
   "Съемки в Палермо": {
     titleEn: "Palermo Shooting",
     imdbId: "tt1008017",
