@@ -2374,24 +2374,6 @@ window.FILMS = {
       },
       "folders": [
         {
-          "folder": "164",
-          "poster": "1_Поезд теней.jpg",
-          "second": "img.jpg",
-          "words": {
-            "Иосиф Бродский": {
-              "ru": "Позвольте, Клепикова Лена, пред Вами преклонить колена.",
-              "en": "Allow me, Klepikova Lena, to bend my knee before you.",
-              "enBy": "claude"
-            },
-            "Агния Барто": {
-              "ru": "Поздравленья принимай!",
-              "en": "Accept my congratulations!",
-              "enBy": "claude"
-            }
-          },
-          "change": true
-        },
-        {
           "folder": "165",
           "poster": "1_Поезд теней.jpg",
           "second": "img.jpg",
@@ -2481,6 +2463,24 @@ window.FILMS = {
           }
         },
         {
+          "folder": "171",
+          "poster": "1_Поезд теней.jpg",
+          "second": "img.png",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "В такую ночь достаточно Луны ..",
+              "en": "On such a night, the Moon alone is enough ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "В домах погасли огоньки.",
+              "en": "The lights went out in the houses.",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
           "folder": "170",
           "poster": "1_Поезд теней.jpg",
           "second": "img.jpg",
@@ -2496,25 +2496,72 @@ window.FILMS = {
               "enBy": "claude"
             }
           }
-        }
-      ]
-    },
-    {
-      "name": "Поезд теней.jpg",
-      "folders": [
+        },
         {
-          "folder": "171",
-          "poster": "1_Поезд теней.jpg.jpg",
-          "second": "img.png",
+          "folder": "172",
+          "poster": "1_Поезд теней.jpg",
+          "second": "img.jpg",
           "words": {
             "Иосиф Бродский": {
-              "ru": "В такую ночь достаточно Луны ..",
-              "en": "On such a night, the Moon alone is enough ..",
+              "ru": "Самолет летит на Вест ..",
+              "en": "The plane flies West ..",
               "enBy": "claude"
             },
             "Агния Барто": {
-              "ru": "В домах погасли огоньки.",
-              "en": "The lights went out in the houses.",
+              "ru": "Как высок он!",
+              "en": "How tall he is!",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "164",
+          "poster": "1_Поезд теней.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Позвольте, Клепикова Лена, пред Вами преклонить колена.",
+              "en": "Allow me, Klepikova Lena, to bend my knee before you.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Поздравленья принимай!",
+              "en": "Accept my congratulations!",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "173",
+          "poster": "1_Поезд теней.jpg",
+          "second": "DSC08270.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. девочка-память стоит ..",
+              "en": "..girl-memory stands ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Пора влюбиться! Мне почти тринадцать лет.",
+              "en": "Time to fall in love! I'm almost thirteen.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "174",
+          "poster": "1_Поезд теней.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Навсегда расстаемся с тобой, дружок.",
+              "en": "We are parting for good, my friend, that's that.",
+              "translator": "George L. Kline"
+            },
+            "Агния Барто": {
+              "ru": "Кричат мальчишки мне: — Жених!",
+              "en": "The boys shout at me: — Bridegroom!",
               "enBy": "claude"
             }
           },

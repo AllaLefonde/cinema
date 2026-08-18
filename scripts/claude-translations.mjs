@@ -934,4 +934,27 @@ export const CLAUDE_TRANSLATIONS = {
   // English translation found.
   "В домах погасли огоньки.":
     "The lights went out in the houses.",
+
+  // From "Неоконченный отрывок" ("Unfinished Fragment", 1968). No verified
+  // published English translation found.
+  "Самолет летит на Вест ..":
+    "The plane flies West ..",
+  // From "Рисунок" ("The Drawing"). No verified published English
+  // translation found.
+  "Как высок он!":
+    "How tall he is!",
+
+  // From "Наступает весна" ("Spring Is Coming"). No verified published
+  // English translation found.
+  ".. девочка-память стоит ..":
+    "..girl-memory stands ..",
+  // From "Первая любовь" ("First Love", 1956). No verified published
+  // English translation found.
+  "Пора влюбиться! Мне почти тринадцать лет.":
+    "Time to fall in love! I'm almost thirteen.",
+
+  // From "Я с ней дружу" ("I'm Friends With Her"). No verified published
+  // English translation found.
+  "Кричат мальчишки мне: — Жених!":
+    "The boys shout at me: — Bridegroom!",
 };

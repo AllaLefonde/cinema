@@ -90,9 +90,14 @@ export const QUOTE_TRANSLATIONS = {
     translator: "Thomas de Waal",
   },
 
-  // "То не Муза воды набирает в рот" ("To a Friend"), tr. George L. Kline.
+  // "Folk Tune" (opens "Навсегда расстаемся с тобой, дружок.."), tr.
+  // George L. Kline, in "Selected Poems" (1974).
   "Нарисуй на бумаге простой кружок.": {
     en: "Draw an empty circle on your yellow pad.",
+    translator: "George L. Kline",
+  },
+  "Навсегда расстаемся с тобой, дружок.": {
+    en: "We are parting for good, my friend, that's that.",
     translator: "George L. Kline",
   },
 
