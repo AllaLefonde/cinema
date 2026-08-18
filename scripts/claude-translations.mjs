@@ -878,4 +878,60 @@ export const CLAUDE_TRANSLATIONS = {
     "Let us light the candles.",
   "Счастье я держала ..":
     "I was holding happiness ..",
+
+  // No verified published English translation found.
+  "Позвольте, Клепикова Лена, пред Вами преклонить колена.":
+    "Allow me, Klepikova Lena, to bend my knee before you.",
+  "Поздравленья принимай!":
+    "Accept my congratulations!",
+
+  // From "Пьяцца Маттеи" ("Piazza Mattei", 1981). No verified published
+  // English translation found.
+  "Я пил из этого фонтана ..":
+    "I drank from this fountain ..",
+  "А зачем такие трубы?":
+    "But why such pipes?",
+
+  // From "Качели" ("The Swing"). No verified published English translation
+  // found.
+  "А тетя Маруся... качается в парке ..":
+    "And Aunt Marusya... swings in the park ..",
+
+  // From "Романс" ("Romance", from the "Июльское интермеццо" cycle, 1961).
+  // No verified published English translation found.
+  ".. я различу на улицах твой взмах.":
+    "..I'll make out your wave on the streets.",
+  // From a poem about a croquet court ("Площадка для крокета"). No verified
+  // published English translation found.
+  ".. чуть не с самого рассвета начинается игра.":
+    "..the game begins almost from the very break of dawn.",
+
+  // From "Стансы" ("Ни страны, ни погоста ..", 1962). No verified published
+  // English translation found (only unattributed fan translations).
+  ".. машут мальчику вслед.":
+    "..wave farewell to the boy.",
+  // From "Бегут ромашки по полю". No verified published English translation
+  // found.
+  "И до свиданья, дяденька ..":
+    "And goodbye, mister ..",
+  // Same poem, opening lines.
+  ".. а я стою как вкопанный и глаз не отведу.":
+    "..and I stand rooted to the spot and can't look away.",
+
+  // From "От окраины к центру" (1962). No verified published English
+  // translation found with a confirmed named translator.
+  ".. мы становимся светом и тенью ..":
+    "..we become light and shadow..",
+  // From "Слон" ("The Elephant"), part of the "Игрушки" ("Toys") cycle.
+  // No verified published English translation found.
+  "Спать пора!":
+    "Time to sleep!",
+
+  // No verified published English translation found.
+  "В такую ночь достаточно Луны ..":
+    "On such a night, the Moon alone is enough ..",
+  // From "Ночная смена", part of "Я живу в Москве". No verified published
+  // English translation found.
+  "В домах погасли огоньки.":
+    "The lights went out in the houses.",
 };

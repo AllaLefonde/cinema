@@ -144,4 +144,21 @@ export const QUOTE_TRANSLATIONS = {
     en: "I wish you were here, dear, I wish you were here.",
     translator: "Joseph Brodsky (original English)",
   },
+
+  // "Рождественский романс" ("Christmas Carol", 1961), tr. Alexey Vernitsky:
+  // https://ruverses.com/joseph-brodsky/in-such-an-inexplicable-blue/
+  // Full line: "как будто жизнь качнется вправо, качнувшись влево" ->
+  // "As if your life can sway aright, / Once swayed aleft."
+  ".. как будто жизнь качнется ..": {
+    en: "..as if your life can sway..",
+    translator: "Alexey Vernitsky",
+  },
+
+  // "Törnfallet" (1990) - Brodsky wrote this one in English himself; the
+  // Russian is Viktor Kullé's translation of it, so "en" here is Brodsky's
+  // own original rather than a translation of the Russian.
+  "В Швеции луг зелёный.": {
+    en: "There is a meadow in Sweden.",
+    translator: "Joseph Brodsky (original English)",
+  },
 };

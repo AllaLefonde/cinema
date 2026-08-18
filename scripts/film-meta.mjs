@@ -77,6 +77,11 @@ export const FILM_META = {
     imdbId: "tt0064815",
     director: { ru: "Георгий Шенгелая", en: "Giorgi Shengelaia", imdbId: "nm0791543" },
   },
+  "Поезд теней": {
+    titleEn: "Train of Shadows",
+    imdbId: "tt0120371",
+    director: { ru: "Хосе Луис Герин", en: "José Luis Guerín", imdbId: "nm0346360" },
+  },
   "Презрение": {
     titleEn: "Contempt",
     imdbId: "tt0057345",

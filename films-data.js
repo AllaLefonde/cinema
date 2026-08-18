@@ -2364,6 +2364,160 @@ window.FILMS = {
       ]
     },
     {
+      "name": "Поезд теней",
+      "titleEn": "Train of Shadows",
+      "imdbId": "tt0120371",
+      "director": {
+        "ru": "Хосе Луис Герин",
+        "en": "José Luis Guerín",
+        "imdbId": "nm0346360"
+      },
+      "folders": [
+        {
+          "folder": "164",
+          "poster": "1_Поезд теней.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Позвольте, Клепикова Лена, пред Вами преклонить колена.",
+              "en": "Allow me, Klepikova Lena, to bend my knee before you.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Поздравленья принимай!",
+              "en": "Accept my congratulations!",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "165",
+          "poster": "1_Поезд теней.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Я пил из этого фонтана ..",
+              "en": "I drank from this fountain ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "А зачем такие трубы?",
+              "en": "But why such pipes?",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "166",
+          "poster": "1_Поезд теней.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. как будто жизнь качнется ..",
+              "en": "..as if your life can sway..",
+              "translator": "Alexey Vernitsky"
+            },
+            "Агния Барто": {
+              "ru": "А тетя Маруся... качается в парке ..",
+              "en": "And Aunt Marusya... swings in the park ..",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "167",
+          "poster": "1_Поезд теней.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. я различу на улицах твой взмах.",
+              "en": "..I'll make out your wave on the streets.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": ".. чуть не с самого рассвета начинается игра.",
+              "en": "..the game begins almost from the very break of dawn.",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "168",
+          "poster": "1_Поезд теней.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. машут мальчику вслед.",
+              "en": "..wave farewell to the boy.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "И до свиданья, дяденька ..",
+              "en": "And goodbye, mister ..",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "169",
+          "poster": "1_Поезд теней.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "В Швеции луг зелёный.",
+              "en": "There is a meadow in Sweden.",
+              "translator": "Joseph Brodsky (original English)"
+            },
+            "Агния Барто": {
+              "ru": ".. а я стою как вкопанный и глаз не отведу.",
+              "en": "..and I stand rooted to the spot and can't look away.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "171",
+          "poster": "1_Поезд теней.jpg.jpg",
+          "second": "img.png",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "В такую ночь достаточно Луны ..",
+              "en": "On such a night, the Moon alone is enough ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "В домах погасли огоньки.",
+              "en": "The lights went out in the houses.",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "170",
+          "poster": "1_Поезд теней.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. мы становимся светом и тенью ..",
+              "en": "..we become light and shadow..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Спать пора!",
+              "en": "Time to sleep!",
+              "enBy": "claude"
+            }
+          }
+        }
+      ]
+    },
+    {
       "name": "Презрение",
       "titleEn": "Contempt",
       "imdbId": "tt0057345",
