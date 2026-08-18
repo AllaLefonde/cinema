@@ -2481,6 +2481,28 @@ window.FILMS = {
           }
         },
         {
+          "folder": "170",
+          "poster": "1_Поезд теней.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. мы становимся светом и тенью ..",
+              "en": "..we become light and shadow..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Спать пора!",
+              "en": "Time to sleep!",
+              "enBy": "claude"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Поезд теней.jpg",
+      "folders": [
+        {
           "folder": "171",
           "poster": "1_Поезд теней.jpg.jpg",
           "second": "img.png",
@@ -2497,23 +2519,6 @@ window.FILMS = {
             }
           },
           "change": true
-        },
-        {
-          "folder": "170",
-          "poster": "1_Поезд теней.jpg",
-          "second": "img.jpg",
-          "words": {
-            "Иосиф Бродский": {
-              "ru": ".. мы становимся светом и тенью ..",
-              "en": "..we become light and shadow..",
-              "enBy": "claude"
-            },
-            "Агния Барто": {
-              "ru": "Спать пора!",
-              "en": "Time to sleep!",
-              "enBy": "claude"
-            }
-          }
         }
       ]
     },
