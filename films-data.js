@@ -2428,24 +2428,6 @@ window.FILMS = {
           "change": true
         },
         {
-          "folder": "168",
-          "poster": "1_Поезд теней.jpg",
-          "second": "img.jpg",
-          "words": {
-            "Иосиф Бродский": {
-              "ru": ".. машут мальчику вслед.",
-              "en": "..wave farewell to the boy.",
-              "enBy": "claude"
-            },
-            "Агния Барто": {
-              "ru": "И до свиданья, дяденька ..",
-              "en": "And goodbye, mister ..",
-              "enBy": "claude"
-            }
-          },
-          "change": true
-        },
-        {
           "folder": "169",
           "poster": "1_Поезд теней.jpg",
           "second": "img.jpg",
@@ -2562,6 +2544,41 @@ window.FILMS = {
             "Агния Барто": {
               "ru": "Кричат мальчишки мне: — Жених!",
               "en": "The boys shout at me: — Bridegroom!",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "168",
+          "poster": "1_Поезд теней.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Отсутствие мое большой дыры в пейзаже не сделало ..",
+              "en": "My absence didn't leave a large hole in the landscape ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": ".. и всего до нашей дачи двадцать пять минут ходьбы.",
+              "en": "..and it's just twenty-five minutes' walk to our dacha.",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "175",
+          "poster": "1_Поезд теней.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Остатки золота-цвета ..",
+              "en": "The remnants of gold-colored ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Ветер листья кружит.",
+              "en": "The wind swirls the leaves.",
               "enBy": "claude"
             }
           },

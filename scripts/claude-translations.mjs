@@ -957,4 +957,21 @@ export const CLAUDE_TRANSLATIONS = {
   // English translation found.
   "Кричат мальчишки мне: — Жених!":
     "The boys shout at me: — Bridegroom!",
+
+  // From "Пятая годовщина" ("Fifth Anniversary", 1977). No verified
+  // published English translation found with a confirmed exact wording.
+  "Отсутствие мое большой дыры в пейзаже не сделало ..":
+    "My absence didn't leave a large hole in the landscape ..",
+  // From "Дачный адрес" ("The Dacha Address", 1940). No verified published
+  // English translation found.
+  ".. и всего до нашей дачи двадцать пять минут ходьбы.":
+    "..and it's just twenty-five minutes' walk to our dacha.",
+
+  // No verified published English translation found.
+  "Остатки золота-цвета ..":
+    "The remnants of gold-colored ..",
+  // From an autumn-themed poem. No verified published English translation
+  // found.
+  "Ветер листья кружит.":
+    "The wind swirls the leaves.",
 };
