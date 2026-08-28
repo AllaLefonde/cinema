@@ -92,6 +92,11 @@ export const FILM_META = {
     imdbId: "tt0070628",
     director: { ru: "Войцех Хас", en: "Wojciech Has", imdbId: "nm0367860" },
   },
+  "Сны": {
+    titleEn: "Dreams",
+    imdbId: "tt0100998",
+    director: { ru: "Акира Куросава", en: "Akira Kurosawa", imdbId: "nm0000041" },
+  },
   "Съемки в Палермо": {
     titleEn: "Palermo Shooting",
     imdbId: "tt1008017",

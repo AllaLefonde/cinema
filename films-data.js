@@ -2908,6 +2908,139 @@ window.FILMS = {
       ]
     },
     {
+      "name": "Сны",
+      "titleEn": "Dreams",
+      "imdbId": "tt0100998",
+      "director": {
+        "ru": "Акира Куросава",
+        "en": "Akira Kurosawa",
+        "imdbId": "nm0000041"
+      },
+      "folders": [
+        {
+          "folder": "176",
+          "poster": "1_Сны.jpg",
+          "second": "DSC01660.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Любовник-оборотень, где же ты теперь ..",
+              "en": "Shapeshifter lover, where are you now ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": ".. и совсем она не знала, что она была лисой.",
+              "en": "..and she had no idea at all, that she was a fox.",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "178",
+          "poster": "1_Сны.jpg",
+          "second": "DSC09421.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Брожу в редеющем лесу ..",
+              "en": "I wander through the thinning forest ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Если по лесу идти тихо, тихо, тихо ...",
+              "en": "If you walk through the forest quietly, quietly, quietly ...",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "177",
+          "poster": "1_Сны.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "Цветок походит на другой цветок.",
+              "en": "A flower resembles another flower.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Он плачет, он клятвы дает без конца!",
+              "en": "He cries, he keeps making vows without end!",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "179",
+          "poster": "1_Сны.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. цветущих вишен арка висит над ней ..",
+              "en": ".. an arch of blossoming cherry trees hangs over it ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Весна, весна, пришла весна!",
+              "en": "Spring, spring, spring has come!",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "180",
+          "poster": "1_Сны.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. туннель в психологическую даль ..",
+              "en": ".. a tunnel into psychological distance ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": ".. в темноте не виден ты.",
+              "en": ".. in the dark you can't be seen.",
+              "enBy": "claude"
+            }
+          },
+          "change": true
+        },
+        {
+          "folder": "181",
+          "poster": "1_Сны.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": ".. пальцы мои теплы, как июльские дни.",
+              "en": ".. my fingers are warm, like the days of July.",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Рисовать я буду!",
+              "en": "I'm going to draw!",
+              "enBy": "claude"
+            }
+          }
+        },
+        {
+          "folder": "182",
+          "poster": "1_Сны.jpg",
+          "second": "img.jpg",
+          "words": {
+            "Иосиф Бродский": {
+              "ru": "В туче прячась, бродит Бог ..",
+              "en": "Hiding in a cloud, God wanders ..",
+              "enBy": "claude"
+            },
+            "Агния Барто": {
+              "ru": "Вспыхнул на небе пожар ..",
+              "en": "A fire flared up in the sky ..",
+              "enBy": "claude"
+            }
+          }
+        }
+      ]
+    },
+    {
       "name": "Съемки в Палермо",
       "titleEn": "Palermo Shooting",
       "imdbId": "tt1008017",

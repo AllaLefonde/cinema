@@ -974,4 +974,67 @@ export const CLAUDE_TRANSLATIONS = {
   // found.
   "Ветер листья кружит.":
     "The wind swirls the leaves.",
+
+  // From "Исповедь" ("Confession"). No verified published English
+  // translation found.
+  "Любовник-оборотень, где же ты теперь ..":
+    "Shapeshifter lover, where are you now ..",
+  // From "Но поймите и меня" ("But Understand Me Too"). No verified
+  // published English translation found.
+  ".. и совсем она не знала, что она была лисой.":
+    "..and she had no idea at all, that she was a fox.",
+
+  // From "Стансы" ("Stanzas"). No verified published English translation
+  // found.
+  "Цветок походит на другой цветок.":
+    "A flower resembles another flower.",
+  // From "Про слезы и дела" ("About Tears and Deeds"). No verified
+  // published English translation found.
+  "Он плачет, он клятвы дает без конца!":
+    "He cries, he keeps making vows without end!",
+
+  // From "Брожу в редеющем лесу..." (1964, untitled). No verified
+  // published English translation found.
+  "Брожу в редеющем лесу ..":
+    "I wander through the thinning forest ..",
+  // From the poem beginning "Если по лесу идти". No verified published
+  // English translation found.
+  "Если по лесу идти тихо, тихо, тихо ...":
+    "If you walk through the forest quietly, quietly, quietly ...",
+
+  // From "Исаак и Авраам" ("Isaac and Abraham", 1963). No verified
+  // published English translation found.
+  ".. цветущих вишен арка висит над ней ..":
+    ".. an arch of blossoming cherry trees hangs over it ..",
+  // From "Урок в саду" ("A Lesson in the Garden"). No verified published
+  // English translation found.
+  "Весна, весна, пришла весна!":
+    "Spring, spring, spring has come!",
+
+  // From "На выставке Карла Виллинка" ("At Karel Willink's Exhibition",
+  // 1984). No verified published English translation found.
+  ".. туннель в психологическую даль ..":
+    ".. a tunnel into psychological distance ..",
+  // From "Я с тобой" ("I'm With You"). No verified published English
+  // translation found.
+  ".. в темноте не виден ты.":
+    ".. in the dark you can't be seen.",
+
+  // From "Зимним вечером на сеновале" ("On a Winter Evening in the
+  // Hayloft", 1965). No verified published English translation found.
+  ".. пальцы мои теплы, как июльские дни.":
+    ".. my fingers are warm, like the days of July.",
+  // From "Художник" ("The Artist"). No verified published English
+  // translation found.
+  "Рисовать я буду!":
+    "I'm going to draw!",
+
+  // From "В горах" ("In the Mountains", 1984). No verified published
+  // English translation found.
+  "В туче прячась, бродит Бог ..":
+    "Hiding in a cloud, God wanders ..",
+  // From "Гроза" ("The Thunderstorm", 1949). No verified published
+  // English translation found.
+  "Вспыхнул на небе пожар ..":
+    "A fire flared up in the sky ..",
 };
